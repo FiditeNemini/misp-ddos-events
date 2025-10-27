@@ -56,13 +56,28 @@ jobs:
           echo "Environment check:"
           echo "MISP_VERIFY_SSL=$MISP_VERIFY_SSL"
           python export_misp_events.py
+          
+          # Verify file was created
+          if [ -f ddos_events.json ]; then
+            echo "✅ ddos_events.json was created successfully"
+            ls -lh ddos_events.json
+          else
+            echo "❌ ddos_events.json was NOT created"
+            exit 1
+          fi
       
       - name: Check for changes
         id: check_changes
         run: |
-          if git diff --quiet ddos_events.json; then
+          # Check if file exists and has changes, or if it's new
+          if [ ! -f ddos_events.json ]; then
+            echo "File is new"
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          elif git diff --quiet ddos_events.json; then
+            echo "No changes detected"
             echo "has_changes=false" >> $GITHUB_OUTPUT
           else
+            echo "Changes detected"
             echo "has_changes=true" >> $GITHUB_OUTPUT
           fi
       
