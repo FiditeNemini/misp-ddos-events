@@ -22,11 +22,16 @@ jobs:
     # Option 2: Use self-hosted runner with specific label (recommended)
     # runs-on: [self-hosted, misp-runner]
     
+    # Grant write permissions to push changes
+    permissions:
+      contents: write
+    
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          persist-credentials: true
       
       - name: Set up Python
         uses: actions/setup-python@v5
