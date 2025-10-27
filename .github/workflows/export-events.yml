@@ -69,15 +69,15 @@ jobs:
       - name: Check for changes
         id: check_changes
         run: |
-          # Check if file exists and has changes, or if it's new
-          if [ ! -f ddos_events.json ]; then
-            echo "File is new"
-            echo "has_changes=true" >> $GITHUB_OUTPUT
-          elif git diff --quiet ddos_events.json; then
-            echo "No changes detected"
+          # Add the file to git first to track it
+          git add ddos_events.json
+          
+          # Check if there are changes to commit
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
             echo "has_changes=false" >> $GITHUB_OUTPUT
           else
-            echo "Changes detected"
+            echo "Changes detected, will commit"
             echo "has_changes=true" >> $GITHUB_OUTPUT
           fi
       
@@ -86,7 +86,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add ddos_events.json
+          
+          # File is already added in previous step, just commit
           
           # Get event count from JSON
           EVENT_COUNT=$(python -c "import json; data=json.load(open('ddos_events.json')); print(data['export_metadata']['total_events'])")
