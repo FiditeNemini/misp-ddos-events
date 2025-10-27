@@ -1,6 +1,6 @@
 {
   "export_metadata": {
-    "export_date": "2025-10-27T11:53:37.316866Z",
+    "export_date": "2025-10-27T12:49:50.103335Z",
     "schema_version": "1.0",
     "filter_criteria": {
       "event_type": "DDoS (Network Denial of Service - T1498)",
@@ -11,16 +11,514 @@
       ],
       "published_only": false
     },
-    "total_events": 20,
+    "total_events": 26,
     "repository": "https://github.com/PabloPenguin/misp-ddos-events"
   },
   "events": [
+    {
+      "event_id": "1374",
+      "event_uuid": "8b0773c4-6b8e-56b7-b091-96b3182b3bfa",
+      "info": "Cloudflare mitigates new record-breaking 22.2 Tbps DDoS attack",
+      "date": "2025-09-23",
+      "timestamp": "1761568608",
+      "published": false,
+      "tlp_level": "TLP:CLEAR",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:clear",
+        "feedly:feedly-ai",
+        "feedly:source=\"BleepingComputer\"",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "misp-galaxy:malpedia=\"Aisuru\"",
+        "feedly:contains=\"TTPs\"",
+        "osint:source-type=\"block-or-filter-list\"",
+        "workflow:state=\"new\""
+      ],
+      "attributes": [
+        {
+          "id": "289740",
+          "type": "malware-type",
+          "category": "Payload delivery",
+          "value": "Aisuru",
+          "comment": "",
+          "to_ids": false,
+          "timestamp": "1758655772"
+        },
+        {
+          "id": "289741",
+          "type": "link",
+          "category": "External analysis",
+          "value": "https://feedly.com/i/entry/ycoqf+mSOVTtSUkyHCqEoThu01HZIuVSFCRG++/0eWE=_199780cf2f9:d60b09:5f258cf0",
+          "comment": "",
+          "to_ids": false,
+          "timestamp": "1758655772"
+        },
+        {
+          "id": "289742",
+          "type": "link",
+          "category": "External analysis",
+          "value": "https://www.bleepingcomputer.com/news/security/cloudflare-mitigates-new-record-breaking-222-tbps-ddos-attack/",
+          "comment": "",
+          "to_ids": false,
+          "timestamp": "1758655772"
+        }
+      ],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        },
+        {
+          "name": "Malpedia",
+          "type": "malpedia",
+          "description": "Malware galaxy based on Malpedia archive."
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 3,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1498",
+      "event_uuid": "26efb09d-00c5-5fe3-8a67-d9ee4900e749",
+      "info": "Mozilla now lets Firefox add-on devs roll back bad updates",
+      "date": "2025-10-02",
+      "timestamp": "1761568618",
+      "published": false,
+      "tlp_level": "TLP:CLEAR",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:clear",
+        "feedly:feedly-ai",
+        "feedly:source=\"r/InfoSecNews\"",
+        "osint:source-type=\"block-or-filter-list\"",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"new\""
+      ],
+      "attributes": [
+        {
+          "id": "290830",
+          "type": "link",
+          "category": "External analysis",
+          "value": "https://www.reddit.com/r/InfoSecNews/comments/1no2dmt/mozilla_now_lets_firefox_addon_devs_roll_back_bad/",
+          "comment": "",
+          "to_ids": false,
+          "timestamp": "1758706635"
+        },
+        {
+          "id": "290831",
+          "type": "link",
+          "category": "External analysis",
+          "value": "https://feedly.com/i/entry/ycoqf+mSOVTtSUkyHCqEoThu01HZIuVSFCRG++/0eWE=_19973f78b47:41cddd:729fc921",
+          "comment": "",
+          "to_ids": false,
+          "timestamp": "1758706635"
+        },
+        {
+          "id": "290850",
+          "type": "link",
+          "category": "External analysis",
+          "value": "https://feedly.com/i/entry/ycoqf+mSOVTtSUkyHCqEoThu01HZIuVSFCRG++/0eWE=_19973f78b47:41cddd:729fc921",
+          "comment": "",
+          "to_ids": false,
+          "timestamp": "1758714438"
+        },
+        {
+          "id": "290851",
+          "type": "link",
+          "category": "External analysis",
+          "value": "https://www.reddit.com/r/InfoSecNews/comments/1no2dmt/mozilla_now_lets_firefox_addon_devs_roll_back_bad/",
+          "comment": "",
+          "to_ids": false,
+          "timestamp": "1758714438"
+        },
+        {
+          "id": "290869",
+          "type": "link",
+          "category": "External analysis",
+          "value": "https://www.reddit.com/r/InfoSecNews/comments/1no2dmt/mozilla_now_lets_firefox_addon_devs_roll_back_bad/",
+          "comment": "",
+          "to_ids": false,
+          "timestamp": "1758718644"
+        },
+        {
+          "id": "290870",
+          "type": "link",
+          "category": "External analysis",
+          "value": "https://feedly.com/i/entry/ycoqf+mSOVTtSUkyHCqEoThu01HZIuVSFCRG++/0eWE=_19973f78b47:41cddd:729fc921",
+          "comment": "",
+          "to_ids": false,
+          "timestamp": "1758718644"
+        },
+        {
+          "id": "290899",
+          "type": "link",
+          "category": "External analysis",
+          "value": "https://feedly.com/i/entry/ycoqf+mSOVTtSUkyHCqEoThu01HZIuVSFCRG++/0eWE=_19973f78b47:41cddd:729fc921",
+          "comment": "",
+          "to_ids": false,
+          "timestamp": "1758725253"
+        },
+        {
+          "id": "290900",
+          "type": "link",
+          "category": "External analysis",
+          "value": "https://www.reddit.com/r/InfoSecNews/comments/1no2dmt/mozilla_now_lets_firefox_addon_devs_roll_back_bad/",
+          "comment": "",
+          "to_ids": false,
+          "timestamp": "1758725253"
+        },
+        {
+          "id": "291182",
+          "type": "link",
+          "category": "External analysis",
+          "value": "https://feedly.com/i/entry/ycoqf+mSOVTtSUkyHCqEoThu01HZIuVSFCRG++/0eWE=_19973f78b47:41cddd:729fc921",
+          "comment": "",
+          "to_ids": false,
+          "timestamp": "1758793677"
+        },
+        {
+          "id": "291183",
+          "type": "link",
+          "category": "External analysis",
+          "value": "https://www.reddit.com/r/InfoSecNews/comments/1no2dmt/mozilla_now_lets_firefox_addon_devs_roll_back_bad/",
+          "comment": "",
+          "to_ids": false,
+          "timestamp": "1758793677"
+        },
+        {
+          "id": "291198",
+          "type": "link",
+          "category": "External analysis",
+          "value": "https://www.reddit.com/r/InfoSecNews/comments/1no2dmt/mozilla_now_lets_firefox_addon_devs_roll_back_bad/",
+          "comment": "",
+          "to_ids": false,
+          "timestamp": "1758797278"
+        },
+        {
+          "id": "291199",
+          "type": "link",
+          "category": "External analysis",
+          "value": "https://feedly.com/i/entry/ycoqf+mSOVTtSUkyHCqEoThu01HZIuVSFCRG++/0eWE=_19973f78b47:41cddd:729fc921",
+          "comment": "",
+          "to_ids": false,
+          "timestamp": "1758797278"
+        },
+        {
+          "id": "291214",
+          "type": "link",
+          "category": "External analysis",
+          "value": "https://feedly.com/i/entry/ycoqf+mSOVTtSUkyHCqEoThu01HZIuVSFCRG++/0eWE=_19973f78b47:41cddd:729fc921",
+          "comment": "",
+          "to_ids": false,
+          "timestamp": "1758801484"
+        },
+        {
+          "id": "291215",
+          "type": "link",
+          "category": "External analysis",
+          "value": "https://www.reddit.com/r/InfoSecNews/comments/1no2dmt/mozilla_now_lets_firefox_addon_devs_roll_back_bad/",
+          "comment": "",
+          "to_ids": false,
+          "timestamp": "1758801484"
+        },
+        {
+          "id": "291439",
+          "type": "link",
+          "category": "External analysis",
+          "value": "https://feedly.com/i/entry/ycoqf+mSOVTtSUkyHCqEoThu01HZIuVSFCRG++/0eWE=_19973f78b47:41cddd:729fc921",
+          "comment": "",
+          "to_ids": false,
+          "timestamp": "1759223661"
+        },
+        {
+          "id": "291440",
+          "type": "link",
+          "category": "External analysis",
+          "value": "https://www.reddit.com/r/InfoSecNews/comments/1no2dmt/mozilla_now_lets_firefox_addon_devs_roll_back_bad/",
+          "comment": "",
+          "to_ids": false,
+          "timestamp": "1759223661"
+        },
+        {
+          "id": "291449",
+          "type": "link",
+          "category": "External analysis",
+          "value": "https://www.reddit.com/r/InfoSecNews/comments/1no2dmt/mozilla_now_lets_firefox_addon_devs_roll_back_bad/",
+          "comment": "",
+          "to_ids": false,
+          "timestamp": "1759227262"
+        },
+        {
+          "id": "291450",
+          "type": "link",
+          "category": "External analysis",
+          "value": "https://feedly.com/i/entry/ycoqf+mSOVTtSUkyHCqEoThu01HZIuVSFCRG++/0eWE=_19973f78b47:41cddd:729fc921",
+          "comment": "",
+          "to_ids": false,
+          "timestamp": "1759227262"
+        },
+        {
+          "id": "291457",
+          "type": "link",
+          "category": "External analysis",
+          "value": "https://feedly.com/i/entry/ycoqf+mSOVTtSUkyHCqEoThu01HZIuVSFCRG++/0eWE=_19973f78b47:41cddd:729fc921",
+          "comment": "",
+          "to_ids": false,
+          "timestamp": "1759238064"
+        },
+        {
+          "id": "291458",
+          "type": "link",
+          "category": "External analysis",
+          "value": "https://www.reddit.com/r/InfoSecNews/comments/1no2dmt/mozilla_now_lets_firefox_addon_devs_roll_back_bad/",
+          "comment": "",
+          "to_ids": false,
+          "timestamp": "1759238064"
+        },
+        {
+          "id": "291565",
+          "type": "link",
+          "category": "External analysis",
+          "value": "https://www.reddit.com/r/InfoSecNews/comments/1no2dmt/mozilla_now_lets_firefox_addon_devs_roll_back_bad/",
+          "comment": "",
+          "to_ids": false,
+          "timestamp": "1759253673"
+        },
+        {
+          "id": "291566",
+          "type": "link",
+          "category": "External analysis",
+          "value": "https://feedly.com/i/entry/ycoqf+mSOVTtSUkyHCqEoThu01HZIuVSFCRG++/0eWE=_19973f78b47:41cddd:729fc921",
+          "comment": "",
+          "to_ids": false,
+          "timestamp": "1759253673"
+        },
+        {
+          "id": "291706",
+          "type": "link",
+          "category": "External analysis",
+          "value": "https://feedly.com/i/entry/ycoqf+mSOVTtSUkyHCqEoThu01HZIuVSFCRG++/0eWE=_19973f78b47:41cddd:729fc921",
+          "comment": "",
+          "to_ids": false,
+          "timestamp": "1759325114"
+        },
+        {
+          "id": "291707",
+          "type": "link",
+          "category": "External analysis",
+          "value": "https://www.reddit.com/r/InfoSecNews/comments/1no2dmt/mozilla_now_lets_firefox_addon_devs_roll_back_bad/",
+          "comment": "",
+          "to_ids": false,
+          "timestamp": "1759325114"
+        },
+        {
+          "id": "291738",
+          "type": "link",
+          "category": "External analysis",
+          "value": "https://www.reddit.com/r/InfoSecNews/comments/1no2dmt/mozilla_now_lets_firefox_addon_devs_roll_back_bad/",
+          "comment": "",
+          "to_ids": false,
+          "timestamp": "1759336515"
+        },
+        {
+          "id": "291739",
+          "type": "link",
+          "category": "External analysis",
+          "value": "https://feedly.com/i/entry/ycoqf+mSOVTtSUkyHCqEoThu01HZIuVSFCRG++/0eWE=_19973f78b47:41cddd:729fc921",
+          "comment": "",
+          "to_ids": false,
+          "timestamp": "1759336515"
+        },
+        {
+          "id": "291754",
+          "type": "link",
+          "category": "External analysis",
+          "value": "https://www.reddit.com/r/InfoSecNews/comments/1no2dmt/mozilla_now_lets_firefox_addon_devs_roll_back_bad/",
+          "comment": "",
+          "to_ids": false,
+          "timestamp": "1759350321"
+        },
+        {
+          "id": "291755",
+          "type": "link",
+          "category": "External analysis",
+          "value": "https://feedly.com/i/entry/ycoqf+mSOVTtSUkyHCqEoThu01HZIuVSFCRG++/0eWE=_19973f78b47:41cddd:729fc921",
+          "comment": "",
+          "to_ids": false,
+          "timestamp": "1759350321"
+        },
+        {
+          "id": "291934",
+          "type": "link",
+          "category": "External analysis",
+          "value": "https://www.reddit.com/r/InfoSecNews/comments/1no2dmt/mozilla_now_lets_firefox_addon_devs_roll_back_bad/",
+          "comment": "",
+          "to_ids": false,
+          "timestamp": "1759433227"
+        },
+        {
+          "id": "291935",
+          "type": "link",
+          "category": "External analysis",
+          "value": "https://feedly.com/i/entry/ycoqf+mSOVTtSUkyHCqEoThu01HZIuVSFCRG++/0eWE=_19973f78b47:41cddd:729fc921",
+          "comment": "",
+          "to_ids": false,
+          "timestamp": "1759433227"
+        },
+        {
+          "id": "291944",
+          "type": "link",
+          "category": "External analysis",
+          "value": "https://www.reddit.com/r/InfoSecNews/comments/1no2dmt/mozilla_now_lets_firefox_addon_devs_roll_back_bad/",
+          "comment": "",
+          "to_ids": false,
+          "timestamp": "1759440429"
+        },
+        {
+          "id": "291945",
+          "type": "link",
+          "category": "External analysis",
+          "value": "https://feedly.com/i/entry/ycoqf+mSOVTtSUkyHCqEoThu01HZIuVSFCRG++/0eWE=_19973f78b47:41cddd:729fc921",
+          "comment": "",
+          "to_ids": false,
+          "timestamp": "1759440429"
+        }
+      ],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 32,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1501",
+      "event_uuid": "9b41f022-8ed4-5535-85bf-e79fba507c69",
+      "info": "Cloudflare Blocks Record 22.2 Tbps DDoS Attack",
+      "date": "2025-09-24",
+      "timestamp": "1761568618",
+      "published": false,
+      "tlp_level": "TLP:CLEAR",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:clear",
+        "feedly:feedly-ai",
+        "feedly:source=\"Hackread - Latest Cybersecurity, Hacking News, Tech, AI & Crypto\"",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "feedly:contains=\"TTPs\"",
+        "osint:source-type=\"block-or-filter-list\"",
+        "workflow:state=\"new\""
+      ],
+      "attributes": [
+        {
+          "id": "290842",
+          "type": "link",
+          "category": "External analysis",
+          "value": "https://hackread.com/cloudflare-blocks-22-2-tbps-ddos-attack/",
+          "comment": "",
+          "to_ids": false,
+          "timestamp": "1758713582"
+        },
+        {
+          "id": "290843",
+          "type": "link",
+          "category": "External analysis",
+          "value": "https://feedly.com/i/entry/ycoqf+mSOVTtSUkyHCqEoThu01HZIuVSFCRG++/0eWE=_1997b7f49b7:16050fc:729fc921",
+          "comment": "",
+          "to_ids": false,
+          "timestamp": "1758713582"
+        }
+      ],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 2,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1504",
+      "event_uuid": "2837f218-f768-5430-a465-4bfcf9f320db",
+      "info": "ShadowV2 Botnet Uses Misconfigured AWS Docker for DDoS-For-Hire Service",
+      "date": "2025-09-24",
+      "timestamp": "1761568618",
+      "published": false,
+      "tlp_level": "TLP:CLEAR",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:clear",
+        "feedly:feedly-ai",
+        "feedly:source=\"Hackread - Latest Cybersecurity, Hacking News, Tech, AI & Crypto\"",
+        "misp-galaxy:mitre-attack-pattern=\"Acquire Access - T1650\"",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "feedly:contains=\"TTPs\"",
+        "osint:source-type=\"block-or-filter-list\"",
+        "workflow:state=\"new\""
+      ],
+      "attributes": [
+        {
+          "id": "290875",
+          "type": "link",
+          "category": "External analysis",
+          "value": "https://feedly.com/i/entry/ycoqf+mSOVTtSUkyHCqEoThu01HZIuVSFCRG++/0eWE=_1997c25eef9:1715b01:5f258cf0",
+          "comment": "",
+          "to_ids": false,
+          "timestamp": "1758724489"
+        },
+        {
+          "id": "290876",
+          "type": "link",
+          "category": "External analysis",
+          "value": "https://hackread.com/shadowv2-botnet-aws-docker-ddos-for-hire-service/",
+          "comment": "",
+          "to_ids": false,
+          "timestamp": "1758724489"
+        },
+        {
+          "id": "290877",
+          "type": "malware-type",
+          "category": "Payload delivery",
+          "value": "ShadowV2",
+          "comment": "",
+          "to_ids": false,
+          "timestamp": "1758724489"
+        }
+      ],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 3,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
     {
       "event_id": "1605",
       "event_uuid": "f22a382d-1775-4610-b20a-d498afe3eaa7",
       "info": "hmgethefinale",
       "date": "2025-10-01",
-      "timestamp": "1759333401",
+      "timestamp": "1761568624",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -29,7 +527,8 @@
         "tlp:green",
         "information-security-indicators:incident-type=\"ddos\"",
         "misp-event-type:incident",
-        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\""
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"new\""
       ],
       "attributes": [
         {
@@ -97,7 +596,7 @@
       "event_uuid": "3f7ddac0-be7a-4ece-a691-087a9b1ff4fb",
       "info": "Hungusbuster",
       "date": "2025-10-01",
-      "timestamp": "1759333889",
+      "timestamp": "1761568624",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -105,7 +604,8 @@
       "tags": [
         "tlp:green",
         "information-security-indicators:incident-type=\"ddos\"",
-        "misp-event-type:incident"
+        "misp-event-type:incident",
+        "workflow:state=\"new\""
       ],
       "attributes": [
         {
@@ -171,7 +671,7 @@
       "event_uuid": "1b4206fd-58d2-4d02-96cc-a729f7d12ae1",
       "info": "hunguzthehungry",
       "date": "2025-10-01",
-      "timestamp": "1759334467",
+      "timestamp": "1761568625",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -180,7 +680,8 @@
         "tlp:green",
         "information-security-indicators:incident-type=\"ddos\"",
         "misp-event-type:incident",
-        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\""
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"new\""
       ],
       "attributes": [
         {
@@ -257,7 +758,7 @@
       "event_uuid": "578551d8-4454-4bbb-9a6b-1b569f8d3a93",
       "info": "ergqwerthg",
       "date": "2025-10-01",
-      "timestamp": "1759335810",
+      "timestamp": "1761568625",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -266,7 +767,8 @@
         "tlp:green",
         "information-security-indicators:incident-type=\"ddos\"",
         "misp-event-type:incident",
-        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\""
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"new\""
       ],
       "attributes": [],
       "galaxies": [
@@ -286,7 +788,7 @@
       "event_uuid": "b793811f-fccb-4725-a7b3-6b246ed465e0",
       "info": "123123123",
       "date": "2025-10-01",
-      "timestamp": "1759336286",
+      "timestamp": "1761568625",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -295,7 +797,8 @@
         "tlp:green",
         "information-security-indicators:incident-type=\"ddos\"",
         "misp-event-type:incident",
-        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\""
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"new\""
       ],
       "attributes": [],
       "galaxies": [
@@ -307,6 +810,150 @@
       ],
       "related_events": [],
       "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1628",
+      "event_uuid": "d9b3f228-9b4e-542c-a95f-625afa50829c",
+      "info": "ThreatsDay Bulletin: CarPlay Exploit, BYOVD Tactics, SQL C2 Attacks, iCloud Backdoor Demand & More",
+      "date": "2025-10-02",
+      "timestamp": "1761568626",
+      "published": false,
+      "tlp_level": "TLP:CLEAR",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:clear",
+        "feedly:feedly-ai",
+        "feedly:source=\"The Hacker News\"",
+        "misp-galaxy:mitre-attack-pattern=\"Phishing - T1566\"",
+        "misp-galaxy:mitre-attack-pattern=\"PowerShell - T1059.001\"",
+        "misp-galaxy:mitre-attack-pattern=\"Disable or Modify Tools - T1562.001\"",
+        "misp-galaxy:mitre-attack-pattern=\"Ingress Tool Transfer - T1105\"",
+        "misp-galaxy:mitre-attack-pattern=\"Financial Theft - T1657\"",
+        "misp-galaxy:mitre-attack-pattern=\"Compromise Accounts - T1586\"",
+        "misp-galaxy:mitre-attack-pattern=\"Exploitation for Client Execution - T1203\"",
+        "misp-galaxy:mitre-attack-pattern=\"Compute Hijacking - T1496.001\"",
+        "misp-galaxy:mitre-attack-pattern=\"Data Encrypted for Impact - T1486\"",
+        "misp-galaxy:mitre-attack-pattern=\"Web Shell - T1505.003\"",
+        "misp-galaxy:mitre-attack-pattern=\"Credentials - T1589.001\"",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "misp-galaxy:mitre-attack-pattern=\"Impersonation - T1656\"",
+        "misp-galaxy:threat-actor=\"Storm-2603\"",
+        "misp-galaxy:mitre-malware=\"Cobalt Strike - S0154\"",
+        "misp-galaxy:malpedia=\"XiebroC2\"",
+        "misp-galaxy:malpedia=\"JuicyPotato\"",
+        "misp-galaxy:malpedia=\"vidar\"",
+        "misp-galaxy:malpedia=\"Cobalt Strike\"",
+        "misp-galaxy:malpedia=\"Rhadamanthys\"",
+        "misp-galaxy:malpedia=\"Stealc\"",
+        "misp-galaxy:malpedia=\"Lumma Stealer\"",
+        "misp-galaxy:malpedia=\"WarLock\"",
+        "feedly:contains=\"HIGH CVSS\"",
+        "feedly:contains=\"TTPs\"",
+        "feedly:threat-actor=\"Storm-2603\"",
+        "osint:source-type=\"block-or-filter-list\"",
+        "workflow:state=\"new\""
+      ],
+      "attributes": [
+        {
+          "id": "291873",
+          "type": "link",
+          "category": "External analysis",
+          "value": "https://thehackernews.com/2025/10/threatsday-bulletin-carplay-exploit.html",
+          "comment": "",
+          "to_ids": false,
+          "timestamp": "1759432806"
+        },
+        {
+          "id": "291874",
+          "type": "malware-type",
+          "category": "Payload delivery",
+          "value": "Acreed",
+          "comment": "",
+          "to_ids": false,
+          "timestamp": "1759432806"
+        },
+        {
+          "id": "291875",
+          "type": "malware-type",
+          "category": "Payload delivery",
+          "value": "ToolShell",
+          "comment": "",
+          "to_ids": false,
+          "timestamp": "1759432806"
+        },
+        {
+          "id": "291876",
+          "type": "threat-actor",
+          "category": "Attribution",
+          "value": "Storm-2603",
+          "comment": "",
+          "to_ids": false,
+          "timestamp": "1759432806"
+        },
+        {
+          "id": "291877",
+          "type": "link",
+          "category": "External analysis",
+          "value": "https://feedly.com/i/entry/ycoqf+mSOVTtSUkyHCqEoThu01HZIuVSFCRG++/0eWE=_199a65db9e2:181d428:fbc9494b",
+          "comment": "",
+          "to_ids": false,
+          "timestamp": "1759432806"
+        },
+        {
+          "id": "291878",
+          "type": "malware-type",
+          "category": "Payload delivery",
+          "value": "WarLock",
+          "comment": "",
+          "to_ids": false,
+          "timestamp": "1759432806"
+        },
+        {
+          "id": "291879",
+          "type": "malware-type",
+          "category": "Payload delivery",
+          "value": "Vidar",
+          "comment": "",
+          "to_ids": false,
+          "timestamp": "1759432806"
+        },
+        {
+          "id": "291880",
+          "type": "malware-type",
+          "category": "Payload delivery",
+          "value": "Rhadamanthys",
+          "comment": "",
+          "to_ids": false,
+          "timestamp": "1759432806"
+        }
+      ],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        },
+        {
+          "name": "Threat Actor",
+          "type": "threat-actor",
+          "description": "Threat actors are characteristics of malicious actors (or adversaries) representing a cyber attack threat including presumed intent and historically observed behaviour."
+        },
+        {
+          "name": "Malware",
+          "type": "mitre-malware",
+          "description": "Name of ATT&CK software"
+        },
+        {
+          "name": "Malpedia",
+          "type": "malpedia",
+          "description": "Malware galaxy based on Malpedia archive."
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 8,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
@@ -861,6 +1508,26 @@
           "date": "2024-10-23"
         }
       ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1851",
+      "event_uuid": "14b01ba2-eaa1-46af-88cb-b582cca1a5ce",
+      "info": "Test DDoS attack - SYN flood against web server",
+      "date": "2025-10-27",
+      "timestamp": "1761568627",
+      "published": false,
+      "tlp_level": "TLP:CLEAR",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "workflow:state=\"new\""
+      ],
+      "attributes": [],
+      "galaxies": [],
+      "related_events": [],
       "attribute_count": 0,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
