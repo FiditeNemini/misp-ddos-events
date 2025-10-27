@@ -1,0 +1,99 @@
+name: Export MISP DDoS Events
+
+on:
+  # Run on a schedule (daily at 2 AM UTC)
+  schedule:
+    - cron: '0 2 * * *'
+  
+  # Allow manual triggering
+  workflow_dispatch:
+  
+  # Optional: Run on push to main (for testing)
+  # push:
+  #   branches:
+  #     - main
+
+jobs:
+  export-events:
+    name: Export DDoS Events from MISP
+    # Option 1: Use any self-hosted runner
+    runs-on: self-hosted
+    
+    # Option 2: Use self-hosted runner with specific label (recommended)
+    # runs-on: [self-hosted, misp-runner]
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      
+      - name: Export MISP events
+        env:
+          MISP_URL: ${{ secrets.MISP_URL }}
+          MISP_API_KEY: ${{ secrets.MISP_API_KEY }}
+          OUTPUT_FILE: ddos_events.json
+        run: |
+          python export_misp_events.py
+      
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if git diff --quiet ddos_events.json; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
+      
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add ddos_events.json
+          
+          # Get event count from JSON
+          EVENT_COUNT=$(python -c "import json; data=json.load(open('ddos_events.json')); print(data['export_metadata']['total_events'])")
+          
+          git commit -m "Update DDoS events data - ${EVENT_COUNT} events [$(date -u +'%Y-%m-%d %H:%M:%S UTC')]"
+          git push
+      
+      - name: Create job summary
+        if: always()
+        run: |
+          echo "## MISP DDoS Events Export Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          if [ -f ddos_events.json ]; then
+            EVENT_COUNT=$(python -c "import json; data=json.load(open('ddos_events.json')); print(data['export_metadata']['total_events'])")
+            EXPORT_DATE=$(python -c "import json; data=json.load(open('ddos_events.json')); print(data['export_metadata']['export_date'])")
+            
+            echo "✅ **Export Status**: Success" >> $GITHUB_STEP_SUMMARY
+            echo "📊 **Total Events Exported**: ${EVENT_COUNT}" >> $GITHUB_STEP_SUMMARY
+            echo "📅 **Export Date**: ${EXPORT_DATE}" >> $GITHUB_STEP_SUMMARY
+            echo "🔒 **TLP Levels**: GREEN, CLEAR" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            
+            if [ "${{ steps.check_changes.outputs.has_changes }}" == "true" ]; then
+              echo "✏️ **Changes**: New data committed to repository" >> $GITHUB_STEP_SUMMARY
+            else
+              echo "ℹ️ **Changes**: No changes detected" >> $GITHUB_STEP_SUMMARY
+            fi
+          else
+            echo "❌ **Export Status**: Failed" >> $GITHUB_STEP_SUMMARY
+          fi
+          
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "🔗 **JSON File**: [ddos_events.json](https://github.com/${{ github.repository }}/blob/main/ddos_events.json)" >> $GITHUB_STEP_SUMMARY
+          echo "📡 **Raw Data URL**: \`https://raw.githubusercontent.com/${{ github.repository }}/main/ddos_events.json\`" >> $GITHUB_STEP_SUMMARY
