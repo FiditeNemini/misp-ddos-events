@@ -128,23 +128,27 @@ class MISPDDoSExporter:
         # Note: Adjust the limit and parameters based on your MISP instance size
         events = self.misp.search(
             pythonify=False,
-            limit=1000,  # Adjust as needed
+            limit=10,  # Start with just 10 for testing
             published=False  # Get all events, not just published
         )
         
-        if not events or 'response' not in events:
-            logger.warning("No events found in MISP")
-            logger.info("Trying to get total event count...")
-            # Try to get some stats
-            try:
-                all_events_check = self.misp.search(pythonify=False, limit=10, published=False)
-                logger.info(f"Search result type: {type(all_events_check)}")
-                logger.info(f"Search result keys: {all_events_check.keys() if isinstance(all_events_check, dict) else 'Not a dict'}")
-            except Exception as e:
-                logger.error(f"Debug search failed: {e}")
+        logger.info(f"Search result type: {type(events)}")
+        
+        # Handle both list and dict responses from PyMISP
+        if isinstance(events, list):
+            all_events = events
+            logger.info("PyMISP returned a list directly")
+        elif isinstance(events, dict) and 'response' in events:
+            all_events = events['response']
+            logger.info("PyMISP returned a dict with 'response' key")
+        else:
+            logger.warning(f"Unexpected response format from MISP: {type(events)}")
             return []
         
-        all_events = events['response']
+        if not all_events:
+            logger.warning("No events found in MISP (empty list)")
+            return []
+        
         logger.info(f"Retrieved {len(all_events)} total events from MISP")
         
         # Debug: Show some event info
@@ -154,31 +158,43 @@ class MISPDDoSExporter:
             logger.info(f"Sample event tags: {[tag['name'] for tag in first_event.get('Tag', [])]}")
             logger.info(f"Sample event published: {first_event.get('published', 'N/A')}")
         
-        # Filter events
+        # FOR TESTING: Export first 10 events regardless of DDoS/TLP filtering
+        # Comment this out later and uncomment the filtering below
+        logger.info("TEST MODE: Exporting first 10 events without DDoS/TLP filtering")
         filtered_events = []
-        ddos_count = 0
-        tlp_rejected = 0
-        
-        for event in all_events:
+        for event in all_events[:10]:  # Just first 10
             event_data = event.get('Event', event)
-            
-            is_ddos = self.is_ddos_event(event_data)
-            is_tlp_ok = self.is_tlp_allowed(event_data)
-            
-            if is_ddos:
-                ddos_count += 1
-            
-            if is_ddos and not is_tlp_ok:
-                tlp_rejected += 1
-            
-            # Check if DDoS-related and TLP-allowed
-            if is_ddos and is_tlp_ok:
-                filtered_events.append(self.format_event(event_data))
+            filtered_events.append(self.format_event(event_data))
         
-        logger.info(f"Found {ddos_count} DDoS events total")
-        logger.info(f"Rejected {tlp_rejected} DDoS events due to TLP restrictions")
-        logger.info(f"Filtered to {len(filtered_events)} DDoS events with TLP:GREEN or less")
+        logger.info(f"TEST MODE: Exported {len(filtered_events)} events")
         return filtered_events
+        
+        # ORIGINAL FILTERING CODE (commented out for testing)
+        # # Filter events
+        # filtered_events = []
+        # ddos_count = 0
+        # tlp_rejected = 0
+        # 
+        # for event in all_events:
+        #     event_data = event.get('Event', event)
+        #     
+        #     is_ddos = self.is_ddos_event(event_data)
+        #     is_tlp_ok = self.is_tlp_allowed(event_data)
+        #     
+        #     if is_ddos:
+        #         ddos_count += 1
+        #     
+        #     if is_ddos and not is_tlp_ok:
+        #         tlp_rejected += 1
+        #     
+        #     # Check if DDoS-related and TLP-allowed
+        #     if is_ddos and is_tlp_ok:
+        #         filtered_events.append(self.format_event(event_data))
+        # 
+        # logger.info(f"Found {ddos_count} DDoS events total")
+        # logger.info(f"Rejected {tlp_rejected} DDoS events due to TLP restrictions")
+        # logger.info(f"Filtered to {len(filtered_events)} DDoS events with TLP:GREEN or less")
+        # return filtered_events
     
     def format_event(self, event: Dict[str, Any]) -> Dict[str, Any]:
         """
