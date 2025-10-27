@@ -1,9 +1,9 @@
 {
   "export_metadata": {
-    "export_date": "2025-10-27T05:43:13.045339Z",
+    "export_date": "2025-10-27T05:49:16.467376Z",
     "schema_version": "1.0",
     "filter_criteria": {
-      "event_type": "All Events",
+      "event_type": "DDoS (Network Denial of Service - T1498)",
       "tlp_levels": [
         "tlp:green",
         "tlp:clear",
@@ -11,1021 +11,10 @@
       ],
       "published_only": false
     },
-    "total_events": 8,
+    "total_events": 12,
     "repository": "https://github.com/PabloPenguin/misp-ddos-events"
   },
   "events": [
-    {
-      "event_id": "1",
-      "event_uuid": "62d465ec-8fde-4a27-833f-c18e52391dfd",
-      "info": "Covert Delivery of Cobalt Strike Beacon via a Sophos Phishing Website",
-      "date": "2025-09-22",
-      "timestamp": "1758588797",
-      "published": false,
-      "tlp_level": "TLP:CLEAR",
-      "threat_level": "3",
-      "analysis": "0",
-      "tags": [
-        "tlp:clear",
-        "misp-galaxy:mitre-attack-pattern=\"Command and Scripting Interpreter - T1059\"",
-        "misp-galaxy:mitre-attack-pattern=\"Deobfuscate/Decode Files or Information - T1140\"",
-        "misp-galaxy:mitre-attack-pattern=\"Indirect Command Execution - T1202\"",
-        "misp-galaxy:mitre-attack-pattern=\"Masquerading - T1036\"",
-        "misp-galaxy:mitre-attack-pattern=\"Non-Application Layer Protocol - T1095\"",
-        "misp-galaxy:mitre-attack-pattern=\"Phishing - T1566\"",
-        "misp-galaxy:mitre-attack-pattern=\"User Execution - T1204\"",
-        "misp-galaxy:malpedia=\"Cobalt Strike\""
-      ],
-      "attributes": [
-        {
-          "id": "1",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "23.5.123.4",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1758586386"
-        },
-        {
-          "id": "4",
-          "type": "md5",
-          "category": "Payload delivery",
-          "value": "c974ffe23d57ec909ef26b55f202047e",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1758588796"
-        },
-        {
-          "id": "5",
-          "type": "sha1",
-          "category": "Payload delivery",
-          "value": "ec6da5616d6b3b3269fababe104bfe04f2828717",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1758588796"
-        },
-        {
-          "id": "6",
-          "type": "sha256",
-          "category": "Payload delivery",
-          "value": "067c95ad074afd8993281b02f74d0f257fb312943da0887355da652afb54c0ab",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1758588797"
-        },
-        {
-          "id": "7",
-          "type": "domain",
-          "category": "Network activity",
-          "value": "sopbos.com",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1758588797"
-        },
-        {
-          "id": "8",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "98.71.232.223",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1758588797"
-        }
-      ],
-      "galaxies": [
-        {
-          "name": "Attack Pattern",
-          "type": "mitre-attack-pattern",
-          "description": "ATT&CK Tactic"
-        },
-        {
-          "name": "Malpedia",
-          "type": "malpedia",
-          "description": "Malware galaxy based on Malpedia archive."
-        }
-      ],
-      "related_events": [],
-      "attribute_count": 6,
-      "org_name": "ADMIN",
-      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
-    },
-    {
-      "event_id": "1372",
-      "event_uuid": "50d572f9-06d0-4f0b-af1c-3958a5fedefe",
-      "info": "AA25-239A: Countering Chinese State-Sponsored Actors Compromise of Networks Worldwide to Feed Global Espionage System",
-      "date": "2025-08-29",
-      "timestamp": "1758636309",
-      "published": false,
-      "tlp_level": "TLP:WHITE",
-      "threat_level": "4",
-      "analysis": "0",
-      "tags": [
-        "misp-galaxy:producer=\"CISA\"",
-        "acs-marking:classification=\"U\"",
-        "acs-marking:formal_determination=\"INFORMATION-DIRECTLY-RELATED-TO-CYBERSECURITY-THREAT\"",
-        "acs-marking:formal_determination=\"PUBREL\"",
-        "acs-marking:privilege_action=\"CISAUSES\"",
-        "misp-galaxy:stix-2.1-acs-marking=\"080af042-05fb-5fd7-a79e-f39575484fe6\"",
-        "misp-galaxy:stix-2.1-attack-pattern=\"f33e2054-ba49-5c04-8e57-6dc66a9f2b96\"",
-        "misp-galaxy:stix-2.1-attack-pattern=\"d403910f-4795-5b3a-83ea-829d77a27ea0\"",
-        "misp-galaxy:stix-2.1-attack-pattern=\"70ba8a57-1955-5bfc-b9bb-62d7de6b8a57\"",
-        "misp-galaxy:stix-2.1-attack-pattern=\"51b1072c-a986-515c-a2fb-bbb2a7241047\"",
-        "misp-galaxy:stix-2.1-attack-pattern=\"efddc9d6-9bb0-552e-ac9b-c6499f6049d4\"",
-        "misp-galaxy:stix-2.1-attack-pattern=\"918216d4-6ac6-54af-bdff-f7fc58bfe9e2\"",
-        "misp-galaxy:stix-2.1-attack-pattern=\"2409ed7f-16b5-5b3e-9191-2540d10faaa1\"",
-        "misp-galaxy:stix-2.1-attack-pattern=\"f46cd8e2-1948-5483-aabf-5be02c2ad3f3\"",
-        "misp-galaxy:stix-2.1-attack-pattern=\"f110010d-fdee-5f8d-9849-c2b381d1bdd8\"",
-        "misp-galaxy:stix-2.1-attack-pattern=\"569c6e5c-5ee5-5df4-adde-b573d6d7bb53\"",
-        "misp-galaxy:stix-2.1-attack-pattern=\"0ab8bf2c-74aa-5668-a0ab-592ab43a4b44\"",
-        "misp-galaxy:stix-2.1-attack-pattern=\"2ddfbe6d-27f8-5169-b3ce-6e503b90bdc0\"",
-        "misp-galaxy:stix-2.1-attack-pattern=\"d8ce9d6b-d20e-5952-8431-906e9de532d1\"",
-        "misp-galaxy:stix-2.1-attack-pattern=\"3ecd847f-0bcd-5a46-991d-69fbe586bc5a\"",
-        "misp-galaxy:stix-2.1-attack-pattern=\"e31867d2-3a33-51e8-b3c5-306fa5d11b63\"",
-        "misp-galaxy:stix-2.1-attack-pattern=\"c8ce0a29-cef7-56e4-839e-3e8777a96465\"",
-        "misp-galaxy:stix-2.1-attack-pattern=\"83359dc0-4926-5733-b9af-7418fc56a365\"",
-        "misp-galaxy:stix-2.1-attack-pattern=\"68aee884-5781-5f90-8931-c2520d9a21c3\"",
-        "misp-galaxy:stix-2.1-attack-pattern=\"6c0f6d48-24d0-5e78-9bce-0a1b18f54add\"",
-        "misp-galaxy:stix-2.1-attack-pattern=\"45586a03-735c-5bdf-b135-92cbaa746a9d\"",
-        "misp-galaxy:stix-2.1-attack-pattern=\"bb34d16a-1500-5545-9b98-402a0c0bfc90\"",
-        "misp-galaxy:stix-2.1-attack-pattern=\"60852bbe-252a-54f8-8b71-9496f226aeba\"",
-        "misp-galaxy:stix-2.1-attack-pattern=\"232e039c-3635-57fa-b3e1-3626c06e9a11\"",
-        "misp-galaxy:stix-2.1-attack-pattern=\"3cb79368-ec7d-582f-ade6-acf8af4343f5\"",
-        "misp-galaxy:stix-2.1-attack-pattern=\"b39a0271-a42f-5212-8631-bb51d797da77\"",
-        "misp-galaxy:stix-2.1-attack-pattern=\"9abb14cb-6a76-5d87-ac5c-9213d7f8a59e\"",
-        "misp-galaxy:stix-2.1-attack-pattern=\"7708532b-1bb9-5c63-9c21-43db72394cb2\"",
-        "misp-galaxy:stix-2.1-attack-pattern=\"b427aaf7-394c-56f0-8fea-4261048b7d9d\"",
-        "misp-galaxy:stix-2.1-attack-pattern=\"56d63469-4d9f-5acc-9b40-aded774106ad\"",
-        "misp-galaxy:stix-2.1-attack-pattern=\"be3eba09-8a39-58b2-8bf6-4147da9b7197\"",
-        "misp-galaxy:stix-2.1-attack-pattern=\"4dbd048f-d272-596a-ab12-c254d73a9e54\"",
-        "misp-galaxy:stix-2.1-attack-pattern=\"e4402575-bd29-5833-831e-4e5ce8e77b5d\"",
-        "misp-galaxy:stix-2.1-attack-pattern=\"e5a23a79-7d6c-51b6-8fcd-55acd815ba20\"",
-        "misp-galaxy:stix-2.1-attack-pattern=\"e963a5a0-2867-560c-9b7f-99e0b339cadf\"",
-        "misp-galaxy:stix-2.1-attack-pattern=\"436dc800-f2e4-536b-9579-795129763964\"",
-        "misp-galaxy:stix-2.1-attack-pattern=\"7331b5c1-b945-5ac8-9603-cfd28645b3fd\"",
-        "misp-galaxy:stix-2.1-attack-pattern=\"30927766-94e7-5cd6-98fa-d02abfaead6c\"",
-        "misp-galaxy:stix-2.1-attack-pattern=\"d2f0ca00-0de6-50fe-bf4a-b7b421c7ae1d\"",
-        "misp-galaxy:stix-2.1-attack-pattern=\"19def47a-a4c5-5b09-9205-65b222bdbeec\"",
-        "misp-galaxy:stix-2.1-attack-pattern=\"cd76bf2f-bb26-5f77-8d7d-a4aeb8eb83ba\"",
-        "misp-galaxy:stix-2.1-attack-pattern=\"deaf8eca-b92b-5a03-9271-f1ef7efb25e5\"",
-        "misp-galaxy:stix-2.1-attack-pattern=\"46bbfd46-eafe-54ca-9650-ab508cc8a674\"",
-        "misp-galaxy:stix-2.1-malware=\"e4ee9d1b-d9fd-504c-8278-e2e52ce42094\"",
-        "misp-galaxy:stix-2.1-malware=\"8b61efeb-dd3d-56ea-8667-97b6513fd2bf\"",
-        "misp-galaxy:stix-2.1-malware=\"eae0b645-0737-58da-95d4-5a4b04b0dd1f\"",
-        "misp-galaxy:stix-2.1-vulnerability=\"f93426c5-b89e-5fdf-977d-09265e0bdf0b\"",
-        "misp-galaxy:stix-2.1-vulnerability=\"78b77032-ee11-515e-877b-e5385029b546\"",
-        "misp-galaxy:stix-2.1-vulnerability=\"95acfe82-0914-5d67-b270-f546746c005d\"",
-        "misp-galaxy:stix-2.1-vulnerability=\"8df511d1-5504-5bf5-b30e-5457e663ad8d\"",
-        "misp-galaxy:stix-2.1-vulnerability=\"689e2082-4edd-59f0-9577-c0fe49a310e2\"",
-        "misp-galaxy:stix-2.1-vulnerability=\"da49a902-2ccc-56f5-a578-c64cfa2a4f3c\"",
-        "misp-galaxy:stix-2.1-location=\"737ef7c9-66ff-5424-92c0-a23790851a89\"",
-        "type:OSINT",
-        "osint:lifetime=\"perpetual\"",
-        "osint:certainty=\"50\"",
-        "tlp:white",
-        "tlp:clear"
-      ],
-      "attributes": [
-        {
-          "id": "289608",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "193.43.104.185",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303702"
-        },
-        {
-          "id": "289609",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "167.88.164.166",
-          "comment": "Cobalt Strike C2 Infrastructure",
-          "to_ids": true,
-          "timestamp": "1756303702"
-        },
-        {
-          "id": "289610",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "59.148.233.250",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303701"
-        },
-        {
-          "id": "289611",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "45.146.120.210",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303702"
-        },
-        {
-          "id": "289612",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "45.61.134.134",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303701"
-        },
-        {
-          "id": "289613",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "104.194.147.15",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303701"
-        },
-        {
-          "id": "289614",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "63.245.1.34",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303702"
-        },
-        {
-          "id": "289615",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "45.61.133.31",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303700"
-        },
-        {
-          "id": "289616",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "63.141.234.109",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303702"
-        },
-        {
-          "id": "289617",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "172.86.65.145",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303701"
-        },
-        {
-          "id": "289618",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "23.227.196.22",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303701"
-        },
-        {
-          "id": "289619",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "91.245.253.99",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303702"
-        },
-        {
-          "id": "289620",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "172.86.70.73",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303700"
-        },
-        {
-          "id": "289621",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "103.253.40.199",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303701"
-        },
-        {
-          "id": "289622",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "172.86.101.123",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303701"
-        },
-        {
-          "id": "289623",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "104.194.129.137",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303700"
-        },
-        {
-          "id": "289624",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "146.70.79.81",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303701"
-        },
-        {
-          "id": "289625",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "74.48.78.66",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303701"
-        },
-        {
-          "id": "289626",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "23.227.202.253",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303701"
-        },
-        {
-          "id": "289627",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "45.61.149.200",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303701"
-        },
-        {
-          "id": "289628",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "167.88.173.58",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303700"
-        },
-        {
-          "id": "289629",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "107.189.15.206",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303701"
-        },
-        {
-          "id": "289630",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "190.131.194.90",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303700"
-        },
-        {
-          "id": "289631",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "45.61.133.157",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303702"
-        },
-        {
-          "id": "289632",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "172.86.106.15",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303701"
-        },
-        {
-          "id": "289633",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "45.61.128.29",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303701"
-        },
-        {
-          "id": "289634",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "45.61.154.130",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303702"
-        },
-        {
-          "id": "289635",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "45.61.133.79",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303701"
-        },
-        {
-          "id": "289636",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "144.172.79.4",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303701"
-        },
-        {
-          "id": "289637",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "14.143.247.202",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303702"
-        },
-        {
-          "id": "289638",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "89.117.2.39",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303700"
-        },
-        {
-          "id": "289639",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "45.59.120.171",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303701"
-        },
-        {
-          "id": "289640",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "2001:41d0:700:65dc::f656:929f",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303702"
-        },
-        {
-          "id": "289641",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "74.48.84.119",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303702"
-        },
-        {
-          "id": "289642",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "43.254.132.118",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303702"
-        },
-        {
-          "id": "289643",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "193.239.86.146",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303701"
-        },
-        {
-          "id": "289644",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "104.194.153.181",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303701"
-        },
-        {
-          "id": "289645",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "89.117.1.147",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303702"
-        },
-        {
-          "id": "289646",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "45.61.151.12",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303701"
-        },
-        {
-          "id": "289647",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "23.227.199.77",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303701"
-        },
-        {
-          "id": "289648",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "212.236.17.237",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303702"
-        },
-        {
-          "id": "289649",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "45.125.67.144",
-          "comment": "45.125.67.144 from https://otx.alienvault.com/pulse/674f24ec65cfa513e8c9799f",
-          "to_ids": true,
-          "timestamp": "1756303702"
-        },
-        {
-          "id": "289650",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "146.70.24.144",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303702"
-        },
-        {
-          "id": "289651",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "146.70.79.78",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303701"
-        },
-        {
-          "id": "289652",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "45.125.67.226",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303701"
-        },
-        {
-          "id": "289653",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "89.41.26.142",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303701"
-        },
-        {
-          "id": "289654",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "5.181.132.95",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303700"
-        },
-        {
-          "id": "289655",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "45.61.159.25",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303701"
-        },
-        {
-          "id": "289656",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "63.245.1.13",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303700"
-        },
-        {
-          "id": "289657",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "45.61.134.22",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303702"
-        },
-        {
-          "id": "289658",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "45.61.134.223",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303702"
-        },
-        {
-          "id": "289659",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "74.48.78.116",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303702"
-        },
-        {
-          "id": "289660",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "103.168.91.231",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303701"
-        },
-        {
-          "id": "289661",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "45.61.132.125",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303700"
-        },
-        {
-          "id": "289662",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "45.61.165.157",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303701"
-        },
-        {
-          "id": "289663",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "146.70.79.68",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303700"
-        },
-        {
-          "id": "289664",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "172.86.106.39",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303700"
-        },
-        {
-          "id": "289665",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "193.56.255.209",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303700"
-        },
-        {
-          "id": "289666",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "85.195.89.94",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303702"
-        },
-        {
-          "id": "289667",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "91.231.186.227",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303701"
-        },
-        {
-          "id": "289668",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "45.61.133.61",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303702"
-        },
-        {
-          "id": "289669",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "103.7.58.162",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303701"
-        },
-        {
-          "id": "289670",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "37.120.239.52",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303701"
-        },
-        {
-          "id": "289671",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "1.222.84.29",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303702"
-        },
-        {
-          "id": "289672",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "172.86.80.15",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303702"
-        },
-        {
-          "id": "289673",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "45.59.118.136",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303700"
-        },
-        {
-          "id": "289674",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "167.88.173.158",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303701"
-        },
-        {
-          "id": "289675",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "172.86.102.83",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303701"
-        },
-        {
-          "id": "289676",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "104.194.154.150",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303702"
-        },
-        {
-          "id": "289677",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "193.56.255.210",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303701"
-        },
-        {
-          "id": "289678",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "172.86.124.235",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303700"
-        },
-        {
-          "id": "289679",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "167.88.175.175",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303701"
-        },
-        {
-          "id": "289680",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "45.125.64.195",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303701"
-        },
-        {
-          "id": "289681",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "104.194.150.26",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303701"
-        },
-        {
-          "id": "289682",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "38.71.99.145",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303701"
-        },
-        {
-          "id": "289683",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "45.146.120.213",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303701"
-        },
-        {
-          "id": "289684",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "172.86.106.234",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303701"
-        },
-        {
-          "id": "289685",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "172.86.108.11",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303701"
-        },
-        {
-          "id": "289686",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "142.171.227.16",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303702"
-        },
-        {
-          "id": "289687",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "144.172.76.213",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303702"
-        },
-        {
-          "id": "289688",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "193.239.86.132",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303702"
-        },
-        {
-          "id": "289689",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "2a10:1fc0:7::f19c:39b3",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303702"
-        },
-        {
-          "id": "289690",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "104.194.154.222",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303702"
-        },
-        {
-          "id": "289691",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "167.88.173.252",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303702"
-        },
-        {
-          "id": "289692",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "103.199.17.238",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303701"
-        },
-        {
-          "id": "289693",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "167.88.172.70",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303700"
-        },
-        {
-          "id": "289694",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "45.61.133.77",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303701"
-        },
-        {
-          "id": "289695",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "45.61.149.62",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303701"
-        },
-        {
-          "id": "289696",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "61.19.148.66",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303701"
-        },
-        {
-          "id": "289697",
-          "type": "ip-dst",
-          "category": "Network activity",
-          "value": "167.88.175.231",
-          "comment": "",
-          "to_ids": true,
-          "timestamp": "1756303701"
-        }
-      ],
-      "galaxies": [
-        {
-          "name": "Producer",
-          "type": "producer",
-          "description": "List of threat intelligence producer from security vendors to CERTs including any producer of intelligence at large."
-        }
-      ],
-      "related_events": [],
-      "attribute_count": 90,
-      "org_name": "ADMIN",
-      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
-    },
-    {
-      "event_id": "1521",
-      "event_uuid": "7eb7e862-0bd7-4955-bfe3-342ab3e550bf",
-      "info": "test",
-      "date": "2025-09-25",
-      "timestamp": "1758769026",
-      "published": false,
-      "tlp_level": "TLP:CLEAR",
-      "threat_level": "4",
-      "analysis": "0",
-      "tags": [],
-      "attributes": [],
-      "galaxies": [],
-      "related_events": [],
-      "attribute_count": 0,
-      "org_name": "ADMIN",
-      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
-    },
     {
       "event_id": "1605",
       "event_uuid": "f22a382d-1775-4610-b20a-d498afe3eaa7",
@@ -1302,6 +291,223 @@
         "information-security-indicators:incident-type=\"ddos\"",
         "misp-event-type:incident",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1834",
+      "event_uuid": "f615c9e6-1912-4f87-b28d-52b9f31bef6a",
+      "info": "Web Server Volumetric Attack",
+      "date": "2024-10-26",
+      "timestamp": "1761543929",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "information-security-indicators:incident-type=\"ddos\"",
+        "misp-event-type:incident",
+        "mitre-attack-pattern:T1498",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=new"
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1835",
+      "event_uuid": "daf20cd1-67a1-467d-8265-05b60246fdaf",
+      "info": "DNS Amplification Campaign",
+      "date": "2024-10-26",
+      "timestamp": "1761543929",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "information-security-indicators:incident-type=\"ddos\"",
+        "misp-event-type:incident",
+        "mitre-attack-pattern:T1498",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=new"
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1836",
+      "event_uuid": "9baa7259-e62a-46dc-9a0c-e1d512fd0104",
+      "info": "Multi-Vector DDoS Attack",
+      "date": "2024-10-26",
+      "timestamp": "1761543929",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "information-security-indicators:incident-type=\"ddos\"",
+        "misp-event-type:incident",
+        "mitre-attack-pattern:T1498",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=new"
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1837",
+      "event_uuid": "3183d7dc-9ee7-40c8-88bd-fb2056dae922",
+      "info": "NTP Amplification",
+      "date": "2024-10-25",
+      "timestamp": "1761543929",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "information-security-indicators:incident-type=\"ddos\"",
+        "misp-event-type:incident",
+        "mitre-attack-pattern:T1498",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=new"
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1838",
+      "event_uuid": "d7c81402-0876-458d-a555-bd56c77e3c53",
+      "info": "SYN Flood Attack",
+      "date": "2024-10-25",
+      "timestamp": "1761543929",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "information-security-indicators:incident-type=\"ddos\"",
+        "misp-event-type:incident",
+        "mitre-attack-pattern:T1498",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=new"
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1840",
+      "event_uuid": "4c23b5aa-d3ca-4c17-a5a6-13f4692a2a34",
+      "info": "SSDP Reflection Attack",
+      "date": "2024-10-24",
+      "timestamp": "1761543930",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "information-security-indicators:incident-type=\"ddos\"",
+        "misp-event-type:incident",
+        "mitre-attack-pattern:T1498",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=new"
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1841",
+      "event_uuid": "b5ae76f2-cb03-4748-8183-0bb276556a64",
+      "info": "Gaming Server DDoS",
+      "date": "2024-10-23",
+      "timestamp": "1761543930",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "information-security-indicators:incident-type=\"ddos\"",
+        "misp-event-type:incident",
+        "mitre-attack-pattern:T1498",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=new"
       ],
       "attributes": [],
       "galaxies": [
