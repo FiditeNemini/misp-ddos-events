@@ -1,6 +1,6 @@
 {
   "export_metadata": {
-    "export_date": "2025-10-27T12:49:50.103335Z",
+    "export_date": "2025-10-27T13:27:34.277244Z",
     "schema_version": "1.0",
     "filter_criteria": {
       "event_type": "DDoS (Network Denial of Service - T1498)",
@@ -962,7 +962,7 @@
       "event_uuid": "f615c9e6-1912-4f87-b28d-52b9f31bef6a",
       "info": "Web Server Volumetric Attack",
       "date": "2024-10-26",
-      "timestamp": "1761543929",
+      "timestamp": "1761570827",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -973,9 +973,28 @@
         "misp-event-type:incident",
         "mitre-attack-pattern:T1498",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=new"
+        "workflow:state=ongoing"
       ],
-      "attributes": [],
+      "attributes": [
+        {
+          "id": "294538",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: insufficient attributes - event has 0 attributes and lacks actionable details like target IPs, traffic volumes, or attack vectors needed for DDoS intelligence",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1761570591"
+        },
+        {
+          "id": "294540",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: insufficient attributes and details for actionable DDoS intelligence - requires traffic patterns, source IPs, or attack vectors",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1761570827"
+        }
+      ],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -990,7 +1009,7 @@
           "date": "2024-10-26"
         }
       ],
-      "attribute_count": 0,
+      "attribute_count": 2,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
@@ -999,7 +1018,7 @@
       "event_uuid": "daf20cd1-67a1-467d-8265-05b60246fdaf",
       "info": "DNS Amplification Campaign",
       "date": "2024-10-26",
-      "timestamp": "1761543929",
+      "timestamp": "1761570831",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -1010,9 +1029,28 @@
         "misp-event-type:incident",
         "mitre-attack-pattern:T1498",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=new"
+        "workflow:state=ongoing"
       ],
-      "attributes": [],
+      "attributes": [
+        {
+          "id": "294539",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: missing attributes - event has 0 attributes and lacks actionable details like source IPs, target info, or traffic patterns needed for DDoS intelligence",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1761570595"
+        },
+        {
+          "id": "294541",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: insufficient attributes and details for actionable DDoS intelligence - requires source IPs, traffic patterns, or attack infrastructure details",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1761570831"
+        }
+      ],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -1027,7 +1065,7 @@
           "date": "2024-10-26"
         }
       ],
-      "attribute_count": 0,
+      "attribute_count": 2,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
@@ -1036,7 +1074,7 @@
       "event_uuid": "9baa7259-e62a-46dc-9a0c-e1d512fd0104",
       "info": "Multi-Vector DDoS Attack",
       "date": "2024-10-26",
-      "timestamp": "1761543929",
+      "timestamp": "1761570748",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -1047,7 +1085,8 @@
         "misp-event-type:incident",
         "mitre-attack-pattern:T1498",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=new"
+        "workflow:state=new",
+        "workflow:state=ongoing"
       ],
       "attributes": [],
       "galaxies": [
@@ -1073,7 +1112,7 @@
       "event_uuid": "3183d7dc-9ee7-40c8-88bd-fb2056dae922",
       "info": "NTP Amplification",
       "date": "2024-10-25",
-      "timestamp": "1761543929",
+      "timestamp": "1761570771",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -1084,7 +1123,8 @@
         "misp-event-type:incident",
         "mitre-attack-pattern:T1498",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=new"
+        "workflow:state=new",
+        "workflow:state=ongoing"
       ],
       "attributes": [],
       "galaxies": [
@@ -1110,7 +1150,7 @@
       "event_uuid": "d7c81402-0876-458d-a555-bd56c77e3c53",
       "info": "SYN Flood Attack",
       "date": "2024-10-25",
-      "timestamp": "1761543929",
+      "timestamp": "1761570793",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -1121,7 +1161,7 @@
         "misp-event-type:incident",
         "mitre-attack-pattern:T1498",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=new"
+        "workflow:state=ongoing"
       ],
       "attributes": [],
       "galaxies": [
