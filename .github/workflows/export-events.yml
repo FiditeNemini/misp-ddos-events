@@ -1,9 +1,9 @@
 name: Export MISP DDoS Events
 
 on:
-  # Run on a schedule (daily at 2 AM UTC)
+  # Run every 5 minutes (maximum frequency allowed by GitHub Actions)
   schedule:
-    - cron: '0 2 * * *'
+    - cron: '*/5 * * * *'
   
   # Allow manual triggering
   workflow_dispatch:
