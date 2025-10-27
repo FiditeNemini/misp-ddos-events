@@ -46,7 +46,9 @@ class MISPDDoSExporter:
         'syn-flood',
         'udp-flood',
         'http-flood',
-        'volumetric-attack'
+        'volumetric-attack',
+        'network denial of service - t1498',  # MITRE ATT&CK pattern
+        't1498'  # MITRE ATT&CK technique ID
     ]
     
     def __init__(self, misp_url: str, misp_key: str, verify_ssl: bool = True):
@@ -124,11 +126,10 @@ class MISPDDoSExporter:
         """
         logger.info("Fetching events from MISP...")
         
-        # Search for events (fetch all, then filter)
-        # Note: Adjust the limit and parameters based on your MISP instance size
+        # Search for all events without limit
+        # PyMISP search() defaults to returning all events if limit is not specified
         events = self.misp.search(
             pythonify=False,
-            limit=1000,  # Fetch up to 1000 events
             published=False  # Get all events, not just published
         )
         
@@ -158,24 +159,30 @@ class MISPDDoSExporter:
             logger.info(f"Sample event tags: {[tag['name'] for tag in first_event.get('Tag', [])]}")
             logger.info(f"Sample event published: {first_event.get('published', 'N/A')}")
         
-        # Filter events by TLP level only (no DDoS filtering - export all TLP:GREEN/CLEAR events)
+        # Filter events by DDoS keywords AND TLP level
         filtered_events = []
+        ddos_count = 0
         tlp_rejected = 0
         
         for event in all_events:
             event_data = event.get('Event', event)
             
+            is_ddos = self.is_ddos_event(event_data)
             is_tlp_ok = self.is_tlp_allowed(event_data)
             
-            if not is_tlp_ok:
+            if is_ddos:
+                ddos_count += 1
+            
+            if is_ddos and not is_tlp_ok:
                 tlp_rejected += 1
             
-            # Export events with allowed TLP levels
-            if is_tlp_ok:
+            # Export events that are DDoS-related AND have allowed TLP levels
+            if is_ddos and is_tlp_ok:
                 filtered_events.append(self.format_event(event_data))
         
-        logger.info(f"Rejected {tlp_rejected} events due to TLP restrictions")
-        logger.info(f"Filtered to {len(filtered_events)} events with TLP:GREEN or less")
+        logger.info(f"Found {ddos_count} DDoS events total")
+        logger.info(f"Rejected {tlp_rejected} DDoS events due to TLP restrictions")
+        logger.info(f"Filtered to {len(filtered_events)} DDoS events with TLP:GREEN or less")
         return filtered_events
     
     def format_event(self, event: Dict[str, Any]) -> Dict[str, Any]:
@@ -264,7 +271,7 @@ class MISPDDoSExporter:
                 'export_date': datetime.utcnow().isoformat() + 'Z',
                 'schema_version': '1.0',
                 'filter_criteria': {
-                    'event_type': 'All Events',
+                    'event_type': 'DDoS (Network Denial of Service - T1498)',
                     'tlp_levels': self.ALLOWED_TLP_LEVELS,
                     'published_only': False
                 },
