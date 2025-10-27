@@ -39,6 +39,13 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       
+      - name: Debug - Check script and environment
+        run: |
+          echo "Checking export_misp_events.py __init__ method:"
+          grep -A 5 "def __init__" export_misp_events.py
+          echo ""
+          echo "MISP_VERIFY_SSL will be set to: false"
+      
       - name: Export MISP events
         env:
           MISP_URL: ${{ secrets.MISP_URL }}
@@ -46,6 +53,8 @@ jobs:
           OUTPUT_FILE: ddos_events.json
           MISP_VERIFY_SSL: 'false'  # Set to 'true' if using valid SSL certificate
         run: |
+          echo "Environment check:"
+          echo "MISP_VERIFY_SSL=$MISP_VERIFY_SSL"
           python export_misp_events.py
       
       - name: Check for changes
