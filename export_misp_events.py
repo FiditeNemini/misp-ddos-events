@@ -10,12 +10,17 @@ import os
 import sys
 from datetime import datetime
 from typing import List, Dict, Any
+import urllib3
 
 try:
     from pymisp import PyMISP
 except ImportError:
     print("Error: PyMISP library not found. Install it with: pip install pymisp")
     sys.exit(1)
+
+# Disable SSL warnings if SSL verification is disabled
+if os.getenv('MISP_VERIFY_SSL', 'true').lower() not in ('true', '1', 'yes'):
+    urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # Configure logging
 logging.basicConfig(
@@ -44,16 +49,19 @@ class MISPDDoSExporter:
         'volumetric-attack'
     ]
     
-    def __init__(self, misp_url: str, misp_key: str):
+    def __init__(self, misp_url: str, misp_key: str, verify_ssl: bool = True):
         """
         Initialize MISP connection.
         
         Args:
             misp_url: URL of the MISP instance
             misp_key: API key for authentication
+            verify_ssl: Whether to verify SSL certificates (set to False for self-signed certs)
         """
-        self.misp = PyMISP(misp_url, misp_key, ssl=True)
+        self.misp = PyMISP(misp_url, misp_key, ssl=verify_ssl)
         logger.info(f"Connected to MISP instance: {misp_url}")
+        if not verify_ssl:
+            logger.warning("SSL certificate verification is DISABLED - use only with trusted self-signed certificates")
     
     def is_tlp_allowed(self, event: Dict[str, Any]) -> bool:
         """
@@ -246,6 +254,7 @@ def main():
     misp_url = os.getenv('MISP_URL')
     misp_key = os.getenv('MISP_API_KEY')
     output_file = os.getenv('OUTPUT_FILE', 'ddos_events.json')
+    verify_ssl = os.getenv('MISP_VERIFY_SSL', 'true').lower() in ('true', '1', 'yes')
     
     if not misp_url or not misp_key:
         logger.error("Missing required environment variables: MISP_URL and MISP_API_KEY")
@@ -253,7 +262,7 @@ def main():
     
     try:
         # Initialize exporter
-        exporter = MISPDDoSExporter(misp_url, misp_key)
+        exporter = MISPDDoSExporter(misp_url, misp_key, verify_ssl=verify_ssl)
         
         # Export events
         events = exporter.export_events()
