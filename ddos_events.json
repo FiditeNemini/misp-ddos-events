@@ -1,6 +1,6 @@
 {
   "export_metadata": {
-    "export_date": "2025-10-28T07:43:29.643398Z",
+    "export_date": "2025-10-28T07:56:37.057709Z",
     "schema_version": "1.0",
     "filter_criteria": {
       "event_type": "DDoS (Network Denial of Service - T1498)",
@@ -11,7 +11,7 @@
       ],
       "published_only": false
     },
-    "total_events": 44,
+    "total_events": 45,
     "repository": "https://github.com/PabloPenguin/misp-ddos-events"
   },
   "events": [
@@ -2102,6 +2102,11 @@
           "id": "1865",
           "info": "test",
           "date": "2025-10-28"
+        },
+        {
+          "id": "1874",
+          "info": "test",
+          "date": "2025-10-28"
         }
       ],
       "attribute_count": 0,
@@ -2418,6 +2423,48 @@
         }
       ],
       "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1874",
+      "event_uuid": "c9aeb505-9015-4f0b-8dcd-93e824909e8f",
+      "info": "test",
+      "date": "2025-10-28",
+      "timestamp": "1761637592",
+      "published": false,
+      "tlp_level": "TLP:CLEAR",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:clear",
+        "information-security-indicators:incident-type=\"ddos\"",
+        "misp-event-type:incident",
+        "mitre-attack-pattern:T1498",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=new"
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "1862",
+          "info": "Test Event No Ports",
+          "date": "2025-10-28"
+        },
+        {
+          "id": "1865",
+          "info": "test",
+          "date": "2025-10-28"
+        }
+      ],
       "attribute_count": 0,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
