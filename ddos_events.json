@@ -1,6 +1,6 @@
 {
   "export_metadata": {
-    "export_date": "2025-10-28T07:27:27.920711Z",
+    "export_date": "2025-10-28T07:43:29.643398Z",
     "schema_version": "1.0",
     "filter_criteria": {
       "event_type": "DDoS (Network Denial of Service - T1498)",
@@ -11,7 +11,7 @@
       ],
       "published_only": false
     },
-    "total_events": 28,
+    "total_events": 44,
     "repository": "https://github.com/PabloPenguin/misp-ddos-events"
   },
   "events": [
@@ -1007,6 +1007,16 @@
           "id": "1843",
           "info": "Web Server Volumetric Attack",
           "date": "2024-10-26"
+        },
+        {
+          "id": "1854",
+          "info": "Web Server Volumetric Attack",
+          "date": "2024-10-26"
+        },
+        {
+          "id": "1871",
+          "info": "Memcached Amplification",
+          "date": "2024-10-24"
         }
       ],
       "attribute_count": 2,
@@ -1063,6 +1073,16 @@
           "id": "1844",
           "info": "DNS Amplification Campaign",
           "date": "2024-10-26"
+        },
+        {
+          "id": "1854",
+          "info": "Web Server Volumetric Attack",
+          "date": "2024-10-26"
+        },
+        {
+          "id": "1868",
+          "info": "Multi-Vector DDoS Attack",
+          "date": "2024-10-26"
         }
       ],
       "attribute_count": 2,
@@ -1101,6 +1121,11 @@
           "id": "1845",
           "info": "Multi-Vector DDoS Attack",
           "date": "2024-10-26"
+        },
+        {
+          "id": "1854",
+          "info": "Web Server Volumetric Attack",
+          "date": "2024-10-26"
         }
       ],
       "attribute_count": 0,
@@ -1136,8 +1161,18 @@
       ],
       "related_events": [
         {
+          "id": "1855",
+          "info": "DNS Amplification Campaign",
+          "date": "2024-10-26"
+        },
+        {
           "id": "1846",
           "info": "NTP Amplification",
+          "date": "2024-10-25"
+        },
+        {
+          "id": "1870",
+          "info": "SYN Flood Attack",
           "date": "2024-10-25"
         }
       ],
@@ -1172,6 +1207,16 @@
         }
       ],
       "related_events": [
+        {
+          "id": "1855",
+          "info": "DNS Amplification Campaign",
+          "date": "2024-10-26"
+        },
+        {
+          "id": "1866",
+          "info": "Web Server Volumetric Attack",
+          "date": "2024-10-26"
+        },
         {
           "id": "1847",
           "info": "SYN Flood Attack",
@@ -1210,6 +1255,11 @@
       ],
       "related_events": [
         {
+          "id": "1856",
+          "info": "Multi-Vector DDoS Attack",
+          "date": "2024-10-26"
+        },
+        {
           "id": "1849",
           "info": "SSDP Reflection Attack",
           "date": "2024-10-24"
@@ -1246,6 +1296,11 @@
         }
       ],
       "related_events": [
+        {
+          "id": "1856",
+          "info": "Multi-Vector DDoS Attack",
+          "date": "2024-10-26"
+        },
         {
           "id": "1850",
           "info": "Gaming Server DDoS",
@@ -1324,6 +1379,16 @@
           "id": "1834",
           "info": "Web Server Volumetric Attack",
           "date": "2024-10-26"
+        },
+        {
+          "id": "1854",
+          "info": "Web Server Volumetric Attack",
+          "date": "2024-10-26"
+        },
+        {
+          "id": "1871",
+          "info": "Memcached Amplification",
+          "date": "2024-10-24"
         }
       ],
       "attribute_count": 0,
@@ -1360,6 +1425,16 @@
         {
           "id": "1835",
           "info": "DNS Amplification Campaign",
+          "date": "2024-10-26"
+        },
+        {
+          "id": "1854",
+          "info": "Web Server Volumetric Attack",
+          "date": "2024-10-26"
+        },
+        {
+          "id": "1868",
+          "info": "Multi-Vector DDoS Attack",
           "date": "2024-10-26"
         }
       ],
@@ -1398,6 +1473,11 @@
           "id": "1836",
           "info": "Multi-Vector DDoS Attack",
           "date": "2024-10-26"
+        },
+        {
+          "id": "1854",
+          "info": "Web Server Volumetric Attack",
+          "date": "2024-10-26"
         }
       ],
       "attribute_count": 0,
@@ -1432,8 +1512,18 @@
       ],
       "related_events": [
         {
+          "id": "1855",
+          "info": "DNS Amplification Campaign",
+          "date": "2024-10-26"
+        },
+        {
           "id": "1837",
           "info": "NTP Amplification",
+          "date": "2024-10-25"
+        },
+        {
+          "id": "1870",
+          "info": "SYN Flood Attack",
           "date": "2024-10-25"
         }
       ],
@@ -1468,6 +1558,16 @@
         }
       ],
       "related_events": [
+        {
+          "id": "1855",
+          "info": "DNS Amplification Campaign",
+          "date": "2024-10-26"
+        },
+        {
+          "id": "1866",
+          "info": "Web Server Volumetric Attack",
+          "date": "2024-10-26"
+        },
         {
           "id": "1838",
           "info": "SYN Flood Attack",
@@ -1506,6 +1606,11 @@
       ],
       "related_events": [
         {
+          "id": "1856",
+          "info": "Multi-Vector DDoS Attack",
+          "date": "2024-10-26"
+        },
+        {
           "id": "1840",
           "info": "SSDP Reflection Attack",
           "date": "2024-10-24"
@@ -1542,6 +1647,11 @@
         }
       ],
       "related_events": [
+        {
+          "id": "1856",
+          "info": "Multi-Vector DDoS Attack",
+          "date": "2024-10-26"
+        },
         {
           "id": "1841",
           "info": "Gaming Server DDoS",
@@ -1609,6 +1719,684 @@
       "info": "DNS Attack Test",
       "date": "2025-10-28",
       "timestamp": "1761635948",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "information-security-indicators:incident-type=\"ddos\"",
+        "misp-event-type:incident",
+        "mitre-attack-pattern:T1498",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=new"
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1854",
+      "event_uuid": "93cc38e7-620c-470f-b53b-8e33de663f01",
+      "info": "Web Server Volumetric Attack",
+      "date": "2024-10-26",
+      "timestamp": "1761636457",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "information-security-indicators:incident-type=\"ddos\"",
+        "misp-event-type:incident",
+        "mitre-attack-pattern:T1498",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=new"
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "1834",
+          "info": "Web Server Volumetric Attack",
+          "date": "2024-10-26"
+        },
+        {
+          "id": "1835",
+          "info": "DNS Amplification Campaign",
+          "date": "2024-10-26"
+        },
+        {
+          "id": "1836",
+          "info": "Multi-Vector DDoS Attack",
+          "date": "2024-10-26"
+        },
+        {
+          "id": "1843",
+          "info": "Web Server Volumetric Attack",
+          "date": "2024-10-26"
+        },
+        {
+          "id": "1844",
+          "info": "DNS Amplification Campaign",
+          "date": "2024-10-26"
+        },
+        {
+          "id": "1845",
+          "info": "Multi-Vector DDoS Attack",
+          "date": "2024-10-26"
+        },
+        {
+          "id": "1871",
+          "info": "Memcached Amplification",
+          "date": "2024-10-24"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1855",
+      "event_uuid": "c6e0c301-61e2-4c30-b255-14a2841bfaa5",
+      "info": "DNS Amplification Campaign",
+      "date": "2024-10-26",
+      "timestamp": "1761636457",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "information-security-indicators:incident-type=\"ddos\"",
+        "misp-event-type:incident",
+        "mitre-attack-pattern:T1498",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=new"
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "1867",
+          "info": "DNS Amplification Campaign",
+          "date": "2024-10-26"
+        },
+        {
+          "id": "1837",
+          "info": "NTP Amplification",
+          "date": "2024-10-25"
+        },
+        {
+          "id": "1838",
+          "info": "SYN Flood Attack",
+          "date": "2024-10-25"
+        },
+        {
+          "id": "1846",
+          "info": "NTP Amplification",
+          "date": "2024-10-25"
+        },
+        {
+          "id": "1847",
+          "info": "SYN Flood Attack",
+          "date": "2024-10-25"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1856",
+      "event_uuid": "ed04b9f1-f472-440d-82c6-826175f86f6e",
+      "info": "Multi-Vector DDoS Attack",
+      "date": "2024-10-26",
+      "timestamp": "1761636457",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "information-security-indicators:incident-type=\"ddos\"",
+        "misp-event-type:incident",
+        "mitre-attack-pattern:T1498",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=new"
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "1868",
+          "info": "Multi-Vector DDoS Attack",
+          "date": "2024-10-26"
+        },
+        {
+          "id": "1839",
+          "info": "Memcached Amplification",
+          "date": "2024-10-24"
+        },
+        {
+          "id": "1840",
+          "info": "SSDP Reflection Attack",
+          "date": "2024-10-24"
+        },
+        {
+          "id": "1848",
+          "info": "Memcached Amplification",
+          "date": "2024-10-24"
+        },
+        {
+          "id": "1849",
+          "info": "SSDP Reflection Attack",
+          "date": "2024-10-24"
+        },
+        {
+          "id": "1841",
+          "info": "Gaming Server DDoS",
+          "date": "2024-10-23"
+        },
+        {
+          "id": "1850",
+          "info": "Gaming Server DDoS",
+          "date": "2024-10-23"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1857",
+      "event_uuid": "04b43311-7dd0-4ae2-b80f-4a930f8b7f5e",
+      "info": "NTP Amplification",
+      "date": "2024-10-25",
+      "timestamp": "1761636457",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "information-security-indicators:incident-type=\"ddos\"",
+        "misp-event-type:incident",
+        "mitre-attack-pattern:T1498",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=new"
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "1869",
+          "info": "NTP Amplification",
+          "date": "2024-10-25"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1858",
+      "event_uuid": "6bb8ac99-f60f-46db-95c6-87cde7517462",
+      "info": "SYN Flood Attack",
+      "date": "2024-10-25",
+      "timestamp": "1761636457",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "information-security-indicators:incident-type=\"ddos\"",
+        "misp-event-type:incident",
+        "mitre-attack-pattern:T1498",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=new"
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1860",
+      "event_uuid": "ac8fb616-2a4d-4ba4-b069-9c7a074a20dc",
+      "info": "SSDP Reflection Attack",
+      "date": "2024-10-24",
+      "timestamp": "1761636458",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "information-security-indicators:incident-type=\"ddos\"",
+        "misp-event-type:incident",
+        "mitre-attack-pattern:T1498",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=new"
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "1872",
+          "info": "SSDP Reflection Attack",
+          "date": "2024-10-24"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1861",
+      "event_uuid": "f73386f1-dcff-4685-b3e9-d830d2b81142",
+      "info": "Gaming Server DDoS",
+      "date": "2024-10-23",
+      "timestamp": "1761636458",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "information-security-indicators:incident-type=\"ddos\"",
+        "misp-event-type:incident",
+        "mitre-attack-pattern:T1498",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=new"
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1862",
+      "event_uuid": "75a20792-7aff-441d-a851-62a6ad7ab0fb",
+      "info": "Test Event No Ports",
+      "date": "2025-10-28",
+      "timestamp": "1761636569",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "information-security-indicators:incident-type=\"ddos\"",
+        "misp-event-type:incident",
+        "mitre-attack-pattern:T1498",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=new"
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "1865",
+          "info": "test",
+          "date": "2025-10-28"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1864",
+      "event_uuid": "e9b4bfe3-55b2-432f-a623-83d25982a48d",
+      "info": "Test Multiple IPs Only",
+      "date": "2025-10-28",
+      "timestamp": "1761636569",
+      "published": false,
+      "tlp_level": "TLP:CLEAR",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:clear",
+        "information-security-indicators:incident-type=\"ddos\"",
+        "misp-event-type:incident",
+        "mitre-attack-pattern:T1498",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=new"
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1866",
+      "event_uuid": "262ee8d0-711d-49a9-ae83-bff1241f5fb2",
+      "info": "Web Server Volumetric Attack",
+      "date": "2024-10-26",
+      "timestamp": "1761637337",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "information-security-indicators:incident-type=\"ddos\"",
+        "misp-event-type:incident",
+        "mitre-attack-pattern:T1498",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=new"
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "1838",
+          "info": "SYN Flood Attack",
+          "date": "2024-10-25"
+        },
+        {
+          "id": "1847",
+          "info": "SYN Flood Attack",
+          "date": "2024-10-25"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1867",
+      "event_uuid": "b1c905c5-57b3-46b9-855c-5fdaf5bc2e40",
+      "info": "DNS Amplification Campaign",
+      "date": "2024-10-26",
+      "timestamp": "1761637337",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "information-security-indicators:incident-type=\"ddos\"",
+        "misp-event-type:incident",
+        "mitre-attack-pattern:T1498",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=new"
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "1855",
+          "info": "DNS Amplification Campaign",
+          "date": "2024-10-26"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1868",
+      "event_uuid": "3412fe6c-a672-43fc-8267-9f4b996c6cc8",
+      "info": "Multi-Vector DDoS Attack",
+      "date": "2024-10-26",
+      "timestamp": "1761637337",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "information-security-indicators:incident-type=\"ddos\"",
+        "misp-event-type:incident",
+        "mitre-attack-pattern:T1498",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=new"
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "1835",
+          "info": "DNS Amplification Campaign",
+          "date": "2024-10-26"
+        },
+        {
+          "id": "1844",
+          "info": "DNS Amplification Campaign",
+          "date": "2024-10-26"
+        },
+        {
+          "id": "1856",
+          "info": "Multi-Vector DDoS Attack",
+          "date": "2024-10-26"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1869",
+      "event_uuid": "740f6ca1-5b89-4be0-a86f-0b0afc3ff60a",
+      "info": "NTP Amplification",
+      "date": "2024-10-25",
+      "timestamp": "1761637337",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "information-security-indicators:incident-type=\"ddos\"",
+        "misp-event-type:incident",
+        "mitre-attack-pattern:T1498",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=new"
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "1857",
+          "info": "NTP Amplification",
+          "date": "2024-10-25"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1870",
+      "event_uuid": "f79ee7cf-f221-427c-9c9e-d9a438702590",
+      "info": "SYN Flood Attack",
+      "date": "2024-10-25",
+      "timestamp": "1761637337",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "information-security-indicators:incident-type=\"ddos\"",
+        "misp-event-type:incident",
+        "mitre-attack-pattern:T1498",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=new"
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "1837",
+          "info": "NTP Amplification",
+          "date": "2024-10-25"
+        },
+        {
+          "id": "1846",
+          "info": "NTP Amplification",
+          "date": "2024-10-25"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1872",
+      "event_uuid": "9e32f4c8-081f-41e5-91c9-625410f5218f",
+      "info": "SSDP Reflection Attack",
+      "date": "2024-10-24",
+      "timestamp": "1761637337",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "information-security-indicators:incident-type=\"ddos\"",
+        "misp-event-type:incident",
+        "mitre-attack-pattern:T1498",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=new"
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "1839",
+          "info": "Memcached Amplification",
+          "date": "2024-10-24"
+        },
+        {
+          "id": "1848",
+          "info": "Memcached Amplification",
+          "date": "2024-10-24"
+        },
+        {
+          "id": "1860",
+          "info": "SSDP Reflection Attack",
+          "date": "2024-10-24"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1873",
+      "event_uuid": "ef8152ab-54bd-444e-a314-e0ede4bfb4e4",
+      "info": "Gaming Server DDoS",
+      "date": "2024-10-23",
+      "timestamp": "1761637338",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
