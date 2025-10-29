@@ -1,6 +1,6 @@
 {
   "export_metadata": {
-    "export_date": "2025-10-29T13:57:36.672200Z",
+    "export_date": "2025-10-29T14:31:23.426017Z",
     "schema_version": "1.0",
     "filter_criteria": {
       "event_type": "DDoS (Network Denial of Service - T1498)",
@@ -2604,7 +2604,7 @@
       "event_uuid": "e4b3cdcb-0f76-41f1-84ce-955809282ed7",
       "info": "Workflow Test Event",
       "date": "2025-10-28",
-      "timestamp": "1761645499",
+      "timestamp": "1761748207",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -2612,9 +2612,28 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"ongoing\""
       ],
-      "attributes": [],
+      "attributes": [
+        {
+          "id": "294656",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Generic event info \"Workflow Test Event\" not descriptive enough for threat intelligence sharing and date 2025-10-28 is too far in future",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1761747888"
+        },
+        {
+          "id": "294658",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Generic event info (\"Workflow Test Event\") lacks DDoS attack details needed for threat intelligence sharing",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1761748207"
+        }
+      ],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -2623,7 +2642,7 @@
         }
       ],
       "related_events": [],
-      "attribute_count": 0,
+      "attribute_count": 2,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
@@ -2632,7 +2651,7 @@
       "event_uuid": "146e4984-f764-47d3-9763-2bbab29d6721",
       "info": "Web Server Volumetric Attack",
       "date": "2024-10-26",
-      "timestamp": "1761646404",
+      "timestamp": "1761748213",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -2640,9 +2659,19 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"ongoing\""
       ],
-      "attributes": [],
+      "attributes": [
+        {
+          "id": "294659",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Invalid LLM response format - requires human review",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1761748213"
+        }
+      ],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -2667,7 +2696,7 @@
           "date": "2024-10-25"
         }
       ],
-      "attribute_count": 0,
+      "attribute_count": 1,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
