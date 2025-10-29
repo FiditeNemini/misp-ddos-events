@@ -1,6 +1,6 @@
 {
   "export_metadata": {
-    "export_date": "2025-10-29T14:31:23.426017Z",
+    "export_date": "2025-10-29T14:52:50.256591Z",
     "schema_version": "1.0",
     "filter_criteria": {
       "event_type": "DDoS (Network Denial of Service - T1498)",
@@ -2651,7 +2651,7 @@
       "event_uuid": "146e4984-f764-47d3-9763-2bbab29d6721",
       "info": "Web Server Volumetric Attack",
       "date": "2024-10-26",
-      "timestamp": "1761748213",
+      "timestamp": "1761748331",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -2659,7 +2659,7 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"ongoing\""
+        "workflow:state=\"complete\""
       ],
       "attributes": [
         {
@@ -2705,7 +2705,7 @@
       "event_uuid": "94506a8c-ba92-4bf9-8715-f6836acb2745",
       "info": "DNS Amplification Campaign",
       "date": "2024-10-26",
-      "timestamp": "1761646404",
+      "timestamp": "1761748337",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -2713,7 +2713,7 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"complete\""
       ],
       "attributes": [],
       "galaxies": [
