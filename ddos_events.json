@@ -1,6 +1,6 @@
 {
   "export_metadata": {
-    "export_date": "2025-10-30T23:43:18.713409Z",
+    "export_date": "2025-10-30T23:56:36.611475Z",
     "schema_version": "1.0",
     "filter_criteria": {
       "event_type": "DDoS (Network Denial of Service - T1498)",
@@ -11,7 +11,7 @@
       ],
       "published_only": false
     },
-    "total_events": 11,
+    "total_events": 58,
     "repository": "https://github.com/PabloPenguin/misp-ddos-events"
   },
   "events": [
@@ -108,6 +108,11 @@
         }
       ],
       "related_events": [
+        {
+          "id": "1899",
+          "info": "Fragmentation Attack",
+          "date": "2025-10-20"
+        },
         {
           "id": "1849",
           "info": "SSDP Reflection Attack",
@@ -369,6 +374,11 @@
       ],
       "related_events": [
         {
+          "id": "1899",
+          "info": "Fragmentation Attack",
+          "date": "2025-10-20"
+        },
+        {
           "id": "1840",
           "info": "SSDP Reflection Attack",
           "date": "2024-10-24"
@@ -409,6 +419,1642 @@
           "id": "1841",
           "info": "Gaming Server DDoS",
           "date": "2024-10-23"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1888",
+      "event_uuid": "d1ff0e28-e233-4533-bbcd-24330f712a01",
+      "info": "Massive HTTP Flood Campaign",
+      "date": "2025-10-31",
+      "timestamp": "1761868166",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"ongoing\""
+      ],
+      "attributes": [
+        {
+          "id": "294783",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Validation error: An error occurred (UnrecognizedClientException) when calling the InvokeModel operation: The security token included in the request is invalid.",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1761868166"
+        }
+      ],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 1,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1889",
+      "event_uuid": "dfd6696c-1505-4bc2-833c-295a90495e24",
+      "info": "DNS Query Flood",
+      "date": "2025-10-30",
+      "timestamp": "1761868168",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"ongoing\""
+      ],
+      "attributes": [
+        {
+          "id": "294860",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Validation error: An error occurred (UnrecognizedClientException) when calling the InvokeModel operation: The security token included in the request is invalid.",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1761868168"
+        }
+      ],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 1,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1891",
+      "event_uuid": "2b2c7ab5-d252-490c-9400-50bcd7eb97bb",
+      "info": "CLDAP Amplification Attack",
+      "date": "2025-10-28",
+      "timestamp": "1761868203",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"ongoing\""
+      ],
+      "attributes": [
+        {
+          "id": "294956",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Validation error: An error occurred (UnrecognizedClientException) when calling the InvokeModel operation: The security token included in the request is invalid.",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1761868203"
+        }
+      ],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 1,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1892",
+      "event_uuid": "29b549d4-b8cb-44a0-9e3a-871200433ef6",
+      "info": "Simple SYN Flood",
+      "date": "2025-10-27",
+      "timestamp": "1761868236",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"ongoing\""
+      ],
+      "attributes": [
+        {
+          "id": "294957",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Validation error: An error occurred (UnrecognizedClientException) when calling the InvokeModel operation: The security token included in the request is invalid.",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1761868236"
+        }
+      ],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 1,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1893",
+      "event_uuid": "33dee4b1-b51e-48ad-a357-4fd50d797ddf",
+      "info": "NTP Monlist Amplification",
+      "date": "2025-10-26",
+      "timestamp": "1761868239",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"ongoing\""
+      ],
+      "attributes": [
+        {
+          "id": "294958",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Validation error: An error occurred (UnrecognizedClientException) when calling the InvokeModel operation: The security token included in the request is invalid.",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1761868239"
+        }
+      ],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "1917",
+          "info": "BitTorrent Tracker Exploit",
+          "date": "2025-10-02"
+        }
+      ],
+      "attribute_count": 1,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1895",
+      "event_uuid": "e5b568cf-6fbb-4710-9e34-18d914902db9",
+      "info": "SSDP Reflection from IoT Botnet",
+      "date": "2025-10-24",
+      "timestamp": "1761868274",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"ongoing\""
+      ],
+      "attributes": [
+        {
+          "id": "294960",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Validation error: An error occurred (UnrecognizedClientException) when calling the InvokeModel operation: The security token included in the request is invalid.",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1761868274"
+        }
+      ],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 1,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1896",
+      "event_uuid": "01e5929b-1ff3-4f47-9f04-d9b5c62e674b",
+      "info": "WordPress XML-RPC Amplification",
+      "date": "2025-10-23",
+      "timestamp": "1761868306",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"ongoing\""
+      ],
+      "attributes": [
+        {
+          "id": "294961",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Validation error: An error occurred (UnrecognizedClientException) when calling the InvokeModel operation: The security token included in the request is invalid.",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1761868306"
+        }
+      ],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "1937",
+          "info": "TeamSpeak3 Query Flood",
+          "date": "2025-09-12"
+        }
+      ],
+      "attribute_count": 1,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1897",
+      "event_uuid": "ecf5f7d7-ea52-4a37-97ad-691bf581ca3e",
+      "info": "Gaming Protocol Flood",
+      "date": "2025-10-22",
+      "timestamp": "1761868309",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"ongoing\""
+      ],
+      "attributes": [
+        {
+          "id": "294962",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Validation error: An error occurred (UnrecognizedClientException) when calling the InvokeModel operation: The security token included in the request is invalid.",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1761868309"
+        }
+      ],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 1,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1898",
+      "event_uuid": "c2ad34a9-20e0-4b7f-b21c-4180562c0360",
+      "info": "ACK Flood Attack",
+      "date": "2025-10-21",
+      "timestamp": "1761868341",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"ongoing\""
+      ],
+      "attributes": [
+        {
+          "id": "294963",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Validation error: An error occurred (UnrecognizedClientException) when calling the InvokeModel operation: The security token included in the request is invalid.",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1761868341"
+        }
+      ],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 1,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1899",
+      "event_uuid": "a115ba14-2fd2-441f-ac0b-e0367663a84b",
+      "info": "Fragmentation Attack",
+      "date": "2025-10-20",
+      "timestamp": "1761868344",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"ongoing\""
+      ],
+      "attributes": [
+        {
+          "id": "294964",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Validation error: An error occurred (UnrecognizedClientException) when calling the InvokeModel operation: The security token included in the request is invalid.",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1761868344"
+        }
+      ],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "1933",
+          "info": "gRPC Flood",
+          "date": "2025-09-16"
+        },
+        {
+          "id": "1840",
+          "info": "SSDP Reflection Attack",
+          "date": "2024-10-24"
+        },
+        {
+          "id": "1849",
+          "info": "SSDP Reflection Attack",
+          "date": "2024-10-24"
+        }
+      ],
+      "attribute_count": 1,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1900",
+      "event_uuid": "71d73b6c-19df-4d7a-aa56-6c676ed091d1",
+      "info": "QUIC Flood",
+      "date": "2025-10-19",
+      "timestamp": "1761868376",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"ongoing\""
+      ],
+      "attributes": [
+        {
+          "id": "294965",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Validation error: An error occurred (UnrecognizedClientException) when calling the InvokeModel operation: The security token included in the request is invalid.",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1761868376"
+        }
+      ],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 1,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1901",
+      "event_uuid": "81d87981-9816-4118-81ed-0320c6430698",
+      "info": "ICMP Flood",
+      "date": "2025-10-18",
+      "timestamp": "1761868379",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"ongoing\""
+      ],
+      "attributes": [
+        {
+          "id": "294966",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Validation error: An error occurred (UnrecognizedClientException) when calling the InvokeModel operation: The security token included in the request is invalid.",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1761868379"
+        }
+      ],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "1932",
+          "info": "WebSocket Connection Flood",
+          "date": "2025-09-17"
+        }
+      ],
+      "attribute_count": 1,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1903",
+      "event_uuid": "7836acbe-b388-4875-8965-bd34161e466a",
+      "info": "CoAP Amplification",
+      "date": "2025-10-16",
+      "timestamp": "1761868414",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"ongoing\""
+      ],
+      "attributes": [
+        {
+          "id": "294968",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Validation error: An error occurred (UnrecognizedClientException) when calling the InvokeModel operation: The security token included in the request is invalid.",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1761868414"
+        }
+      ],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 1,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1904",
+      "event_uuid": "97335a64-5a6c-4c13-b9a6-3579b1cf4ca5",
+      "info": "GRE Flood",
+      "date": "2025-10-15",
+      "timestamp": "1761868446",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"ongoing\""
+      ],
+      "attributes": [
+        {
+          "id": "294969",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Validation error: An error occurred (UnrecognizedClientException) when calling the InvokeModel operation: The security token included in the request is invalid.",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1761868446"
+        }
+      ],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 1,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1905",
+      "event_uuid": "557d0fa9-2f0a-47ce-8162-773856c8ebbc",
+      "info": "CHARGEN Amplification",
+      "date": "2025-10-14",
+      "timestamp": "1761868449",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"ongoing\""
+      ],
+      "attributes": [
+        {
+          "id": "294970",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Validation error: An error occurred (UnrecognizedClientException) when calling the InvokeModel operation: The security token included in the request is invalid.",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1761868449"
+        }
+      ],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 1,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1906",
+      "event_uuid": "26593cbe-49d4-4733-8931-233a5bb66ca0",
+      "info": "SNMP Amplification",
+      "date": "2025-10-13",
+      "timestamp": "1761868482",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"ongoing\""
+      ],
+      "attributes": [
+        {
+          "id": "294971",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Validation error: An error occurred (UnrecognizedClientException) when calling the InvokeModel operation: The security token included in the request is invalid.",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1761868482"
+        }
+      ],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 1,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1907",
+      "event_uuid": "945103af-8e27-469b-a702-da8c82e5955e",
+      "info": "MSSQL Resolution Service Attack",
+      "date": "2025-10-12",
+      "timestamp": "1761868484",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"ongoing\""
+      ],
+      "attributes": [
+        {
+          "id": "294972",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Validation error: An error occurred (UnrecognizedClientException) when calling the InvokeModel operation: The security token included in the request is invalid.",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1761868484"
+        }
+      ],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "1894",
+          "info": "Memcached UDP Flood",
+          "date": "2025-10-25"
+        },
+        {
+          "id": "1918",
+          "info": "Teardrop Attack",
+          "date": "2025-10-01"
+        }
+      ],
+      "attribute_count": 1,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1908",
+      "event_uuid": "51812617-4d1f-4ff2-86f2-b33242a8bdf8",
+      "info": "RIPv1 Amplification",
+      "date": "2025-10-11",
+      "timestamp": "1761868517",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"ongoing\""
+      ],
+      "attributes": [
+        {
+          "id": "294973",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Validation error: An error occurred (UnrecognizedClientException) when calling the InvokeModel operation: The security token included in the request is invalid.",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1761868517"
+        }
+      ],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 1,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1909",
+      "event_uuid": "086c791a-34c9-4eb1-b5cb-83bca2189303",
+      "info": "LDAP Injection DDoS",
+      "date": "2025-10-10",
+      "timestamp": "1761868519",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"ongoing\""
+      ],
+      "attributes": [
+        {
+          "id": "294974",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Validation error: An error occurred (UnrecognizedClientException) when calling the InvokeModel operation: The security token included in the request is invalid.",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1761868519"
+        }
+      ],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 1,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1910",
+      "event_uuid": "6efe7f05-44a5-430f-b0b8-efde4db16ddd",
+      "info": "Steam Protocol Flood",
+      "date": "2025-10-09",
+      "timestamp": "1761868551",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"ongoing\""
+      ],
+      "attributes": [
+        {
+          "id": "294975",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Validation error: An error occurred (UnrecognizedClientException) when calling the InvokeModel operation: The security token included in the request is invalid.",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1761868551"
+        }
+      ],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 1,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1911",
+      "event_uuid": "c0028f85-ce94-495d-b720-101a0199e868",
+      "info": "Slowloris Attack",
+      "date": "2025-10-08",
+      "timestamp": "1761868554",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"ongoing\""
+      ],
+      "attributes": [
+        {
+          "id": "294976",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Validation error: An error occurred (UnrecognizedClientException) when calling the InvokeModel operation: The security token included in the request is invalid.",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1761868554"
+        }
+      ],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "1929",
+          "info": "Redis Amplification",
+          "date": "2025-09-20"
+        }
+      ],
+      "attribute_count": 1,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1912",
+      "event_uuid": "01b3ce27-ab9b-4b44-9672-27904da9d1c2",
+      "info": "R.U.D.Y Attack",
+      "date": "2025-10-07",
+      "timestamp": "1761868167",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "1930",
+          "info": "Elasticsearch Query Flood",
+          "date": "2025-09-19"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1913",
+      "event_uuid": "b6824f17-dc7a-41cf-a811-540dc90fd9b7",
+      "info": "Sockstress Attack",
+      "date": "2025-10-06",
+      "timestamp": "1761868168",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1914",
+      "event_uuid": "a5d0804a-d5ae-4b7d-9889-47b2576e74b4",
+      "info": "DHCPv6 Flood",
+      "date": "2025-10-05",
+      "timestamp": "1761868168",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1915",
+      "event_uuid": "cce07f2b-db4f-4fe5-a16d-1d040e922e2e",
+      "info": "ESP Flood",
+      "date": "2025-10-04",
+      "timestamp": "1761868168",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1916",
+      "event_uuid": "7838e6bb-242c-4637-a728-f24298bfec90",
+      "info": "ARP Spoofing DDoS",
+      "date": "2025-10-03",
+      "timestamp": "1761868168",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1917",
+      "event_uuid": "c3edf1e6-ebef-4bd5-bb27-1543f90a8284",
+      "info": "BitTorrent Tracker Exploit",
+      "date": "2025-10-02",
+      "timestamp": "1761868168",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "1893",
+          "info": "NTP Monlist Amplification",
+          "date": "2025-10-26"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1918",
+      "event_uuid": "133fa3ec-5134-4c8d-8c4f-e8d27a6f48ff",
+      "info": "Teardrop Attack",
+      "date": "2025-10-01",
+      "timestamp": "1761868168",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "1894",
+          "info": "Memcached UDP Flood",
+          "date": "2025-10-25"
+        },
+        {
+          "id": "1907",
+          "info": "MSSQL Resolution Service Attack",
+          "date": "2025-10-12"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1919",
+      "event_uuid": "5b00d895-2eda-45f6-9db3-379d2e80c7bc",
+      "info": "RUDY + Slowloris Combo",
+      "date": "2025-09-30",
+      "timestamp": "1761868168",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "1902",
+          "info": "BGP Hijack-Assisted DDoS",
+          "date": "2025-10-17"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1920",
+      "event_uuid": "d5adb89f-6772-41b1-b331-9018ae480a00",
+      "info": "WS-Discovery Amplification",
+      "date": "2025-09-29",
+      "timestamp": "1761868169",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1921",
+      "event_uuid": "a6764d8c-5e1e-4350-99c7-8a84bf599ddf",
+      "info": "TFTP Amplification",
+      "date": "2025-09-28",
+      "timestamp": "1761868169",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1922",
+      "event_uuid": "0044f45f-d7f5-45c3-98b3-7ec13295f57e",
+      "info": "RPC Portmapper Attack",
+      "date": "2025-09-27",
+      "timestamp": "1761868169",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1923",
+      "event_uuid": "38981e58-aefd-4251-b3ea-649db32ab739",
+      "info": "NetBIOS Name Service Flood",
+      "date": "2025-09-26",
+      "timestamp": "1761868169",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1924",
+      "event_uuid": "0b43b173-0b20-4aca-88b4-30355612f481",
+      "info": "Minecraft Server Exploit",
+      "date": "2025-09-25",
+      "timestamp": "1761868169",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1925",
+      "event_uuid": "5b2d58d2-bdb4-41e9-ad13-6ff391e3e56b",
+      "info": "OpenVPN UDP Flood",
+      "date": "2025-09-24",
+      "timestamp": "1761868169",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1926",
+      "event_uuid": "ff0031dc-efdd-43a2-92d2-6d86a76cb7a2",
+      "info": "DTLS Flood",
+      "date": "2025-09-23",
+      "timestamp": "1761868169",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1927",
+      "event_uuid": "31b7ca20-6d51-43dc-b9e7-ca4bfe584c89",
+      "info": "HTTP/2 Rapid Reset",
+      "date": "2025-09-22",
+      "timestamp": "1761868170",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1928",
+      "event_uuid": "83e6d7d3-4c99-4cc2-9fd4-eeddcb9c87ee",
+      "info": "PostgreSQL Amplification",
+      "date": "2025-09-21",
+      "timestamp": "1761868170",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1929",
+      "event_uuid": "a07cc057-563a-4780-98ed-b35796889aaf",
+      "info": "Redis Amplification",
+      "date": "2025-09-20",
+      "timestamp": "1761868170",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "1911",
+          "info": "Slowloris Attack",
+          "date": "2025-10-08"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1930",
+      "event_uuid": "a80b694a-161d-401f-a16f-2301ede7960a",
+      "info": "Elasticsearch Query Flood",
+      "date": "2025-09-19",
+      "timestamp": "1761868170",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "1912",
+          "info": "R.U.D.Y Attack",
+          "date": "2025-10-07"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1931",
+      "event_uuid": "59e4efb3-6491-4695-b035-72fa2326d165",
+      "info": "MQTT Protocol Flood",
+      "date": "2025-09-18",
+      "timestamp": "1761868170",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1932",
+      "event_uuid": "8e4de9c6-778c-4a2a-88b8-65f2a6547551",
+      "info": "WebSocket Connection Flood",
+      "date": "2025-09-17",
+      "timestamp": "1761868170",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "1901",
+          "info": "ICMP Flood",
+          "date": "2025-10-18"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1933",
+      "event_uuid": "76579ab3-f3f0-4a5c-948c-791a8759c3d5",
+      "info": "gRPC Flood",
+      "date": "2025-09-16",
+      "timestamp": "1761868170",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "1899",
+          "info": "Fragmentation Attack",
+          "date": "2025-10-20"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1934",
+      "event_uuid": "931f370f-d838-4e22-a783-7eff1c9417a3",
+      "info": "SIP INVITE Flood",
+      "date": "2025-09-15",
+      "timestamp": "1761868171",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1935",
+      "event_uuid": "f299bb09-f3e0-4ab0-9797-a4c8ef22c16a",
+      "info": "RTSP Amplification",
+      "date": "2025-09-14",
+      "timestamp": "1761868171",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1936",
+      "event_uuid": "00b3107f-4d61-45ba-b30a-59414892572c",
+      "info": "Multicast DNS Flood",
+      "date": "2025-09-13",
+      "timestamp": "1761868171",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "1937",
+      "event_uuid": "18dbca41-5646-4fea-9209-3e3a32b5f1d2",
+      "info": "TeamSpeak3 Query Flood",
+      "date": "2025-09-12",
+      "timestamp": "1761868171",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "1896",
+          "info": "WordPress XML-RPC Amplification",
+          "date": "2025-10-23"
         }
       ],
       "attribute_count": 0,
