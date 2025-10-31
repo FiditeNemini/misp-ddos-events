@@ -1,6 +1,6 @@
 {
   "export_metadata": {
-    "export_date": "2025-10-30T23:56:36.611475Z",
+    "export_date": "2025-10-31T02:04:26.029974Z",
     "schema_version": "1.0",
     "filter_criteria": {
       "event_type": "DDoS (Network Denial of Service - T1498)",
@@ -109,7 +109,7 @@
       ],
       "related_events": [
         {
-          "id": "1899",
+          "id": "2049",
           "info": "Fragmentation Attack",
           "date": "2025-10-20"
         },
@@ -374,7 +374,7 @@
       ],
       "related_events": [
         {
-          "id": "1899",
+          "id": "2049",
           "info": "Fragmentation Attack",
           "date": "2025-10-20"
         },
@@ -426,11 +426,11 @@
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
     {
-      "event_id": "1888",
-      "event_uuid": "d1ff0e28-e233-4533-bbcd-24330f712a01",
+      "event_id": "2038",
+      "event_uuid": "46b54e41-96ae-4bac-82c1-6ad2a8f4c3bc",
       "info": "Massive HTTP Flood Campaign",
       "date": "2025-10-31",
-      "timestamp": "1761868166",
+      "timestamp": "1761875658",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -438,19 +438,9 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"ongoing\""
+        "workflow:state=\"complete\""
       ],
-      "attributes": [
-        {
-          "id": "294783",
-          "type": "comment",
-          "category": "Other",
-          "value": "LLM Validation: Validation error: An error occurred (UnrecognizedClientException) when calling the InvokeModel operation: The security token included in the request is invalid.",
-          "comment": "LLM Validation Result",
-          "to_ids": false,
-          "timestamp": "1761868166"
-        }
-      ],
+      "attributes": [],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -459,16 +449,16 @@
         }
       ],
       "related_events": [],
-      "attribute_count": 1,
+      "attribute_count": 0,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
     {
-      "event_id": "1889",
-      "event_uuid": "dfd6696c-1505-4bc2-833c-295a90495e24",
+      "event_id": "2039",
+      "event_uuid": "16f42916-a43b-462a-91b7-99b2b14d2cbd",
       "info": "DNS Query Flood",
       "date": "2025-10-30",
-      "timestamp": "1761868168",
+      "timestamp": "1761875663",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -476,19 +466,9 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"ongoing\""
+        "workflow:state=\"complete\""
       ],
-      "attributes": [
-        {
-          "id": "294860",
-          "type": "comment",
-          "category": "Other",
-          "value": "LLM Validation: Validation error: An error occurred (UnrecognizedClientException) when calling the InvokeModel operation: The security token included in the request is invalid.",
-          "comment": "LLM Validation Result",
-          "to_ids": false,
-          "timestamp": "1761868168"
-        }
-      ],
+      "attributes": [],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -497,16 +477,16 @@
         }
       ],
       "related_events": [],
-      "attribute_count": 1,
+      "attribute_count": 0,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
     {
-      "event_id": "1891",
-      "event_uuid": "2b2c7ab5-d252-490c-9400-50bcd7eb97bb",
+      "event_id": "2041",
+      "event_uuid": "110ab9a7-da65-4f24-891b-13c78ca6d460",
       "info": "CLDAP Amplification Attack",
       "date": "2025-10-28",
-      "timestamp": "1761868203",
+      "timestamp": "1761875689",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -514,19 +494,9 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"ongoing\""
+        "workflow:state=\"complete\""
       ],
-      "attributes": [
-        {
-          "id": "294956",
-          "type": "comment",
-          "category": "Other",
-          "value": "LLM Validation: Validation error: An error occurred (UnrecognizedClientException) when calling the InvokeModel operation: The security token included in the request is invalid.",
-          "comment": "LLM Validation Result",
-          "to_ids": false,
-          "timestamp": "1761868203"
-        }
-      ],
+      "attributes": [],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -535,16 +505,16 @@
         }
       ],
       "related_events": [],
-      "attribute_count": 1,
+      "attribute_count": 0,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
     {
-      "event_id": "1892",
-      "event_uuid": "29b549d4-b8cb-44a0-9e3a-871200433ef6",
+      "event_id": "2042",
+      "event_uuid": "9151af23-a3cf-4406-9f74-f714a3bba704",
       "info": "Simple SYN Flood",
       "date": "2025-10-27",
-      "timestamp": "1761868236",
+      "timestamp": "1761875700",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -556,13 +526,13 @@
       ],
       "attributes": [
         {
-          "id": "294957",
+          "id": "295788",
           "type": "comment",
           "category": "Other",
-          "value": "LLM Validation: Validation error: An error occurred (UnrecognizedClientException) when calling the InvokeModel operation: The security token included in the request is invalid.",
+          "value": "LLM Validation: Rate limit exceeded - will retry on next check",
           "comment": "LLM Validation Result",
           "to_ids": false,
-          "timestamp": "1761868236"
+          "timestamp": "1761875700"
         }
       ],
       "galaxies": [
@@ -578,11 +548,11 @@
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
     {
-      "event_id": "1893",
-      "event_uuid": "33dee4b1-b51e-48ad-a357-4fd50d797ddf",
+      "event_id": "2043",
+      "event_uuid": "b54d7e61-125f-429a-ba4a-2128dfd0a546",
       "info": "NTP Monlist Amplification",
       "date": "2025-10-26",
-      "timestamp": "1761868239",
+      "timestamp": "1761875708",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -594,13 +564,13 @@
       ],
       "attributes": [
         {
-          "id": "294958",
+          "id": "295789",
           "type": "comment",
           "category": "Other",
-          "value": "LLM Validation: Validation error: An error occurred (UnrecognizedClientException) when calling the InvokeModel operation: The security token included in the request is invalid.",
+          "value": "LLM Validation: Rate limit exceeded - will retry on next check",
           "comment": "LLM Validation Result",
           "to_ids": false,
-          "timestamp": "1761868239"
+          "timestamp": "1761875708"
         }
       ],
       "galaxies": [
@@ -612,7 +582,7 @@
       ],
       "related_events": [
         {
-          "id": "1917",
+          "id": "2067",
           "info": "BitTorrent Tracker Exploit",
           "date": "2025-10-02"
         }
@@ -622,11 +592,11 @@
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
     {
-      "event_id": "1895",
-      "event_uuid": "e5b568cf-6fbb-4710-9e34-18d914902db9",
+      "event_id": "2045",
+      "event_uuid": "ca476bb4-8843-45f8-9208-f8988c4afd49",
       "info": "SSDP Reflection from IoT Botnet",
       "date": "2025-10-24",
-      "timestamp": "1761868274",
+      "timestamp": "1761875734",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -638,13 +608,13 @@
       ],
       "attributes": [
         {
-          "id": "294960",
+          "id": "295790",
           "type": "comment",
           "category": "Other",
-          "value": "LLM Validation: Validation error: An error occurred (UnrecognizedClientException) when calling the InvokeModel operation: The security token included in the request is invalid.",
+          "value": "LLM Validation: Rate limit exceeded - will retry on next check",
           "comment": "LLM Validation Result",
           "to_ids": false,
-          "timestamp": "1761868274"
+          "timestamp": "1761875734"
         }
       ],
       "galaxies": [
@@ -660,11 +630,11 @@
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
     {
-      "event_id": "1896",
-      "event_uuid": "01e5929b-1ff3-4f47-9f04-d9b5c62e674b",
+      "event_id": "2046",
+      "event_uuid": "7cb3b9eb-8551-4dcc-8d4e-a0ef2412166f",
       "info": "WordPress XML-RPC Amplification",
       "date": "2025-10-23",
-      "timestamp": "1761868306",
+      "timestamp": "1761875742",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -676,13 +646,13 @@
       ],
       "attributes": [
         {
-          "id": "294961",
+          "id": "295791",
           "type": "comment",
           "category": "Other",
-          "value": "LLM Validation: Validation error: An error occurred (UnrecognizedClientException) when calling the InvokeModel operation: The security token included in the request is invalid.",
+          "value": "LLM Validation: Rate limit exceeded - will retry on next check",
           "comment": "LLM Validation Result",
           "to_ids": false,
-          "timestamp": "1761868306"
+          "timestamp": "1761875742"
         }
       ],
       "galaxies": [
@@ -694,7 +664,7 @@
       ],
       "related_events": [
         {
-          "id": "1937",
+          "id": "2087",
           "info": "TeamSpeak3 Query Flood",
           "date": "2025-09-12"
         }
@@ -704,11 +674,11 @@
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
     {
-      "event_id": "1897",
-      "event_uuid": "ecf5f7d7-ea52-4a37-97ad-691bf581ca3e",
+      "event_id": "2047",
+      "event_uuid": "59dbad41-4fdc-4656-aca2-81da23db8c18",
       "info": "Gaming Protocol Flood",
       "date": "2025-10-22",
-      "timestamp": "1761868309",
+      "timestamp": "1761875749",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -716,19 +686,9 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"ongoing\""
+        "workflow:state=\"complete\""
       ],
-      "attributes": [
-        {
-          "id": "294962",
-          "type": "comment",
-          "category": "Other",
-          "value": "LLM Validation: Validation error: An error occurred (UnrecognizedClientException) when calling the InvokeModel operation: The security token included in the request is invalid.",
-          "comment": "LLM Validation Result",
-          "to_ids": false,
-          "timestamp": "1761868309"
-        }
-      ],
+      "attributes": [],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -737,16 +697,16 @@
         }
       ],
       "related_events": [],
-      "attribute_count": 1,
+      "attribute_count": 0,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
     {
-      "event_id": "1898",
-      "event_uuid": "c2ad34a9-20e0-4b7f-b21c-4180562c0360",
+      "event_id": "2048",
+      "event_uuid": "fd0568c6-3433-464e-bad9-731456337425",
       "info": "ACK Flood Attack",
       "date": "2025-10-21",
-      "timestamp": "1761868341",
+      "timestamp": "1761875762",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -758,13 +718,13 @@
       ],
       "attributes": [
         {
-          "id": "294963",
+          "id": "295792",
           "type": "comment",
           "category": "Other",
-          "value": "LLM Validation: Validation error: An error occurred (UnrecognizedClientException) when calling the InvokeModel operation: The security token included in the request is invalid.",
+          "value": "LLM Validation: Rate limit exceeded - will retry on next check",
           "comment": "LLM Validation Result",
           "to_ids": false,
-          "timestamp": "1761868341"
+          "timestamp": "1761875762"
         }
       ],
       "galaxies": [
@@ -780,11 +740,11 @@
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
     {
-      "event_id": "1899",
-      "event_uuid": "a115ba14-2fd2-441f-ac0b-e0367663a84b",
+      "event_id": "2049",
+      "event_uuid": "ab7ab09b-f0db-4593-9c8e-e9f24c190196",
       "info": "Fragmentation Attack",
       "date": "2025-10-20",
-      "timestamp": "1761868344",
+      "timestamp": "1761875774",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -796,13 +756,13 @@
       ],
       "attributes": [
         {
-          "id": "294964",
+          "id": "295793",
           "type": "comment",
           "category": "Other",
-          "value": "LLM Validation: Validation error: An error occurred (UnrecognizedClientException) when calling the InvokeModel operation: The security token included in the request is invalid.",
+          "value": "LLM Validation: Rate limit exceeded - will retry on next check",
           "comment": "LLM Validation Result",
           "to_ids": false,
-          "timestamp": "1761868344"
+          "timestamp": "1761875774"
         }
       ],
       "galaxies": [
@@ -814,7 +774,7 @@
       ],
       "related_events": [
         {
-          "id": "1933",
+          "id": "2083",
           "info": "gRPC Flood",
           "date": "2025-09-16"
         },
@@ -834,11 +794,11 @@
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
     {
-      "event_id": "1900",
-      "event_uuid": "71d73b6c-19df-4d7a-aa56-6c676ed091d1",
+      "event_id": "2050",
+      "event_uuid": "548093f3-a190-42e5-999d-3757ac10d913",
       "info": "QUIC Flood",
       "date": "2025-10-19",
-      "timestamp": "1761868376",
+      "timestamp": "1761875777",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -846,19 +806,9 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"ongoing\""
+        "workflow:state=\"complete\""
       ],
-      "attributes": [
-        {
-          "id": "294965",
-          "type": "comment",
-          "category": "Other",
-          "value": "LLM Validation: Validation error: An error occurred (UnrecognizedClientException) when calling the InvokeModel operation: The security token included in the request is invalid.",
-          "comment": "LLM Validation Result",
-          "to_ids": false,
-          "timestamp": "1761868376"
-        }
-      ],
+      "attributes": [],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -867,16 +817,16 @@
         }
       ],
       "related_events": [],
-      "attribute_count": 1,
+      "attribute_count": 0,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
     {
-      "event_id": "1901",
-      "event_uuid": "81d87981-9816-4118-81ed-0320c6430698",
+      "event_id": "2051",
+      "event_uuid": "82aa7926-57ca-40d1-bbf2-1c4ee2d7a95b",
       "info": "ICMP Flood",
       "date": "2025-10-18",
-      "timestamp": "1761868379",
+      "timestamp": "1761875794",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -888,13 +838,13 @@
       ],
       "attributes": [
         {
-          "id": "294966",
+          "id": "295794",
           "type": "comment",
           "category": "Other",
-          "value": "LLM Validation: Validation error: An error occurred (UnrecognizedClientException) when calling the InvokeModel operation: The security token included in the request is invalid.",
+          "value": "LLM Validation: Rate limit exceeded - will retry on next check",
           "comment": "LLM Validation Result",
           "to_ids": false,
-          "timestamp": "1761868379"
+          "timestamp": "1761875794"
         }
       ],
       "galaxies": [
@@ -906,7 +856,7 @@
       ],
       "related_events": [
         {
-          "id": "1932",
+          "id": "2082",
           "info": "WebSocket Connection Flood",
           "date": "2025-09-17"
         }
@@ -916,11 +866,11 @@
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
     {
-      "event_id": "1903",
-      "event_uuid": "7836acbe-b388-4875-8965-bd34161e466a",
+      "event_id": "2053",
+      "event_uuid": "09a8d82a-df86-48d6-8e5f-8342a6c85eb5",
       "info": "CoAP Amplification",
       "date": "2025-10-16",
-      "timestamp": "1761868414",
+      "timestamp": "1761875810",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -928,19 +878,9 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"ongoing\""
+        "workflow:state=\"complete\""
       ],
-      "attributes": [
-        {
-          "id": "294968",
-          "type": "comment",
-          "category": "Other",
-          "value": "LLM Validation: Validation error: An error occurred (UnrecognizedClientException) when calling the InvokeModel operation: The security token included in the request is invalid.",
-          "comment": "LLM Validation Result",
-          "to_ids": false,
-          "timestamp": "1761868414"
-        }
-      ],
+      "attributes": [],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -949,16 +889,16 @@
         }
       ],
       "related_events": [],
-      "attribute_count": 1,
+      "attribute_count": 0,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
     {
-      "event_id": "1904",
-      "event_uuid": "97335a64-5a6c-4c13-b9a6-3579b1cf4ca5",
+      "event_id": "2054",
+      "event_uuid": "78a4f719-45bb-4843-82ad-cb9fd0809e8d",
       "info": "GRE Flood",
       "date": "2025-10-15",
-      "timestamp": "1761868446",
+      "timestamp": "1761875818",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -970,13 +910,13 @@
       ],
       "attributes": [
         {
-          "id": "294969",
+          "id": "295796",
           "type": "comment",
           "category": "Other",
-          "value": "LLM Validation: Validation error: An error occurred (UnrecognizedClientException) when calling the InvokeModel operation: The security token included in the request is invalid.",
+          "value": "LLM Validation: Rate limit exceeded - will retry on next check",
           "comment": "LLM Validation Result",
           "to_ids": false,
-          "timestamp": "1761868446"
+          "timestamp": "1761875818"
         }
       ],
       "galaxies": [
@@ -992,11 +932,11 @@
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
     {
-      "event_id": "1905",
-      "event_uuid": "557d0fa9-2f0a-47ce-8162-773856c8ebbc",
+      "event_id": "2055",
+      "event_uuid": "fd45bcbe-ca16-4f19-8467-f9f8b7171c68",
       "info": "CHARGEN Amplification",
       "date": "2025-10-14",
-      "timestamp": "1761868449",
+      "timestamp": "1761875832",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -1008,13 +948,13 @@
       ],
       "attributes": [
         {
-          "id": "294970",
+          "id": "295797",
           "type": "comment",
           "category": "Other",
-          "value": "LLM Validation: Validation error: An error occurred (UnrecognizedClientException) when calling the InvokeModel operation: The security token included in the request is invalid.",
+          "value": "LLM Validation: Rate limit exceeded - will retry on next check",
           "comment": "LLM Validation Result",
           "to_ids": false,
-          "timestamp": "1761868449"
+          "timestamp": "1761875832"
         }
       ],
       "galaxies": [
@@ -1030,11 +970,11 @@
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
     {
-      "event_id": "1906",
-      "event_uuid": "26593cbe-49d4-4733-8931-233a5bb66ca0",
+      "event_id": "2056",
+      "event_uuid": "107df8e5-727e-4573-a47a-e80a0accdd69",
       "info": "SNMP Amplification",
       "date": "2025-10-13",
-      "timestamp": "1761868482",
+      "timestamp": "1761875839",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -1042,19 +982,9 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"ongoing\""
+        "workflow:state=\"complete\""
       ],
-      "attributes": [
-        {
-          "id": "294971",
-          "type": "comment",
-          "category": "Other",
-          "value": "LLM Validation: Validation error: An error occurred (UnrecognizedClientException) when calling the InvokeModel operation: The security token included in the request is invalid.",
-          "comment": "LLM Validation Result",
-          "to_ids": false,
-          "timestamp": "1761868482"
-        }
-      ],
+      "attributes": [],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -1063,16 +993,16 @@
         }
       ],
       "related_events": [],
-      "attribute_count": 1,
+      "attribute_count": 0,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
     {
-      "event_id": "1907",
-      "event_uuid": "945103af-8e27-469b-a702-da8c82e5955e",
+      "event_id": "2057",
+      "event_uuid": "07d54c56-76e0-4ef6-9344-fd3cdf1d5279",
       "info": "MSSQL Resolution Service Attack",
       "date": "2025-10-12",
-      "timestamp": "1761868484",
+      "timestamp": "1761875852",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -1084,13 +1014,13 @@
       ],
       "attributes": [
         {
-          "id": "294972",
+          "id": "295798",
           "type": "comment",
           "category": "Other",
-          "value": "LLM Validation: Validation error: An error occurred (UnrecognizedClientException) when calling the InvokeModel operation: The security token included in the request is invalid.",
+          "value": "LLM Validation: Rate limit exceeded - will retry on next check",
           "comment": "LLM Validation Result",
           "to_ids": false,
-          "timestamp": "1761868484"
+          "timestamp": "1761875852"
         }
       ],
       "galaxies": [
@@ -1102,12 +1032,12 @@
       ],
       "related_events": [
         {
-          "id": "1894",
+          "id": "2044",
           "info": "Memcached UDP Flood",
           "date": "2025-10-25"
         },
         {
-          "id": "1918",
+          "id": "2068",
           "info": "Teardrop Attack",
           "date": "2025-10-01"
         }
@@ -1117,11 +1047,11 @@
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
     {
-      "event_id": "1908",
-      "event_uuid": "51812617-4d1f-4ff2-86f2-b33242a8bdf8",
+      "event_id": "2058",
+      "event_uuid": "5a201db1-ffe8-435f-9643-3da5e8b501e0",
       "info": "RIPv1 Amplification",
       "date": "2025-10-11",
-      "timestamp": "1761868517",
+      "timestamp": "1761875901",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -1129,19 +1059,9 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"ongoing\""
+        "workflow:state=\"complete\""
       ],
-      "attributes": [
-        {
-          "id": "294973",
-          "type": "comment",
-          "category": "Other",
-          "value": "LLM Validation: Validation error: An error occurred (UnrecognizedClientException) when calling the InvokeModel operation: The security token included in the request is invalid.",
-          "comment": "LLM Validation Result",
-          "to_ids": false,
-          "timestamp": "1761868517"
-        }
-      ],
+      "attributes": [],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -1150,16 +1070,16 @@
         }
       ],
       "related_events": [],
-      "attribute_count": 1,
+      "attribute_count": 0,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
     {
-      "event_id": "1909",
-      "event_uuid": "086c791a-34c9-4eb1-b5cb-83bca2189303",
+      "event_id": "2059",
+      "event_uuid": "5ea12bf8-352e-4b7a-9b15-67b8ed78bc97",
       "info": "LDAP Injection DDoS",
       "date": "2025-10-10",
-      "timestamp": "1761868519",
+      "timestamp": "1761875907",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -1167,19 +1087,9 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"ongoing\""
+        "workflow:state=\"complete\""
       ],
-      "attributes": [
-        {
-          "id": "294974",
-          "type": "comment",
-          "category": "Other",
-          "value": "LLM Validation: Validation error: An error occurred (UnrecognizedClientException) when calling the InvokeModel operation: The security token included in the request is invalid.",
-          "comment": "LLM Validation Result",
-          "to_ids": false,
-          "timestamp": "1761868519"
-        }
-      ],
+      "attributes": [],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -1188,16 +1098,16 @@
         }
       ],
       "related_events": [],
-      "attribute_count": 1,
+      "attribute_count": 0,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
     {
-      "event_id": "1910",
-      "event_uuid": "6efe7f05-44a5-430f-b0b8-efde4db16ddd",
+      "event_id": "2060",
+      "event_uuid": "1712209f-6d61-4f35-8d0a-8b433a4fbe55",
       "info": "Steam Protocol Flood",
       "date": "2025-10-09",
-      "timestamp": "1761868551",
+      "timestamp": "1761875922",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -1209,13 +1119,13 @@
       ],
       "attributes": [
         {
-          "id": "294975",
+          "id": "295799",
           "type": "comment",
           "category": "Other",
-          "value": "LLM Validation: Validation error: An error occurred (UnrecognizedClientException) when calling the InvokeModel operation: The security token included in the request is invalid.",
+          "value": "LLM Validation: Rate limit exceeded - will retry on next check",
           "comment": "LLM Validation Result",
           "to_ids": false,
-          "timestamp": "1761868551"
+          "timestamp": "1761875922"
         }
       ],
       "galaxies": [
@@ -1231,11 +1141,11 @@
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
     {
-      "event_id": "1911",
-      "event_uuid": "c0028f85-ce94-495d-b720-101a0199e868",
+      "event_id": "2061",
+      "event_uuid": "258b9744-cd99-4f97-9c12-9eb82417ca0f",
       "info": "Slowloris Attack",
       "date": "2025-10-08",
-      "timestamp": "1761868554",
+      "timestamp": "1761875935",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -1243,19 +1153,9 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"ongoing\""
+        "workflow:state=\"complete\""
       ],
-      "attributes": [
-        {
-          "id": "294976",
-          "type": "comment",
-          "category": "Other",
-          "value": "LLM Validation: Validation error: An error occurred (UnrecognizedClientException) when calling the InvokeModel operation: The security token included in the request is invalid.",
-          "comment": "LLM Validation Result",
-          "to_ids": false,
-          "timestamp": "1761868554"
-        }
-      ],
+      "attributes": [],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -1265,55 +1165,65 @@
       ],
       "related_events": [
         {
-          "id": "1929",
+          "id": "2079",
           "info": "Redis Amplification",
           "date": "2025-09-20"
         }
       ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "2062",
+      "event_uuid": "37b10c88-1590-4483-afa7-88d2f4c14abf",
+      "info": "R.U.D.Y Attack",
+      "date": "2025-10-07",
+      "timestamp": "1761875947",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"ongoing\""
+      ],
+      "attributes": [
+        {
+          "id": "295800",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Rate limit exceeded - will retry on next check",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1761875947"
+        }
+      ],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "2080",
+          "info": "Elasticsearch Query Flood",
+          "date": "2025-09-19"
+        }
+      ],
       "attribute_count": 1,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
     {
-      "event_id": "1912",
-      "event_uuid": "01b3ce27-ab9b-4b44-9672-27904da9d1c2",
-      "info": "R.U.D.Y Attack",
-      "date": "2025-10-07",
-      "timestamp": "1761868167",
-      "published": false,
-      "tlp_level": "TLP:GREEN",
-      "threat_level": "4",
-      "analysis": "0",
-      "tags": [
-        "tlp:green",
-        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
-      ],
-      "attributes": [],
-      "galaxies": [
-        {
-          "name": "Attack Pattern",
-          "type": "mitre-attack-pattern",
-          "description": "ATT&CK Tactic"
-        }
-      ],
-      "related_events": [
-        {
-          "id": "1930",
-          "info": "Elasticsearch Query Flood",
-          "date": "2025-09-19"
-        }
-      ],
-      "attribute_count": 0,
-      "org_name": "ADMIN",
-      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
-    },
-    {
-      "event_id": "1913",
-      "event_uuid": "b6824f17-dc7a-41cf-a811-540dc90fd9b7",
+      "event_id": "2063",
+      "event_uuid": "8ee1994b-1fb1-4e3c-8a42-fd7b9f407003",
       "info": "Sockstress Attack",
       "date": "2025-10-06",
-      "timestamp": "1761868168",
+      "timestamp": "1761875954",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -1321,9 +1231,19 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"ongoing\""
       ],
-      "attributes": [],
+      "attributes": [
+        {
+          "id": "295801",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Rate limit exceeded - will retry on next check",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1761875954"
+        }
+      ],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -1332,16 +1252,16 @@
         }
       ],
       "related_events": [],
-      "attribute_count": 0,
+      "attribute_count": 1,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
     {
-      "event_id": "1914",
-      "event_uuid": "a5d0804a-d5ae-4b7d-9889-47b2576e74b4",
+      "event_id": "2064",
+      "event_uuid": "ba201df1-0e54-4781-ac32-aa06281b9cce",
       "info": "DHCPv6 Flood",
       "date": "2025-10-05",
-      "timestamp": "1761868168",
+      "timestamp": "1761875962",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -1349,7 +1269,7 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"complete\""
       ],
       "attributes": [],
       "galaxies": [
@@ -1365,11 +1285,11 @@
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
     {
-      "event_id": "1915",
-      "event_uuid": "cce07f2b-db4f-4fe5-a16d-1d040e922e2e",
+      "event_id": "2065",
+      "event_uuid": "edc33076-0751-4f2d-b81f-74e87375dea5",
       "info": "ESP Flood",
       "date": "2025-10-04",
-      "timestamp": "1761868168",
+      "timestamp": "1761875969",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -1377,9 +1297,19 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"ongoing\""
       ],
-      "attributes": [],
+      "attributes": [
+        {
+          "id": "295802",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Rate limit exceeded - will retry on next check",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1761875969"
+        }
+      ],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -1388,16 +1318,16 @@
         }
       ],
       "related_events": [],
-      "attribute_count": 0,
+      "attribute_count": 1,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
     {
-      "event_id": "1916",
-      "event_uuid": "7838e6bb-242c-4637-a728-f24298bfec90",
+      "event_id": "2066",
+      "event_uuid": "ac5e14e7-298e-433a-bba2-4fd5ee678682",
       "info": "ARP Spoofing DDoS",
       "date": "2025-10-03",
-      "timestamp": "1761868168",
+      "timestamp": "1761875983",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -1405,9 +1335,19 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"ongoing\""
       ],
-      "attributes": [],
+      "attributes": [
+        {
+          "id": "295803",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Rate limit exceeded - will retry on next check",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1761875983"
+        }
+      ],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -1416,16 +1356,16 @@
         }
       ],
       "related_events": [],
-      "attribute_count": 0,
+      "attribute_count": 1,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
     {
-      "event_id": "1917",
-      "event_uuid": "c3edf1e6-ebef-4bd5-bb27-1543f90a8284",
+      "event_id": "2067",
+      "event_uuid": "157af55a-a791-46ad-9e79-937d764d674b",
       "info": "BitTorrent Tracker Exploit",
       "date": "2025-10-02",
-      "timestamp": "1761868168",
+      "timestamp": "1761875994",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -1433,7 +1373,7 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"complete\""
       ],
       "attributes": [],
       "galaxies": [
@@ -1445,7 +1385,7 @@
       ],
       "related_events": [
         {
-          "id": "1893",
+          "id": "2043",
           "info": "NTP Monlist Amplification",
           "date": "2025-10-26"
         }
@@ -1455,11 +1395,11 @@
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
     {
-      "event_id": "1918",
-      "event_uuid": "133fa3ec-5134-4c8d-8c4f-e8d27a6f48ff",
+      "event_id": "2068",
+      "event_uuid": "ba22e205-f6c4-4327-8b03-2563ee6cfae2",
       "info": "Teardrop Attack",
       "date": "2025-10-01",
-      "timestamp": "1761868168",
+      "timestamp": "1761876003",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -1467,9 +1407,19 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"ongoing\""
       ],
-      "attributes": [],
+      "attributes": [
+        {
+          "id": "295804",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Rate limit exceeded - will retry on next check",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1761876003"
+        }
+      ],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -1479,26 +1429,26 @@
       ],
       "related_events": [
         {
-          "id": "1894",
+          "id": "2044",
           "info": "Memcached UDP Flood",
           "date": "2025-10-25"
         },
         {
-          "id": "1907",
+          "id": "2057",
           "info": "MSSQL Resolution Service Attack",
           "date": "2025-10-12"
         }
       ],
-      "attribute_count": 0,
+      "attribute_count": 1,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
     {
-      "event_id": "1919",
-      "event_uuid": "5b00d895-2eda-45f6-9db3-379d2e80c7bc",
+      "event_id": "2069",
+      "event_uuid": "4c8272a0-2b75-48cc-8cc3-713811011053",
       "info": "RUDY + Slowloris Combo",
       "date": "2025-09-30",
-      "timestamp": "1761868168",
+      "timestamp": "1761876012",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -1506,9 +1456,19 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"ongoing\""
       ],
-      "attributes": [],
+      "attributes": [
+        {
+          "id": "295805",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Rate limit exceeded - will retry on next check",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1761876012"
+        }
+      ],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -1518,21 +1478,21 @@
       ],
       "related_events": [
         {
-          "id": "1902",
+          "id": "2052",
           "info": "BGP Hijack-Assisted DDoS",
           "date": "2025-10-17"
         }
       ],
-      "attribute_count": 0,
+      "attribute_count": 1,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
     {
-      "event_id": "1920",
-      "event_uuid": "d5adb89f-6772-41b1-b331-9018ae480a00",
+      "event_id": "2070",
+      "event_uuid": "1d7c0dc4-6e9c-4ed9-9557-50e978ecdf60",
       "info": "WS-Discovery Amplification",
       "date": "2025-09-29",
-      "timestamp": "1761868169",
+      "timestamp": "1761876023",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -1540,7 +1500,7 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"complete\""
       ],
       "attributes": [],
       "galaxies": [
@@ -1556,11 +1516,11 @@
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
     {
-      "event_id": "1921",
-      "event_uuid": "a6764d8c-5e1e-4350-99c7-8a84bf599ddf",
+      "event_id": "2071",
+      "event_uuid": "90865a02-35ac-437c-9a2a-bad64a9ede25",
       "info": "TFTP Amplification",
       "date": "2025-09-28",
-      "timestamp": "1761868169",
+      "timestamp": "1761876031",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -1568,9 +1528,19 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"ongoing\""
       ],
-      "attributes": [],
+      "attributes": [
+        {
+          "id": "295806",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Rate limit exceeded - will retry on next check",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1761876031"
+        }
+      ],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -1579,16 +1549,16 @@
         }
       ],
       "related_events": [],
-      "attribute_count": 0,
+      "attribute_count": 1,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
     {
-      "event_id": "1922",
-      "event_uuid": "0044f45f-d7f5-45c3-98b3-7ec13295f57e",
+      "event_id": "2072",
+      "event_uuid": "7eaa0f56-4502-4d23-8a5c-edfb16e5e38e",
       "info": "RPC Portmapper Attack",
       "date": "2025-09-27",
-      "timestamp": "1761868169",
+      "timestamp": "1761876041",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -1596,9 +1566,19 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"ongoing\""
       ],
-      "attributes": [],
+      "attributes": [
+        {
+          "id": "295807",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Rate limit exceeded - will retry on next check",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1761876041"
+        }
+      ],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -1607,16 +1587,16 @@
         }
       ],
       "related_events": [],
-      "attribute_count": 0,
+      "attribute_count": 1,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
     {
-      "event_id": "1923",
-      "event_uuid": "38981e58-aefd-4251-b3ea-649db32ab739",
+      "event_id": "2073",
+      "event_uuid": "f9647d8f-625a-4712-bd43-ccfe50d1bb2a",
       "info": "NetBIOS Name Service Flood",
       "date": "2025-09-26",
-      "timestamp": "1761868169",
+      "timestamp": "1761876047",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -1624,9 +1604,19 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"ongoing\""
       ],
-      "attributes": [],
+      "attributes": [
+        {
+          "id": "295808",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Rate limit exceeded - will retry on next check",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1761876047"
+        }
+      ],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -1635,16 +1625,16 @@
         }
       ],
       "related_events": [],
-      "attribute_count": 0,
+      "attribute_count": 1,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
     {
-      "event_id": "1924",
-      "event_uuid": "0b43b173-0b20-4aca-88b4-30355612f481",
+      "event_id": "2074",
+      "event_uuid": "4d494ac7-62e2-41bf-96d7-1e827e2564ff",
       "info": "Minecraft Server Exploit",
       "date": "2025-09-25",
-      "timestamp": "1761868169",
+      "timestamp": "1761876054",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -1652,7 +1642,7 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"complete\""
       ],
       "attributes": [],
       "galaxies": [
@@ -1668,11 +1658,11 @@
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
     {
-      "event_id": "1925",
-      "event_uuid": "5b2d58d2-bdb4-41e9-ad13-6ff391e3e56b",
+      "event_id": "2075",
+      "event_uuid": "43bbf820-9890-4b75-909c-af3ae7ec2f3f",
       "info": "OpenVPN UDP Flood",
       "date": "2025-09-24",
-      "timestamp": "1761868169",
+      "timestamp": "1761876065",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -1680,9 +1670,19 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"ongoing\""
       ],
-      "attributes": [],
+      "attributes": [
+        {
+          "id": "295809",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Rate limit exceeded - will retry on next check",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1761876065"
+        }
+      ],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -1691,16 +1691,16 @@
         }
       ],
       "related_events": [],
-      "attribute_count": 0,
+      "attribute_count": 1,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
     {
-      "event_id": "1926",
-      "event_uuid": "ff0031dc-efdd-43a2-92d2-6d86a76cb7a2",
+      "event_id": "2076",
+      "event_uuid": "25528b82-7e05-4a53-93a0-965eb8381bbf",
       "info": "DTLS Flood",
       "date": "2025-09-23",
-      "timestamp": "1761868169",
+      "timestamp": "1761876077",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -1708,9 +1708,19 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"ongoing\""
       ],
-      "attributes": [],
+      "attributes": [
+        {
+          "id": "295810",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Rate limit exceeded - will retry on next check",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1761876077"
+        }
+      ],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -1719,16 +1729,16 @@
         }
       ],
       "related_events": [],
-      "attribute_count": 0,
+      "attribute_count": 1,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
     {
-      "event_id": "1927",
-      "event_uuid": "31b7ca20-6d51-43dc-b9e7-ca4bfe584c89",
+      "event_id": "2077",
+      "event_uuid": "e0a901e0-1528-46fa-a31e-4c10f3a2f3cb",
       "info": "HTTP/2 Rapid Reset",
       "date": "2025-09-22",
-      "timestamp": "1761868170",
+      "timestamp": "1761876084",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -1736,7 +1746,7 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"complete\""
       ],
       "attributes": [],
       "galaxies": [
@@ -1752,11 +1762,11 @@
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
     {
-      "event_id": "1928",
-      "event_uuid": "83e6d7d3-4c99-4cc2-9fd4-eeddcb9c87ee",
+      "event_id": "2078",
+      "event_uuid": "07292242-56a4-48e8-bcab-ec72d97c22b0",
       "info": "PostgreSQL Amplification",
       "date": "2025-09-21",
-      "timestamp": "1761868170",
+      "timestamp": "1761876134",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -1764,7 +1774,7 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"complete\""
       ],
       "attributes": [],
       "galaxies": [
@@ -1780,11 +1790,11 @@
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
     {
-      "event_id": "1929",
-      "event_uuid": "a07cc057-563a-4780-98ed-b35796889aaf",
+      "event_id": "2079",
+      "event_uuid": "7fa8a7f3-1184-445d-bcd0-5757aca7a308",
       "info": "Redis Amplification",
       "date": "2025-09-20",
-      "timestamp": "1761868170",
+      "timestamp": "1761876144",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -1792,7 +1802,7 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"complete\""
       ],
       "attributes": [],
       "galaxies": [
@@ -1804,7 +1814,7 @@
       ],
       "related_events": [
         {
-          "id": "1911",
+          "id": "2061",
           "info": "Slowloris Attack",
           "date": "2025-10-08"
         }
@@ -1814,11 +1824,11 @@
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
     {
-      "event_id": "1930",
-      "event_uuid": "a80b694a-161d-401f-a16f-2301ede7960a",
+      "event_id": "2080",
+      "event_uuid": "604319e0-7a9a-4731-9770-1d0ef93d49f2",
       "info": "Elasticsearch Query Flood",
       "date": "2025-09-19",
-      "timestamp": "1761868170",
+      "timestamp": "1761876156",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -1826,9 +1836,19 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"ongoing\""
       ],
-      "attributes": [],
+      "attributes": [
+        {
+          "id": "295811",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Rate limit exceeded - will retry on next check",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1761876156"
+        }
+      ],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -1838,21 +1858,21 @@
       ],
       "related_events": [
         {
-          "id": "1912",
+          "id": "2062",
           "info": "R.U.D.Y Attack",
           "date": "2025-10-07"
         }
       ],
-      "attribute_count": 0,
+      "attribute_count": 1,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
     {
-      "event_id": "1931",
-      "event_uuid": "59e4efb3-6491-4695-b035-72fa2326d165",
+      "event_id": "2081",
+      "event_uuid": "ab6ffac6-8847-4f38-94f9-443dc56e0a83",
       "info": "MQTT Protocol Flood",
       "date": "2025-09-18",
-      "timestamp": "1761868170",
+      "timestamp": "1761876173",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -1860,7 +1880,7 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"complete\""
       ],
       "attributes": [],
       "galaxies": [
@@ -1876,11 +1896,11 @@
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
     {
-      "event_id": "1932",
-      "event_uuid": "8e4de9c6-778c-4a2a-88b8-65f2a6547551",
+      "event_id": "2082",
+      "event_uuid": "3a12c074-67dc-4454-9e65-5af364f71911",
       "info": "WebSocket Connection Flood",
       "date": "2025-09-17",
-      "timestamp": "1761868170",
+      "timestamp": "1761876183",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -1888,9 +1908,19 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"ongoing\""
       ],
-      "attributes": [],
+      "attributes": [
+        {
+          "id": "295812",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Rate limit exceeded - will retry on next check",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1761876183"
+        }
+      ],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -1900,21 +1930,21 @@
       ],
       "related_events": [
         {
-          "id": "1901",
+          "id": "2051",
           "info": "ICMP Flood",
           "date": "2025-10-18"
         }
       ],
-      "attribute_count": 0,
+      "attribute_count": 1,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
     {
-      "event_id": "1933",
-      "event_uuid": "76579ab3-f3f0-4a5c-948c-791a8759c3d5",
+      "event_id": "2083",
+      "event_uuid": "8448cb00-9a77-4fdd-a6dd-03250dbcaf60",
       "info": "gRPC Flood",
       "date": "2025-09-16",
-      "timestamp": "1761868170",
+      "timestamp": "1761876193",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -1922,9 +1952,19 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"ongoing\""
       ],
-      "attributes": [],
+      "attributes": [
+        {
+          "id": "295813",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Rate limit exceeded - will retry on next check",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1761876193"
+        }
+      ],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -1934,21 +1974,21 @@
       ],
       "related_events": [
         {
-          "id": "1899",
+          "id": "2049",
           "info": "Fragmentation Attack",
           "date": "2025-10-20"
         }
       ],
-      "attribute_count": 0,
+      "attribute_count": 1,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
     {
-      "event_id": "1934",
-      "event_uuid": "931f370f-d838-4e22-a783-7eff1c9417a3",
+      "event_id": "2084",
+      "event_uuid": "eef36929-32a2-4703-bfb4-9dcf3f821c8e",
       "info": "SIP INVITE Flood",
       "date": "2025-09-15",
-      "timestamp": "1761868171",
+      "timestamp": "1761876204",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -1956,7 +1996,7 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"complete\""
       ],
       "attributes": [],
       "galaxies": [
@@ -1972,11 +2012,11 @@
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
     {
-      "event_id": "1935",
-      "event_uuid": "f299bb09-f3e0-4ab0-9797-a4c8ef22c16a",
+      "event_id": "2085",
+      "event_uuid": "db6f3d69-b3bc-4dfe-939b-29e6b2d69d3d",
       "info": "RTSP Amplification",
       "date": "2025-09-14",
-      "timestamp": "1761868171",
+      "timestamp": "1761876213",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -1984,9 +2024,19 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"ongoing\""
       ],
-      "attributes": [],
+      "attributes": [
+        {
+          "id": "295814",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Rate limit exceeded - will retry on next check",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1761876213"
+        }
+      ],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -1995,16 +2045,16 @@
         }
       ],
       "related_events": [],
-      "attribute_count": 0,
+      "attribute_count": 1,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
     {
-      "event_id": "1936",
-      "event_uuid": "00b3107f-4d61-45ba-b30a-59414892572c",
+      "event_id": "2086",
+      "event_uuid": "5dad78b1-6098-419b-a404-823ba52768a8",
       "info": "Multicast DNS Flood",
       "date": "2025-09-13",
-      "timestamp": "1761868171",
+      "timestamp": "1761876226",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -2012,9 +2062,19 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"ongoing\""
       ],
-      "attributes": [],
+      "attributes": [
+        {
+          "id": "295815",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Rate limit exceeded - will retry on next check",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1761876226"
+        }
+      ],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -2023,16 +2083,16 @@
         }
       ],
       "related_events": [],
-      "attribute_count": 0,
+      "attribute_count": 1,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
     {
-      "event_id": "1937",
-      "event_uuid": "18dbca41-5646-4fea-9209-3e3a32b5f1d2",
+      "event_id": "2087",
+      "event_uuid": "0c91d59b-6112-4020-8cc6-3a912d422523",
       "info": "TeamSpeak3 Query Flood",
       "date": "2025-09-12",
-      "timestamp": "1761868171",
+      "timestamp": "1761876233",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -2040,7 +2100,7 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"complete\""
       ],
       "attributes": [],
       "galaxies": [
@@ -2052,7 +2112,7 @@
       ],
       "related_events": [
         {
-          "id": "1896",
+          "id": "2046",
           "info": "WordPress XML-RPC Amplification",
           "date": "2025-10-23"
         }
