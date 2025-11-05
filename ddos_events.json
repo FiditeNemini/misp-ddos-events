@@ -1,6 +1,6 @@
 {
   "export_metadata": {
-    "export_date": "2025-11-05T03:18:50.458587Z",
+    "export_date": "2025-11-05T03:54:13.615133Z",
     "schema_version": "1.0",
     "filter_criteria": {
       "event_type": "DDoS (Network Denial of Service - T1498)",
@@ -3256,7 +3256,7 @@
       "event_uuid": "ba7451ca-1b00-42bd-ab35-81eba3b0c271",
       "info": "Elasticsearch Query Flood",
       "date": "2025-09-19",
-      "timestamp": "1762310493",
+      "timestamp": "1762312752",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -3264,7 +3264,7 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"complete\""
       ],
       "attributes": [],
       "galaxies": [
@@ -3300,7 +3300,7 @@
       "event_uuid": "7c034bdf-7ebb-47ad-96fd-3d100233170a",
       "info": "MQTT Protocol Flood",
       "date": "2025-09-18",
-      "timestamp": "1762310493",
+      "timestamp": "1762312766",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -3308,7 +3308,7 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"complete\""
       ],
       "attributes": [],
       "galaxies": [
@@ -3334,7 +3334,7 @@
       "event_uuid": "7edb18f6-46a8-4477-bf38-c3b8e001e50a",
       "info": "WebSocket Connection Flood",
       "date": "2025-09-17",
-      "timestamp": "1762310493",
+      "timestamp": "1762312783",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -3342,7 +3342,7 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"complete\""
       ],
       "attributes": [],
       "galaxies": [
@@ -3378,7 +3378,7 @@
       "event_uuid": "c9fa7215-c552-43f7-b337-6f86229f348e",
       "info": "gRPC Flood",
       "date": "2025-09-16",
-      "timestamp": "1762310493",
+      "timestamp": "1762312908",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -3386,7 +3386,7 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"complete\""
       ],
       "attributes": [],
       "galaxies": [
@@ -3417,7 +3417,7 @@
       "event_uuid": "c8a91074-de78-499b-9fe4-e33e553abeca",
       "info": "SIP INVITE Flood",
       "date": "2025-09-15",
-      "timestamp": "1762310493",
+      "timestamp": "1762312923",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -3425,7 +3425,7 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"complete\""
       ],
       "attributes": [],
       "galaxies": [
@@ -3451,7 +3451,7 @@
       "event_uuid": "09ca2869-a4de-4549-985d-b15577a47fd1",
       "info": "RTSP Amplification",
       "date": "2025-09-14",
-      "timestamp": "1762310494",
+      "timestamp": "1762312937",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -3459,7 +3459,7 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"complete\""
       ],
       "attributes": [],
       "galaxies": [
@@ -3485,7 +3485,7 @@
       "event_uuid": "27fc7988-33b2-480e-a912-b92582de7abb",
       "info": "Multicast DNS Flood",
       "date": "2025-09-13",
-      "timestamp": "1762310494",
+      "timestamp": "1762313061",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -3493,7 +3493,7 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"complete\""
       ],
       "attributes": [],
       "galaxies": [
@@ -3519,7 +3519,7 @@
       "event_uuid": "90fc4af6-a2c2-4ba2-9f44-1e2e2b34a3ca",
       "info": "TeamSpeak3 Query Flood",
       "date": "2025-09-12",
-      "timestamp": "1762310494",
+      "timestamp": "1762313076",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -3527,7 +3527,7 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"complete\""
       ],
       "attributes": [],
       "galaxies": [
