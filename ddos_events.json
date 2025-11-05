@@ -1,6 +1,6 @@
 {
   "export_metadata": {
-    "export_date": "2025-11-05T02:06:02.329818Z",
+    "export_date": "2025-11-05T03:18:50.458587Z",
     "schema_version": "1.0",
     "filter_criteria": {
       "event_type": "DDoS (Network Denial of Service - T1498)",
@@ -11,7 +11,7 @@
       ],
       "published_only": false
     },
-    "total_events": 48,
+    "total_events": 96,
     "repository": "https://github.com/PabloPenguin/misp-ddos-events"
   },
   "events": [
@@ -108,6 +108,11 @@
         }
       ],
       "related_events": [
+        {
+          "id": "2250",
+          "info": "Fragmentation Attack",
+          "date": "2025-10-20"
+        },
         {
           "id": "1849",
           "info": "SSDP Reflection Attack",
@@ -369,6 +374,11 @@
       ],
       "related_events": [
         {
+          "id": "2250",
+          "info": "Fragmentation Attack",
+          "date": "2025-10-20"
+        },
+        {
           "id": "1840",
           "info": "SSDP Reflection Attack",
           "date": "2024-10-24"
@@ -438,7 +448,13 @@
           "description": "ATT&CK Tactic"
         }
       ],
-      "related_events": [],
+      "related_events": [
+        {
+          "id": "2251",
+          "info": "QUIC Flood",
+          "date": "2025-10-19"
+        }
+      ],
       "attribute_count": 0,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
@@ -468,7 +484,17 @@
       ],
       "related_events": [
         {
+          "id": "2252",
+          "info": "ICMP Flood",
+          "date": "2025-10-18"
+        },
+        {
           "id": "2232",
+          "info": "WebSocket Connection Flood",
+          "date": "2025-09-17"
+        },
+        {
+          "id": "2283",
           "info": "WebSocket Connection Flood",
           "date": "2025-09-17"
         }
@@ -500,7 +526,13 @@
           "description": "ATT&CK Tactic"
         }
       ],
-      "related_events": [],
+      "related_events": [
+        {
+          "id": "2254",
+          "info": "CoAP Amplification",
+          "date": "2025-10-16"
+        }
+      ],
       "attribute_count": 0,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
@@ -528,7 +560,13 @@
           "description": "ATT&CK Tactic"
         }
       ],
-      "related_events": [],
+      "related_events": [
+        {
+          "id": "2255",
+          "info": "GRE Flood",
+          "date": "2025-10-15"
+        }
+      ],
       "attribute_count": 0,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
@@ -556,7 +594,13 @@
           "description": "ATT&CK Tactic"
         }
       ],
-      "related_events": [],
+      "related_events": [
+        {
+          "id": "2256",
+          "info": "CHARGEN Amplification",
+          "date": "2025-10-14"
+        }
+      ],
       "attribute_count": 0,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
@@ -584,7 +628,13 @@
           "description": "ATT&CK Tactic"
         }
       ],
-      "related_events": [],
+      "related_events": [
+        {
+          "id": "2257",
+          "info": "SNMP Amplification",
+          "date": "2025-10-13"
+        }
+      ],
       "attribute_count": 0,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
@@ -614,7 +664,22 @@
       ],
       "related_events": [
         {
+          "id": "2245",
+          "info": "Memcached UDP Flood",
+          "date": "2025-10-25"
+        },
+        {
+          "id": "2258",
+          "info": "MSSQL Resolution Service Attack",
+          "date": "2025-10-12"
+        },
+        {
           "id": "2218",
+          "info": "Teardrop Attack",
+          "date": "2025-10-01"
+        },
+        {
+          "id": "2269",
           "info": "Teardrop Attack",
           "date": "2025-10-01"
         }
@@ -646,7 +711,13 @@
           "description": "ATT&CK Tactic"
         }
       ],
-      "related_events": [],
+      "related_events": [
+        {
+          "id": "2259",
+          "info": "RIPv1 Amplification",
+          "date": "2025-10-11"
+        }
+      ],
       "attribute_count": 0,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
@@ -674,7 +745,13 @@
           "description": "ATT&CK Tactic"
         }
       ],
-      "related_events": [],
+      "related_events": [
+        {
+          "id": "2260",
+          "info": "LDAP Injection DDoS",
+          "date": "2025-10-10"
+        }
+      ],
       "attribute_count": 0,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
@@ -702,7 +779,13 @@
           "description": "ATT&CK Tactic"
         }
       ],
-      "related_events": [],
+      "related_events": [
+        {
+          "id": "2261",
+          "info": "Steam Protocol Flood",
+          "date": "2025-10-09"
+        }
+      ],
       "attribute_count": 0,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
@@ -732,7 +815,17 @@
       ],
       "related_events": [
         {
+          "id": "2262",
+          "info": "Slowloris Attack",
+          "date": "2025-10-08"
+        },
+        {
           "id": "2229",
+          "info": "Redis Amplification",
+          "date": "2025-09-20"
+        },
+        {
+          "id": "2280",
           "info": "Redis Amplification",
           "date": "2025-09-20"
         }
@@ -766,7 +859,17 @@
       ],
       "related_events": [
         {
+          "id": "2263",
+          "info": "R.U.D.Y Attack",
+          "date": "2025-10-07"
+        },
+        {
           "id": "2230",
+          "info": "Elasticsearch Query Flood",
+          "date": "2025-09-19"
+        },
+        {
+          "id": "2281",
           "info": "Elasticsearch Query Flood",
           "date": "2025-09-19"
         }
@@ -798,7 +901,13 @@
           "description": "ATT&CK Tactic"
         }
       ],
-      "related_events": [],
+      "related_events": [
+        {
+          "id": "2264",
+          "info": "Sockstress Attack",
+          "date": "2025-10-06"
+        }
+      ],
       "attribute_count": 0,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
@@ -826,7 +935,13 @@
           "description": "ATT&CK Tactic"
         }
       ],
-      "related_events": [],
+      "related_events": [
+        {
+          "id": "2265",
+          "info": "DHCPv6 Flood",
+          "date": "2025-10-05"
+        }
+      ],
       "attribute_count": 0,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
@@ -854,7 +969,13 @@
           "description": "ATT&CK Tactic"
         }
       ],
-      "related_events": [],
+      "related_events": [
+        {
+          "id": "2266",
+          "info": "ESP Flood",
+          "date": "2025-10-04"
+        }
+      ],
       "attribute_count": 0,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
@@ -882,7 +1003,18 @@
           "description": "ATT&CK Tactic"
         }
       ],
-      "related_events": [],
+      "related_events": [
+        {
+          "id": "2238",
+          "info": "Fuad Test",
+          "date": "2025-11-05"
+        },
+        {
+          "id": "2267",
+          "info": "ARP Spoofing DDoS",
+          "date": "2025-10-03"
+        }
+      ],
       "attribute_count": 0,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
@@ -910,7 +1042,18 @@
           "description": "ATT&CK Tactic"
         }
       ],
-      "related_events": [],
+      "related_events": [
+        {
+          "id": "2244",
+          "info": "NTP Monlist Amplification",
+          "date": "2025-10-26"
+        },
+        {
+          "id": "2268",
+          "info": "BitTorrent Tracker Exploit",
+          "date": "2025-10-02"
+        }
+      ],
       "attribute_count": 0,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
@@ -940,9 +1083,24 @@
       ],
       "related_events": [
         {
+          "id": "2245",
+          "info": "Memcached UDP Flood",
+          "date": "2025-10-25"
+        },
+        {
           "id": "2207",
           "info": "MSSQL Resolution Service Attack",
           "date": "2025-10-12"
+        },
+        {
+          "id": "2258",
+          "info": "MSSQL Resolution Service Attack",
+          "date": "2025-10-12"
+        },
+        {
+          "id": "2269",
+          "info": "Teardrop Attack",
+          "date": "2025-10-01"
         }
       ],
       "attribute_count": 0,
@@ -977,6 +1135,16 @@
           "id": "2202",
           "info": "BGP Hijack-Assisted DDoS",
           "date": "2025-10-17"
+        },
+        {
+          "id": "2253",
+          "info": "BGP Hijack-Assisted DDoS",
+          "date": "2025-10-17"
+        },
+        {
+          "id": "2270",
+          "info": "RUDY + Slowloris Combo",
+          "date": "2025-09-30"
         }
       ],
       "attribute_count": 0,
@@ -1006,7 +1174,13 @@
           "description": "ATT&CK Tactic"
         }
       ],
-      "related_events": [],
+      "related_events": [
+        {
+          "id": "2271",
+          "info": "WS-Discovery Amplification",
+          "date": "2025-09-29"
+        }
+      ],
       "attribute_count": 0,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
@@ -1034,7 +1208,13 @@
           "description": "ATT&CK Tactic"
         }
       ],
-      "related_events": [],
+      "related_events": [
+        {
+          "id": "2272",
+          "info": "TFTP Amplification",
+          "date": "2025-09-28"
+        }
+      ],
       "attribute_count": 0,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
@@ -1062,7 +1242,13 @@
           "description": "ATT&CK Tactic"
         }
       ],
-      "related_events": [],
+      "related_events": [
+        {
+          "id": "2273",
+          "info": "RPC Portmapper Attack",
+          "date": "2025-09-27"
+        }
+      ],
       "attribute_count": 0,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
@@ -1090,7 +1276,13 @@
           "description": "ATT&CK Tactic"
         }
       ],
-      "related_events": [],
+      "related_events": [
+        {
+          "id": "2274",
+          "info": "NetBIOS Name Service Flood",
+          "date": "2025-09-26"
+        }
+      ],
       "attribute_count": 0,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
@@ -1118,7 +1310,13 @@
           "description": "ATT&CK Tactic"
         }
       ],
-      "related_events": [],
+      "related_events": [
+        {
+          "id": "2275",
+          "info": "Minecraft Server Exploit",
+          "date": "2025-09-25"
+        }
+      ],
       "attribute_count": 0,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
@@ -1146,7 +1344,13 @@
           "description": "ATT&CK Tactic"
         }
       ],
-      "related_events": [],
+      "related_events": [
+        {
+          "id": "2276",
+          "info": "OpenVPN UDP Flood",
+          "date": "2025-09-24"
+        }
+      ],
       "attribute_count": 0,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
@@ -1174,7 +1378,13 @@
           "description": "ATT&CK Tactic"
         }
       ],
-      "related_events": [],
+      "related_events": [
+        {
+          "id": "2277",
+          "info": "DTLS Flood",
+          "date": "2025-09-23"
+        }
+      ],
       "attribute_count": 0,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
@@ -1202,7 +1412,13 @@
           "description": "ATT&CK Tactic"
         }
       ],
-      "related_events": [],
+      "related_events": [
+        {
+          "id": "2278",
+          "info": "HTTP/2 Rapid Reset",
+          "date": "2025-09-22"
+        }
+      ],
       "attribute_count": 0,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
@@ -1230,7 +1446,13 @@
           "description": "ATT&CK Tactic"
         }
       ],
-      "related_events": [],
+      "related_events": [
+        {
+          "id": "2279",
+          "info": "PostgreSQL Amplification",
+          "date": "2025-09-21"
+        }
+      ],
       "attribute_count": 0,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
@@ -1263,6 +1485,16 @@
           "id": "2211",
           "info": "Slowloris Attack",
           "date": "2025-10-08"
+        },
+        {
+          "id": "2262",
+          "info": "Slowloris Attack",
+          "date": "2025-10-08"
+        },
+        {
+          "id": "2280",
+          "info": "Redis Amplification",
+          "date": "2025-09-20"
         }
       ],
       "attribute_count": 0,
@@ -1297,6 +1529,16 @@
           "id": "2212",
           "info": "R.U.D.Y Attack",
           "date": "2025-10-07"
+        },
+        {
+          "id": "2263",
+          "info": "R.U.D.Y Attack",
+          "date": "2025-10-07"
+        },
+        {
+          "id": "2281",
+          "info": "Elasticsearch Query Flood",
+          "date": "2025-09-19"
         }
       ],
       "attribute_count": 0,
@@ -1326,7 +1568,13 @@
           "description": "ATT&CK Tactic"
         }
       ],
-      "related_events": [],
+      "related_events": [
+        {
+          "id": "2282",
+          "info": "MQTT Protocol Flood",
+          "date": "2025-09-18"
+        }
+      ],
       "attribute_count": 0,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
@@ -1359,6 +1607,16 @@
           "id": "2201",
           "info": "ICMP Flood",
           "date": "2025-10-18"
+        },
+        {
+          "id": "2252",
+          "info": "ICMP Flood",
+          "date": "2025-10-18"
+        },
+        {
+          "id": "2283",
+          "info": "WebSocket Connection Flood",
+          "date": "2025-09-17"
         }
       ],
       "attribute_count": 0,
@@ -1388,7 +1646,18 @@
           "description": "ATT&CK Tactic"
         }
       ],
-      "related_events": [],
+      "related_events": [
+        {
+          "id": "2250",
+          "info": "Fragmentation Attack",
+          "date": "2025-10-20"
+        },
+        {
+          "id": "2284",
+          "info": "gRPC Flood",
+          "date": "2025-09-16"
+        }
+      ],
       "attribute_count": 0,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
@@ -1416,7 +1685,13 @@
           "description": "ATT&CK Tactic"
         }
       ],
-      "related_events": [],
+      "related_events": [
+        {
+          "id": "2285",
+          "info": "SIP INVITE Flood",
+          "date": "2025-09-15"
+        }
+      ],
       "attribute_count": 0,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
@@ -1444,7 +1719,13 @@
           "description": "ATT&CK Tactic"
         }
       ],
-      "related_events": [],
+      "related_events": [
+        {
+          "id": "2286",
+          "info": "RTSP Amplification",
+          "date": "2025-09-14"
+        }
+      ],
       "attribute_count": 0,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
@@ -1472,7 +1753,13 @@
           "description": "ATT&CK Tactic"
         }
       ],
-      "related_events": [],
+      "related_events": [
+        {
+          "id": "2287",
+          "info": "Multicast DNS Flood",
+          "date": "2025-09-13"
+        }
+      ],
       "attribute_count": 0,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
@@ -1500,7 +1787,1768 @@
           "description": "ATT&CK Tactic"
         }
       ],
+      "related_events": [
+        {
+          "id": "2247",
+          "info": "WordPress XML-RPC Amplification",
+          "date": "2025-10-23"
+        },
+        {
+          "id": "2288",
+          "info": "TeamSpeak3 Query Flood",
+          "date": "2025-09-12"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "2238",
+      "event_uuid": "529035a7-577b-4977-a4cc-f41d6e77f072",
+      "info": "Fuad Test",
+      "date": "2025-11-05",
+      "timestamp": "1762310209",
+      "published": false,
+      "tlp_level": "TLP:CLEAR",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:clear",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"ongoing\""
+      ],
+      "attributes": [
+        {
+          "id": "296638",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Event info \"Fuad Test\" is not descriptive enough for threat intelligence sharing and lacks meaningful context about the DDoS incident",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1762310209"
+        }
+      ],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "2216",
+          "info": "ARP Spoofing DDoS",
+          "date": "2025-10-03"
+        },
+        {
+          "id": "2267",
+          "info": "ARP Spoofing DDoS",
+          "date": "2025-10-03"
+        }
+      ],
+      "attribute_count": 1,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "2239",
+      "event_uuid": "41c2dcd6-c90f-4f4f-92f7-e5bd409f567a",
+      "info": "Massive HTTP Flood Campaign",
+      "date": "2025-10-31",
+      "timestamp": "1762310574",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"complete\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
       "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "2240",
+      "event_uuid": "64994619-2f75-4b15-951e-43df4adbf4ce",
+      "info": "DNS Query Flood",
+      "date": "2025-10-30",
+      "timestamp": "1762310588",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"complete\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "2242",
+      "event_uuid": "41d70caf-2940-46bc-9775-a773e1179c48",
+      "info": "CLDAP Amplification Attack",
+      "date": "2025-10-28",
+      "timestamp": "1762310729",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"complete\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "2243",
+      "event_uuid": "94313fe8-d13f-43ef-9186-47ec8ed4a00a",
+      "info": "Simple SYN Flood",
+      "date": "2025-10-27",
+      "timestamp": "1762310743",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"complete\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "2244",
+      "event_uuid": "674322a1-0877-45ea-b314-4a61e77a1142",
+      "info": "NTP Monlist Amplification",
+      "date": "2025-10-26",
+      "timestamp": "1762310759",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"complete\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "2217",
+          "info": "BitTorrent Tracker Exploit",
+          "date": "2025-10-02"
+        },
+        {
+          "id": "2268",
+          "info": "BitTorrent Tracker Exploit",
+          "date": "2025-10-02"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "2246",
+      "event_uuid": "c89ac28c-fd05-469d-92ef-88c1dc164a85",
+      "info": "SSDP Reflection from IoT Botnet",
+      "date": "2025-10-24",
+      "timestamp": "1762310899",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"complete\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "2247",
+      "event_uuid": "b0d68fae-4fef-4451-b73b-1526ad902031",
+      "info": "WordPress XML-RPC Amplification",
+      "date": "2025-10-23",
+      "timestamp": "1762310914",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"complete\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "2237",
+          "info": "TeamSpeak3 Query Flood",
+          "date": "2025-09-12"
+        },
+        {
+          "id": "2288",
+          "info": "TeamSpeak3 Query Flood",
+          "date": "2025-09-12"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "2248",
+      "event_uuid": "1ac42d8c-5b5d-4600-a1b3-15c5af82467e",
+      "info": "Gaming Protocol Flood",
+      "date": "2025-10-22",
+      "timestamp": "1762311040",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"complete\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "2249",
+      "event_uuid": "4421b426-e332-40d8-855a-1233fb2fe968",
+      "info": "ACK Flood Attack",
+      "date": "2025-10-21",
+      "timestamp": "1762311054",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"complete\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "2250",
+      "event_uuid": "ef65edde-2d8c-4a79-94d2-0cbae9762aec",
+      "info": "Fragmentation Attack",
+      "date": "2025-10-20",
+      "timestamp": "1762311070",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"complete\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "2233",
+          "info": "gRPC Flood",
+          "date": "2025-09-16"
+        },
+        {
+          "id": "2284",
+          "info": "gRPC Flood",
+          "date": "2025-09-16"
+        },
+        {
+          "id": "1840",
+          "info": "SSDP Reflection Attack",
+          "date": "2024-10-24"
+        },
+        {
+          "id": "1849",
+          "info": "SSDP Reflection Attack",
+          "date": "2024-10-24"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "2251",
+      "event_uuid": "2778249f-d704-456d-870f-bf93fa320d19",
+      "info": "QUIC Flood",
+      "date": "2025-10-19",
+      "timestamp": "1762311195",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"complete\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "2200",
+          "info": "QUIC Flood",
+          "date": "2025-10-19"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "2252",
+      "event_uuid": "3e291bca-d27e-46ab-96a5-7e5e119d9451",
+      "info": "ICMP Flood",
+      "date": "2025-10-18",
+      "timestamp": "1762311208",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"complete\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "2201",
+          "info": "ICMP Flood",
+          "date": "2025-10-18"
+        },
+        {
+          "id": "2232",
+          "info": "WebSocket Connection Flood",
+          "date": "2025-09-17"
+        },
+        {
+          "id": "2283",
+          "info": "WebSocket Connection Flood",
+          "date": "2025-09-17"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "2254",
+      "event_uuid": "a44187da-ff83-4104-8805-23e218849cff",
+      "info": "CoAP Amplification",
+      "date": "2025-10-16",
+      "timestamp": "1762311351",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"complete\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "2203",
+          "info": "CoAP Amplification",
+          "date": "2025-10-16"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "2255",
+      "event_uuid": "19a484d0-c477-47de-822b-7ae5eeede2cf",
+      "info": "GRE Flood",
+      "date": "2025-10-15",
+      "timestamp": "1762311366",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"complete\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "2204",
+          "info": "GRE Flood",
+          "date": "2025-10-15"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "2256",
+      "event_uuid": "ae676e07-e372-489c-97c4-1ef114fd4148",
+      "info": "CHARGEN Amplification",
+      "date": "2025-10-14",
+      "timestamp": "1762311382",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"complete\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "2205",
+          "info": "CHARGEN Amplification",
+          "date": "2025-10-14"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "2257",
+      "event_uuid": "4bdf1936-c1a4-4b94-8197-ddf917375e44",
+      "info": "SNMP Amplification",
+      "date": "2025-10-13",
+      "timestamp": "1762311506",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"complete\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "2206",
+          "info": "SNMP Amplification",
+          "date": "2025-10-13"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "2258",
+      "event_uuid": "453be438-1cef-4f44-b326-491f33a8dea6",
+      "info": "MSSQL Resolution Service Attack",
+      "date": "2025-10-12",
+      "timestamp": "1762311521",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"complete\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "2245",
+          "info": "Memcached UDP Flood",
+          "date": "2025-10-25"
+        },
+        {
+          "id": "2207",
+          "info": "MSSQL Resolution Service Attack",
+          "date": "2025-10-12"
+        },
+        {
+          "id": "2218",
+          "info": "Teardrop Attack",
+          "date": "2025-10-01"
+        },
+        {
+          "id": "2269",
+          "info": "Teardrop Attack",
+          "date": "2025-10-01"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "2259",
+      "event_uuid": "022d4be7-5530-43a6-8997-ba7c9115c9b8",
+      "info": "RIPv1 Amplification",
+      "date": "2025-10-11",
+      "timestamp": "1762311537",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"complete\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "2208",
+          "info": "RIPv1 Amplification",
+          "date": "2025-10-11"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "2260",
+      "event_uuid": "173ab855-8222-4941-bc18-4640f15470c1",
+      "info": "LDAP Injection DDoS",
+      "date": "2025-10-10",
+      "timestamp": "1762311664",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"complete\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "2209",
+          "info": "LDAP Injection DDoS",
+          "date": "2025-10-10"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "2261",
+      "event_uuid": "8719bb41-c007-4f38-b838-caf4a4679e60",
+      "info": "Steam Protocol Flood",
+      "date": "2025-10-09",
+      "timestamp": "1762311678",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"complete\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "2210",
+          "info": "Steam Protocol Flood",
+          "date": "2025-10-09"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "2262",
+      "event_uuid": "95e2aec2-8e3f-4f4a-b957-2a17bb2aac17",
+      "info": "Slowloris Attack",
+      "date": "2025-10-08",
+      "timestamp": "1762311694",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"complete\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "2211",
+          "info": "Slowloris Attack",
+          "date": "2025-10-08"
+        },
+        {
+          "id": "2229",
+          "info": "Redis Amplification",
+          "date": "2025-09-20"
+        },
+        {
+          "id": "2280",
+          "info": "Redis Amplification",
+          "date": "2025-09-20"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "2263",
+      "event_uuid": "8f57e054-a44f-4444-9f59-5789485f3fde",
+      "info": "R.U.D.Y Attack",
+      "date": "2025-10-07",
+      "timestamp": "1762311818",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"complete\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "2212",
+          "info": "R.U.D.Y Attack",
+          "date": "2025-10-07"
+        },
+        {
+          "id": "2230",
+          "info": "Elasticsearch Query Flood",
+          "date": "2025-09-19"
+        },
+        {
+          "id": "2281",
+          "info": "Elasticsearch Query Flood",
+          "date": "2025-09-19"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "2264",
+      "event_uuid": "4071fb8c-402f-4159-9b62-1171d00d4cb4",
+      "info": "Sockstress Attack",
+      "date": "2025-10-06",
+      "timestamp": "1762311832",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"complete\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "2213",
+          "info": "Sockstress Attack",
+          "date": "2025-10-06"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "2265",
+      "event_uuid": "a31dce5f-7e61-47f0-8ba5-a25bd6e0bbb6",
+      "info": "DHCPv6 Flood",
+      "date": "2025-10-05",
+      "timestamp": "1762311852",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"complete\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "2214",
+          "info": "DHCPv6 Flood",
+          "date": "2025-10-05"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "2266",
+      "event_uuid": "5fab051e-3ddf-4b50-93fe-11676c68bef1",
+      "info": "ESP Flood",
+      "date": "2025-10-04",
+      "timestamp": "1762311977",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"complete\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "2215",
+          "info": "ESP Flood",
+          "date": "2025-10-04"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "2267",
+      "event_uuid": "4b238a9f-5941-41cf-a64e-862a872135c6",
+      "info": "ARP Spoofing DDoS",
+      "date": "2025-10-03",
+      "timestamp": "1762311991",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"complete\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "2238",
+          "info": "Fuad Test",
+          "date": "2025-11-05"
+        },
+        {
+          "id": "2216",
+          "info": "ARP Spoofing DDoS",
+          "date": "2025-10-03"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "2268",
+      "event_uuid": "f8b7d335-bc2a-4f6b-9e84-145d878e44f8",
+      "info": "BitTorrent Tracker Exploit",
+      "date": "2025-10-02",
+      "timestamp": "1762312006",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"complete\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "2244",
+          "info": "NTP Monlist Amplification",
+          "date": "2025-10-26"
+        },
+        {
+          "id": "2217",
+          "info": "BitTorrent Tracker Exploit",
+          "date": "2025-10-02"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "2269",
+      "event_uuid": "eeca7541-31ef-4d1c-bf41-62dccf54760d",
+      "info": "Teardrop Attack",
+      "date": "2025-10-01",
+      "timestamp": "1762312130",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"complete\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "2245",
+          "info": "Memcached UDP Flood",
+          "date": "2025-10-25"
+        },
+        {
+          "id": "2207",
+          "info": "MSSQL Resolution Service Attack",
+          "date": "2025-10-12"
+        },
+        {
+          "id": "2258",
+          "info": "MSSQL Resolution Service Attack",
+          "date": "2025-10-12"
+        },
+        {
+          "id": "2218",
+          "info": "Teardrop Attack",
+          "date": "2025-10-01"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "2270",
+      "event_uuid": "cfced550-1f05-4fbc-9969-468487c20552",
+      "info": "RUDY + Slowloris Combo",
+      "date": "2025-09-30",
+      "timestamp": "1762312145",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"complete\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "2202",
+          "info": "BGP Hijack-Assisted DDoS",
+          "date": "2025-10-17"
+        },
+        {
+          "id": "2253",
+          "info": "BGP Hijack-Assisted DDoS",
+          "date": "2025-10-17"
+        },
+        {
+          "id": "2219",
+          "info": "RUDY + Slowloris Combo",
+          "date": "2025-09-30"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "2271",
+      "event_uuid": "68b31a61-a7b4-4711-a8ad-aaa733fbe585",
+      "info": "WS-Discovery Amplification",
+      "date": "2025-09-29",
+      "timestamp": "1762312161",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"complete\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "2220",
+          "info": "WS-Discovery Amplification",
+          "date": "2025-09-29"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "2272",
+      "event_uuid": "8e21bae2-b035-4c81-ab47-3e8ad7d1dc01",
+      "info": "TFTP Amplification",
+      "date": "2025-09-28",
+      "timestamp": "1762312285",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"complete\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "2221",
+          "info": "TFTP Amplification",
+          "date": "2025-09-28"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "2273",
+      "event_uuid": "d200e4a7-fa61-4938-a910-3f5fc0268633",
+      "info": "RPC Portmapper Attack",
+      "date": "2025-09-27",
+      "timestamp": "1762312299",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"complete\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "2222",
+          "info": "RPC Portmapper Attack",
+          "date": "2025-09-27"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "2274",
+      "event_uuid": "6df48fd9-f14f-443b-8acc-4b7323d7f2ac",
+      "info": "NetBIOS Name Service Flood",
+      "date": "2025-09-26",
+      "timestamp": "1762312316",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"complete\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "2223",
+          "info": "NetBIOS Name Service Flood",
+          "date": "2025-09-26"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "2275",
+      "event_uuid": "936bcabe-a25b-46a1-b786-8d14aa9d1eab",
+      "info": "Minecraft Server Exploit",
+      "date": "2025-09-25",
+      "timestamp": "1762312441",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"complete\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "2224",
+          "info": "Minecraft Server Exploit",
+          "date": "2025-09-25"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "2276",
+      "event_uuid": "7c206444-910b-46a8-bf8e-3e2c9d53c832",
+      "info": "OpenVPN UDP Flood",
+      "date": "2025-09-24",
+      "timestamp": "1762312455",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"complete\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "2225",
+          "info": "OpenVPN UDP Flood",
+          "date": "2025-09-24"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "2277",
+      "event_uuid": "7992184a-141d-47d8-9c2f-c1776ca326b7",
+      "info": "DTLS Flood",
+      "date": "2025-09-23",
+      "timestamp": "1762312470",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"complete\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "2226",
+          "info": "DTLS Flood",
+          "date": "2025-09-23"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "2278",
+      "event_uuid": "50d7ddeb-94c3-4376-b77f-53c731b0e9ba",
+      "info": "HTTP/2 Rapid Reset",
+      "date": "2025-09-22",
+      "timestamp": "1762312595",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"complete\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "2227",
+          "info": "HTTP/2 Rapid Reset",
+          "date": "2025-09-22"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "2279",
+      "event_uuid": "5dd937ab-ebcb-445b-8f3d-ee51b7f3a3bb",
+      "info": "PostgreSQL Amplification",
+      "date": "2025-09-21",
+      "timestamp": "1762312609",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"complete\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "2228",
+          "info": "PostgreSQL Amplification",
+          "date": "2025-09-21"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "2280",
+      "event_uuid": "cf164fd7-3f95-4fa7-a4af-992b9a2ccc4d",
+      "info": "Redis Amplification",
+      "date": "2025-09-20",
+      "timestamp": "1762312627",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"complete\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "2211",
+          "info": "Slowloris Attack",
+          "date": "2025-10-08"
+        },
+        {
+          "id": "2262",
+          "info": "Slowloris Attack",
+          "date": "2025-10-08"
+        },
+        {
+          "id": "2229",
+          "info": "Redis Amplification",
+          "date": "2025-09-20"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "2281",
+      "event_uuid": "ba7451ca-1b00-42bd-ab35-81eba3b0c271",
+      "info": "Elasticsearch Query Flood",
+      "date": "2025-09-19",
+      "timestamp": "1762310493",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "2212",
+          "info": "R.U.D.Y Attack",
+          "date": "2025-10-07"
+        },
+        {
+          "id": "2263",
+          "info": "R.U.D.Y Attack",
+          "date": "2025-10-07"
+        },
+        {
+          "id": "2230",
+          "info": "Elasticsearch Query Flood",
+          "date": "2025-09-19"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "2282",
+      "event_uuid": "7c034bdf-7ebb-47ad-96fd-3d100233170a",
+      "info": "MQTT Protocol Flood",
+      "date": "2025-09-18",
+      "timestamp": "1762310493",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "2231",
+          "info": "MQTT Protocol Flood",
+          "date": "2025-09-18"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "2283",
+      "event_uuid": "7edb18f6-46a8-4477-bf38-c3b8e001e50a",
+      "info": "WebSocket Connection Flood",
+      "date": "2025-09-17",
+      "timestamp": "1762310493",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "2201",
+          "info": "ICMP Flood",
+          "date": "2025-10-18"
+        },
+        {
+          "id": "2252",
+          "info": "ICMP Flood",
+          "date": "2025-10-18"
+        },
+        {
+          "id": "2232",
+          "info": "WebSocket Connection Flood",
+          "date": "2025-09-17"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "2284",
+      "event_uuid": "c9fa7215-c552-43f7-b337-6f86229f348e",
+      "info": "gRPC Flood",
+      "date": "2025-09-16",
+      "timestamp": "1762310493",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "2250",
+          "info": "Fragmentation Attack",
+          "date": "2025-10-20"
+        },
+        {
+          "id": "2233",
+          "info": "gRPC Flood",
+          "date": "2025-09-16"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "2285",
+      "event_uuid": "c8a91074-de78-499b-9fe4-e33e553abeca",
+      "info": "SIP INVITE Flood",
+      "date": "2025-09-15",
+      "timestamp": "1762310493",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "2234",
+          "info": "SIP INVITE Flood",
+          "date": "2025-09-15"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "2286",
+      "event_uuid": "09ca2869-a4de-4549-985d-b15577a47fd1",
+      "info": "RTSP Amplification",
+      "date": "2025-09-14",
+      "timestamp": "1762310494",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "2235",
+          "info": "RTSP Amplification",
+          "date": "2025-09-14"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "2287",
+      "event_uuid": "27fc7988-33b2-480e-a912-b92582de7abb",
+      "info": "Multicast DNS Flood",
+      "date": "2025-09-13",
+      "timestamp": "1762310494",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "2236",
+          "info": "Multicast DNS Flood",
+          "date": "2025-09-13"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "2288",
+      "event_uuid": "90fc4af6-a2c2-4ba2-9f44-1e2e2b34a3ca",
+      "info": "TeamSpeak3 Query Flood",
+      "date": "2025-09-12",
+      "timestamp": "1762310494",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "2247",
+          "info": "WordPress XML-RPC Amplification",
+          "date": "2025-10-23"
+        },
+        {
+          "id": "2237",
+          "info": "TeamSpeak3 Query Flood",
+          "date": "2025-09-12"
+        }
+      ],
       "attribute_count": 0,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
