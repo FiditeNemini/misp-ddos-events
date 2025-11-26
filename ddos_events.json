@@ -1,6 +1,6 @@
 {
   "export_metadata": {
-    "export_date": "2025-11-25T23:56:44.708216Z",
+    "export_date": "2025-11-26T02:07:59.513623Z",
     "schema_version": "1.0",
     "filter_criteria": {
       "event_type": "DDoS (Network Denial of Service - T1498)",
@@ -11,7 +11,7 @@
       ],
       "published_only": false
     },
-    "total_events": 96,
+    "total_events": 97,
     "repository": "https://github.com/PabloPenguin/misp-ddos-events"
   },
   "events": [
@@ -1005,6 +1005,11 @@
       ],
       "related_events": [
         {
+          "id": "2291",
+          "info": "Persistent DDoS actor targeting banks",
+          "date": "2025-11-26"
+        },
+        {
           "id": "2238",
           "info": "Fuad Test",
           "date": "2025-11-05"
@@ -1837,6 +1842,11 @@
         }
       ],
       "related_events": [
+        {
+          "id": "2291",
+          "info": "Persistent DDoS actor targeting banks",
+          "date": "2025-11-26"
+        },
         {
           "id": "2216",
           "info": "ARP Spoofing DDoS",
@@ -2755,6 +2765,11 @@
       ],
       "related_events": [
         {
+          "id": "2291",
+          "info": "Persistent DDoS actor targeting banks",
+          "date": "2025-11-26"
+        },
+        {
           "id": "2238",
           "info": "Fuad Test",
           "date": "2025-11-05"
@@ -3547,6 +3562,50 @@
           "id": "2237",
           "info": "TeamSpeak3 Query Flood",
           "date": "2025-09-12"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "2291",
+      "event_uuid": "2b718f45-e71d-42ca-9399-eaa9677683e9",
+      "info": "Persistent DDoS actor targeting banks",
+      "date": "2025-11-26",
+      "timestamp": "1764117870",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"complete\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "2238",
+          "info": "Fuad Test",
+          "date": "2025-11-05"
+        },
+        {
+          "id": "2216",
+          "info": "ARP Spoofing DDoS",
+          "date": "2025-10-03"
+        },
+        {
+          "id": "2267",
+          "info": "ARP Spoofing DDoS",
+          "date": "2025-10-03"
         }
       ],
       "attribute_count": 0,
