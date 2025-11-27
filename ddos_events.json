@@ -1,6 +1,6 @@
 {
   "export_metadata": {
-    "export_date": "2025-11-27T10:41:53.958211Z",
+    "export_date": "2025-11-27T10:55:20.515414Z",
     "schema_version": "1.0",
     "filter_criteria": {
       "event_type": "DDoS (Network Denial of Service - T1498)",
