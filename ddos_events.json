@@ -1,6 +1,6 @@
 {
   "export_metadata": {
-    "export_date": "2026-02-01T21:05:14.648176Z",
+    "export_date": "2026-02-01T21:20:10.593409Z",
     "schema_version": "1.0",
     "filter_criteria": {
       "event_type": "DDoS (Network Denial of Service - T1498)",
@@ -11,7 +11,7 @@
       ],
       "published_only": false
     },
-    "total_events": 106,
+    "total_events": 107,
     "repository": "https://github.com/PabloPenguin/misp-ddos-events"
   },
   "events": [
@@ -1049,6 +1049,11 @@
       ],
       "related_events": [
         {
+          "id": "2420",
+          "info": "Cosive Demo",
+          "date": "2026-02-02"
+        },
+        {
           "id": "2406",
           "info": "TLS Fingerprinting test",
           "date": "2026-02-01"
@@ -1891,6 +1896,11 @@
         }
       ],
       "related_events": [
+        {
+          "id": "2420",
+          "info": "Cosive Demo",
+          "date": "2026-02-02"
+        },
         {
           "id": "2406",
           "info": "TLS Fingerprinting test",
@@ -2824,6 +2834,11 @@
       ],
       "related_events": [
         {
+          "id": "2420",
+          "info": "Cosive Demo",
+          "date": "2026-02-02"
+        },
+        {
           "id": "2406",
           "info": "TLS Fingerprinting test",
           "date": "2026-02-01"
@@ -3657,6 +3672,11 @@
       ],
       "related_events": [
         {
+          "id": "2420",
+          "info": "Cosive Demo",
+          "date": "2026-02-02"
+        },
+        {
           "id": "2406",
           "info": "TLS Fingerprinting test",
           "date": "2026-02-01"
@@ -3724,6 +3744,11 @@
         }
       ],
       "related_events": [
+        {
+          "id": "2420",
+          "info": "Cosive Demo",
+          "date": "2026-02-02"
+        },
         {
           "id": "2291",
           "info": "Persistent DDoS actor targeting banks",
@@ -4116,6 +4141,70 @@
         }
       ],
       "related_events": [],
+      "attribute_count": 1,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "2420",
+      "event_uuid": "8e1cd401-31f1-45cb-9fdf-57313b8d16e7",
+      "info": "Cosive Demo",
+      "date": "2026-02-02",
+      "timestamp": "1769980654",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"ongoing\""
+      ],
+      "attributes": [
+        {
+          "id": "299384",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Generic event info \"Cosive Demo\" lacks descriptive DDoS attack details and event date is in the future",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1769980654"
+        }
+      ],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "2406",
+          "info": "TLS Fingerprinting test",
+          "date": "2026-02-01"
+        },
+        {
+          "id": "2291",
+          "info": "Persistent DDoS actor targeting banks",
+          "date": "2025-11-26"
+        },
+        {
+          "id": "2238",
+          "info": "Fuad Test",
+          "date": "2025-11-05"
+        },
+        {
+          "id": "2216",
+          "info": "ARP Spoofing DDoS",
+          "date": "2025-10-03"
+        },
+        {
+          "id": "2267",
+          "info": "ARP Spoofing DDoS",
+          "date": "2025-10-03"
+        }
+      ],
       "attribute_count": 1,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
