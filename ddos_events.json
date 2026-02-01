@@ -1,6 +1,6 @@
 {
   "export_metadata": {
-    "export_date": "2026-02-01T08:34:10.996808Z",
+    "export_date": "2026-02-01T08:51:34.602989Z",
     "schema_version": "1.0",
     "filter_criteria": {
       "event_type": "DDoS (Network Denial of Service - T1498)",
@@ -11,7 +11,7 @@
       ],
       "published_only": false
     },
-    "total_events": 97,
+    "total_events": 98,
     "repository": "https://github.com/PabloPenguin/misp-ddos-events"
   },
   "events": [
@@ -1005,6 +1005,11 @@
       ],
       "related_events": [
         {
+          "id": "2406",
+          "info": "TLS Fingerprinting test",
+          "date": "2026-02-01"
+        },
+        {
           "id": "2291",
           "info": "Persistent DDoS actor targeting banks",
           "date": "2025-11-26"
@@ -1842,6 +1847,11 @@
         }
       ],
       "related_events": [
+        {
+          "id": "2406",
+          "info": "TLS Fingerprinting test",
+          "date": "2026-02-01"
+        },
         {
           "id": "2291",
           "info": "Persistent DDoS actor targeting banks",
@@ -2765,6 +2775,11 @@
       ],
       "related_events": [
         {
+          "id": "2406",
+          "info": "TLS Fingerprinting test",
+          "date": "2026-02-01"
+        },
+        {
           "id": "2291",
           "info": "Persistent DDoS actor targeting banks",
           "date": "2025-11-26"
@@ -3593,6 +3608,11 @@
       ],
       "related_events": [
         {
+          "id": "2406",
+          "info": "TLS Fingerprinting test",
+          "date": "2026-02-01"
+        },
+        {
           "id": "2238",
           "info": "Fuad Test",
           "date": "2025-11-05"
@@ -3609,6 +3629,74 @@
         }
       ],
       "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "2406",
+      "event_uuid": "c4d42c62-08ea-4eb7-8a89-a0acdc42b374",
+      "info": "TLS Fingerprinting test",
+      "date": "2026-02-01",
+      "timestamp": "1769935181",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"ongoing\""
+      ],
+      "attributes": [
+        {
+          "id": "299300",
+          "type": "text",
+          "category": "Other",
+          "value": "JA4: t12d5908h1_7bd0586cbef7_046e095b7c4a",
+          "comment": "JA4 TLS fingerprint",
+          "to_ids": true,
+          "timestamp": "1769935150"
+        },
+        {
+          "id": "299303",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Event info \"TLS Fingerprinting test\" does not indicate DDoS relevance - event title should clearly describe DDoS attack characteristics",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1769935181"
+        }
+      ],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "2291",
+          "info": "Persistent DDoS actor targeting banks",
+          "date": "2025-11-26"
+        },
+        {
+          "id": "2238",
+          "info": "Fuad Test",
+          "date": "2025-11-05"
+        },
+        {
+          "id": "2216",
+          "info": "ARP Spoofing DDoS",
+          "date": "2025-10-03"
+        },
+        {
+          "id": "2267",
+          "info": "ARP Spoofing DDoS",
+          "date": "2025-10-03"
+        }
+      ],
+      "attribute_count": 2,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     }
