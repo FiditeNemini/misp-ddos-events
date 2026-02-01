@@ -1,6 +1,6 @@
 {
   "export_metadata": {
-    "export_date": "2026-02-01T09:21:11.392486Z",
+    "export_date": "2026-02-01T09:40:38.215660Z",
     "schema_version": "1.0",
     "filter_criteria": {
       "event_type": "DDoS (Network Denial of Service - T1498)",
@@ -3754,7 +3754,7 @@
       "event_uuid": "80b0fc13-5d5e-4bd7-a9cd-624b6d0bbbaf",
       "info": "Web Server Volumetric Attack",
       "date": "2026-02-01",
-      "timestamp": "1769937652",
+      "timestamp": "1769937708",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -3762,7 +3762,7 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"complete\""
       ],
       "attributes": [],
       "galaxies": [
@@ -3788,7 +3788,7 @@
       "event_uuid": "c9da3e00-b9e0-4164-8a4c-7c45f7b569f1",
       "info": "Multi-Vector DDoS with JA4 Family",
       "date": "2026-02-01",
-      "timestamp": "1769937652",
+      "timestamp": "1769937752",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -3796,7 +3796,7 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"ongoing\""
       ],
       "attributes": [
         {
@@ -3816,6 +3816,15 @@
           "comment": "JA4H TLS fingerprint",
           "to_ids": true,
           "timestamp": "1769937652"
+        },
+        {
+          "id": "299370",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Rate limit exceeded - will retry on next check",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1769937752"
         }
       ],
       "galaxies": [
@@ -3832,7 +3841,7 @@
           "date": "2024-10-26"
         }
       ],
-      "attribute_count": 2,
+      "attribute_count": 3,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
@@ -3841,7 +3850,7 @@
       "event_uuid": "885e8bda-3849-4628-a8d7-0dff2dc8fb82",
       "info": "NTP Amplification - No TLS",
       "date": "2026-01-31",
-      "timestamp": "1769937652",
+      "timestamp": "1769937876",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -3849,7 +3858,7 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"complete\""
       ],
       "attributes": [],
       "galaxies": [
@@ -3869,7 +3878,7 @@
       "event_uuid": "f5aea879-d4c4-41b2-90b3-1c919f073428",
       "info": "SSDP Reflection Attack",
       "date": "2026-01-30",
-      "timestamp": "1769937653",
+      "timestamp": "1769938039",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -3877,7 +3886,7 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"complete\""
       ],
       "attributes": [],
       "galaxies": [
@@ -3903,7 +3912,7 @@
       "event_uuid": "e961eb4d-fece-48b2-b5b4-998047fe04f0",
       "info": "Mixed Protocol DDoS with Multiple Fingerprints",
       "date": "2026-01-30",
-      "timestamp": "1769937653",
+      "timestamp": "1769938060",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -3911,7 +3920,7 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"ongoing\""
       ],
       "attributes": [
         {
@@ -3949,6 +3958,15 @@
           "comment": "JARM TLS fingerprint",
           "to_ids": true,
           "timestamp": "1769937653"
+        },
+        {
+          "id": "299373",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Rate limit exceeded - will retry on next check",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1769938060"
         }
       ],
       "galaxies": [
@@ -3959,7 +3977,7 @@
         }
       ],
       "related_events": [],
-      "attribute_count": 4,
+      "attribute_count": 5,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
@@ -3968,7 +3986,7 @@
       "event_uuid": "d5c18ceb-bc01-41d7-b3ea-edcb67caeaa4",
       "info": "Gaming Server UDP Flood",
       "date": "2026-01-29",
-      "timestamp": "1769937653",
+      "timestamp": "1769938084",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -3976,9 +3994,19 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"ongoing\""
       ],
-      "attributes": [],
+      "attributes": [
+        {
+          "id": "299374",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Rate limit exceeded - will retry on next check",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1769938084"
+        }
+      ],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -4003,7 +4031,7 @@
           "date": "2024-10-24"
         }
       ],
-      "attribute_count": 0,
+      "attribute_count": 1,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
@@ -4012,7 +4040,7 @@
       "event_uuid": "b004e2d3-4f7e-4526-b988-eadd615a52ca",
       "info": "HTTPS Flood with JA3S Server Response",
       "date": "2026-01-29",
-      "timestamp": "1769937653",
+      "timestamp": "1769938208",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -4020,7 +4048,7 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"complete\""
       ],
       "attributes": [
         {
@@ -4059,7 +4087,7 @@
       "event_uuid": "967d2fa1-a921-4095-9e0e-3d5345ff6dda",
       "info": "Memcached Amplification",
       "date": "2026-01-28",
-      "timestamp": "1769937654",
+      "timestamp": "1769938250",
       "published": false,
       "tlp_level": "TLP:CLEAR",
       "threat_level": "4",
@@ -4067,9 +4095,19 @@
       "tags": [
         "tlp:clear",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"ongoing\""
       ],
-      "attributes": [],
+      "attributes": [
+        {
+          "id": "299376",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Rate limit exceeded - will retry on next check",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1769938250"
+        }
+      ],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -4078,7 +4116,7 @@
         }
       ],
       "related_events": [],
-      "attribute_count": 0,
+      "attribute_count": 1,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     }
