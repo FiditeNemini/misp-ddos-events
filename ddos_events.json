@@ -1,6 +1,6 @@
 {
   "export_metadata": {
-    "export_date": "2026-05-05T02:09:30.372691Z",
+    "export_date": "2026-05-05T03:25:01.514434Z",
     "schema_version": "1.0",
     "filter_criteria": {
       "event_type": "DDoS (Network Denial of Service - T1498)",
@@ -11,7 +11,7 @@
       ],
       "published_only": false
     },
-    "total_events": 109,
+    "total_events": 110,
     "repository": "https://github.com/PabloPenguin/misp-ddos-events"
   },
   "events": [
@@ -1054,6 +1054,11 @@
       ],
       "related_events": [
         {
+          "id": "2868",
+          "info": "Test",
+          "date": "2026-05-05"
+        },
+        {
           "id": "2420",
           "info": "Cosive Demo",
           "date": "2026-02-02"
@@ -1901,6 +1906,11 @@
         }
       ],
       "related_events": [
+        {
+          "id": "2868",
+          "info": "Test",
+          "date": "2026-05-05"
+        },
         {
           "id": "2420",
           "info": "Cosive Demo",
@@ -2839,6 +2849,11 @@
       ],
       "related_events": [
         {
+          "id": "2868",
+          "info": "Test",
+          "date": "2026-05-05"
+        },
+        {
           "id": "2420",
           "info": "Cosive Demo",
           "date": "2026-02-02"
@@ -3677,6 +3692,11 @@
       ],
       "related_events": [
         {
+          "id": "2868",
+          "info": "Test",
+          "date": "2026-05-05"
+        },
+        {
           "id": "2420",
           "info": "Cosive Demo",
           "date": "2026-02-02"
@@ -3749,6 +3769,11 @@
         }
       ],
       "related_events": [
+        {
+          "id": "2868",
+          "info": "Test",
+          "date": "2026-05-05"
+        },
         {
           "id": "2420",
           "info": "Cosive Demo",
@@ -4190,6 +4215,11 @@
       ],
       "related_events": [
         {
+          "id": "2868",
+          "info": "Test",
+          "date": "2026-05-05"
+        },
+        {
           "id": "2406",
           "info": "TLS Fingerprinting test",
           "date": "2026-02-01"
@@ -4307,6 +4337,75 @@
         }
       ],
       "related_events": [],
+      "attribute_count": 1,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "2868",
+      "event_uuid": "38984c2f-14e6-48f6-a1bb-8006ac31be22",
+      "info": "Test",
+      "date": "2026-05-05",
+      "timestamp": "1777947760",
+      "published": false,
+      "tlp_level": "TLP:CLEAR",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:clear",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"ongoing\""
+      ],
+      "attributes": [
+        {
+          "id": "411477",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Validation error: An error occurred (ResourceNotFoundException) when calling the InvokeModel operation: This model version has reached the end of its life. Please refer to the AWS documentation for more details.",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1777947760"
+        }
+      ],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "2420",
+          "info": "Cosive Demo",
+          "date": "2026-02-02"
+        },
+        {
+          "id": "2406",
+          "info": "TLS Fingerprinting test",
+          "date": "2026-02-01"
+        },
+        {
+          "id": "2291",
+          "info": "Persistent DDoS actor targeting banks",
+          "date": "2025-11-26"
+        },
+        {
+          "id": "2238",
+          "info": "Fuad Test",
+          "date": "2025-11-05"
+        },
+        {
+          "id": "2216",
+          "info": "ARP Spoofing DDoS",
+          "date": "2025-10-03"
+        },
+        {
+          "id": "2267",
+          "info": "ARP Spoofing DDoS",
+          "date": "2025-10-03"
+        }
+      ],
       "attribute_count": 1,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
