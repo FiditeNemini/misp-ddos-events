@@ -1,6 +1,6 @@
 {
   "export_metadata": {
-    "export_date": "2026-08-05T02:24:22.543761Z",
+    "export_date": "2026-08-05T03:37:54.615396Z",
     "schema_version": "1.0",
     "filter_criteria": {
       "event_type": "DDoS (Network Denial of Service - T1498)",
@@ -4844,7 +4844,7 @@
       "event_uuid": "e8efdca3-7a9f-44dd-80c0-540a65579f30",
       "info": "University Network DDoS",
       "date": "2026-01-30",
-      "timestamp": "1785896109",
+      "timestamp": "1785896662",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -4852,9 +4852,19 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"ongoing\""
       ],
-      "attributes": [],
+      "attributes": [
+        {
+          "id": "572420",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Validation error: An error occurred (ResourceNotFoundException) when calling the InvokeModel operation: This model version has reached the end of its life. Please refer to the AWS documentation for more details.",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1785896662"
+        }
+      ],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -4863,7 +4873,7 @@
         }
       ],
       "related_events": [],
-      "attribute_count": 0,
+      "attribute_count": 1,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
@@ -4872,7 +4882,7 @@
       "event_uuid": "1af8df12-909c-4257-b3c8-ff89413d3083",
       "info": "News Media Website Flood",
       "date": "2026-01-30",
-      "timestamp": "1785896110",
+      "timestamp": "1785896795",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -4880,9 +4890,19 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"ongoing\""
       ],
-      "attributes": [],
+      "attributes": [
+        {
+          "id": "572422",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Validation error: An error occurred (ResourceNotFoundException) when calling the InvokeModel operation: This model version has reached the end of its life. Please refer to the AWS documentation for more details.",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1785896795"
+        }
+      ],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -4891,7 +4911,7 @@
         }
       ],
       "related_events": [],
-      "attribute_count": 0,
+      "attribute_count": 1,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
@@ -4900,7 +4920,7 @@
       "event_uuid": "1d7ae68b-5325-40e4-b3da-0ce847199082",
       "info": "Social Media Platform Attack",
       "date": "2026-01-29",
-      "timestamp": "1785896111",
+      "timestamp": "1785896952",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -4908,9 +4928,19 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"ongoing\""
       ],
-      "attributes": [],
+      "attributes": [
+        {
+          "id": "572426",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Validation error: An error occurred (ResourceNotFoundException) when calling the InvokeModel operation: This model version has reached the end of its life. Please refer to the AWS documentation for more details.",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1785896952"
+        }
+      ],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -4919,7 +4949,7 @@
         }
       ],
       "related_events": [],
-      "attribute_count": 0,
+      "attribute_count": 1,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
@@ -4928,7 +4958,7 @@
       "event_uuid": "6504f28e-e8b2-4c18-8da3-8e53f757f2ef",
       "info": "Cloud Provider Edge Attack",
       "date": "2026-01-29",
-      "timestamp": "1785896111",
+      "timestamp": "1785896963",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -4936,9 +4966,19 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"ongoing\""
       ],
-      "attributes": [],
+      "attributes": [
+        {
+          "id": "572427",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Validation error: An error occurred (ResourceNotFoundException) when calling the InvokeModel operation: This model version has reached the end of its life. Please refer to the AWS documentation for more details.",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1785896963"
+        }
+      ],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -4947,7 +4987,7 @@
         }
       ],
       "related_events": [],
-      "attribute_count": 0,
+      "attribute_count": 1,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
@@ -4956,7 +4996,7 @@
       "event_uuid": "6955520d-46f3-4dfa-892b-7b2df59bc40d",
       "info": "Online Education Platform",
       "date": "2026-01-29",
-      "timestamp": "1785896112",
+      "timestamp": "1785897085",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -4964,9 +5004,19 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"ongoing\""
       ],
-      "attributes": [],
+      "attributes": [
+        {
+          "id": "572428",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Validation error: An error occurred (ResourceNotFoundException) when calling the InvokeModel operation: This model version has reached the end of its life. Please refer to the AWS documentation for more details.",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1785897085"
+        }
+      ],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -4981,7 +5031,7 @@
           "date": "2026-02-01"
         }
       ],
-      "attribute_count": 0,
+      "attribute_count": 1,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
@@ -4990,7 +5040,7 @@
       "event_uuid": "29ffdb50-2b23-44ce-9b11-363d0d6d2ff5",
       "info": "Airline Booking System Attack",
       "date": "2026-01-28",
-      "timestamp": "1785896113",
+      "timestamp": "1785897241",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -4998,9 +5048,19 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"ongoing\""
       ],
-      "attributes": [],
+      "attributes": [
+        {
+          "id": "572432",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Validation error: An error occurred (ResourceNotFoundException) when calling the InvokeModel operation: This model version has reached the end of its life. Please refer to the AWS documentation for more details.",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1785897241"
+        }
+      ],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -5015,7 +5075,7 @@
           "date": "2026-01-31"
         }
       ],
-      "attribute_count": 0,
+      "attribute_count": 1,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
@@ -5024,7 +5084,7 @@
       "event_uuid": "d838de4b-00da-4369-8d7d-e5de73c25cdf",
       "info": "Dating App API Flood",
       "date": "2026-01-28",
-      "timestamp": "1785896113",
+      "timestamp": "1785897253",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -5032,9 +5092,19 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"ongoing\""
       ],
-      "attributes": [],
+      "attributes": [
+        {
+          "id": "572433",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Validation error: An error occurred (ResourceNotFoundException) when calling the InvokeModel operation: This model version has reached the end of its life. Please refer to the AWS documentation for more details.",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1785897253"
+        }
+      ],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -5043,7 +5113,7 @@
         }
       ],
       "related_events": [],
-      "attribute_count": 0,
+      "attribute_count": 1,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
@@ -5052,7 +5122,7 @@
       "event_uuid": "e80230d2-c8b6-4093-9cae-817b3150ad0e",
       "info": "Logistics Tracking System",
       "date": "2026-01-27",
-      "timestamp": "1785896114",
+      "timestamp": "1785897386",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -5060,9 +5130,19 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"ongoing\""
       ],
-      "attributes": [],
+      "attributes": [
+        {
+          "id": "572435",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Validation error: An error occurred (ResourceNotFoundException) when calling the InvokeModel operation: This model version has reached the end of its life. Please refer to the AWS documentation for more details.",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1785897386"
+        }
+      ],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -5071,7 +5151,7 @@
         }
       ],
       "related_events": [],
-      "attribute_count": 0,
+      "attribute_count": 1,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
@@ -5080,7 +5160,7 @@
       "event_uuid": "3ce3f5eb-f2f3-455d-bb29-01c2ad2bc7cf",
       "info": "Food Delivery Platform DDoS",
       "date": "2026-01-27",
-      "timestamp": "1785896114",
+      "timestamp": "1785897397",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -5088,9 +5168,19 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"ongoing\""
       ],
-      "attributes": [],
+      "attributes": [
+        {
+          "id": "572436",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Validation error: An error occurred (ResourceNotFoundException) when calling the InvokeModel operation: This model version has reached the end of its life. Please refer to the AWS documentation for more details.",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1785897397"
+        }
+      ],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -5099,7 +5189,7 @@
         }
       ],
       "related_events": [],
-      "attribute_count": 0,
+      "attribute_count": 1,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
@@ -5108,7 +5198,7 @@
       "event_uuid": "6c100869-aba7-4bc3-9630-f535342e838b",
       "info": "Ride Share Service Attack",
       "date": "2026-01-27",
-      "timestamp": "1785896115",
+      "timestamp": "1785897519",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -5116,9 +5206,19 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"ongoing\""
       ],
-      "attributes": [],
+      "attributes": [
+        {
+          "id": "572437",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Validation error: An error occurred (ResourceNotFoundException) when calling the InvokeModel operation: This model version has reached the end of its life. Please refer to the AWS documentation for more details.",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1785897519"
+        }
+      ],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -5127,7 +5227,7 @@
         }
       ],
       "related_events": [],
-      "attribute_count": 0,
+      "attribute_count": 1,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
@@ -5136,7 +5236,7 @@
       "event_uuid": "deacbb9f-dbb1-40af-8ed0-6ea183b532a5",
       "info": "Video Conference Platform",
       "date": "2026-01-27",
-      "timestamp": "1785896116",
+      "timestamp": "1785897542",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -5144,9 +5244,19 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"ongoing\""
       ],
-      "attributes": [],
+      "attributes": [
+        {
+          "id": "572439",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Validation error: An error occurred (ResourceNotFoundException) when calling the InvokeModel operation: This model version has reached the end of its life. Please refer to the AWS documentation for more details.",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1785897542"
+        }
+      ],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -5155,7 +5265,7 @@
         }
       ],
       "related_events": [],
-      "attribute_count": 0,
+      "attribute_count": 1,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
@@ -5164,7 +5274,7 @@
       "event_uuid": "072aaa2a-3d9f-4c86-a48b-19b7ed61524b",
       "info": "Weather Service API Attack",
       "date": "2026-01-26",
-      "timestamp": "1785896116",
+      "timestamp": "1785897675",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -5172,9 +5282,19 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"ongoing\""
       ],
-      "attributes": [],
+      "attributes": [
+        {
+          "id": "572441",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Validation error: An error occurred (ResourceNotFoundException) when calling the InvokeModel operation: This model version has reached the end of its life. Please refer to the AWS documentation for more details.",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1785897675"
+        }
+      ],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -5183,7 +5303,7 @@
         }
       ],
       "related_events": [],
-      "attribute_count": 0,
+      "attribute_count": 1,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
@@ -5192,7 +5312,7 @@
       "event_uuid": "7c607e5e-57e2-4ce1-8212-ef684ff4871d",
       "info": "Hotel Booking Platform",
       "date": "2026-01-26",
-      "timestamp": "1785896117",
+      "timestamp": "1785897686",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -5200,9 +5320,19 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"ongoing\""
       ],
-      "attributes": [],
+      "attributes": [
+        {
+          "id": "572442",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Validation error: An error occurred (ResourceNotFoundException) when calling the InvokeModel operation: This model version has reached the end of its life. Please refer to the AWS documentation for more details.",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1785897686"
+        }
+      ],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -5211,7 +5341,7 @@
         }
       ],
       "related_events": [],
-      "attribute_count": 0,
+      "attribute_count": 1,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
@@ -5220,7 +5350,7 @@
       "event_uuid": "fab27753-5f5a-4b78-9f1b-59bc9783eadc",
       "info": "Music Streaming Service",
       "date": "2026-01-26",
-      "timestamp": "1785896117",
+      "timestamp": "1785897808",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -5228,9 +5358,19 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"ongoing\""
       ],
-      "attributes": [],
+      "attributes": [
+        {
+          "id": "572443",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Validation error: An error occurred (ResourceNotFoundException) when calling the InvokeModel operation: This model version has reached the end of its life. Please refer to the AWS documentation for more details.",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1785897808"
+        }
+      ],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -5239,7 +5379,7 @@
         }
       ],
       "related_events": [],
-      "attribute_count": 0,
+      "attribute_count": 1,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
@@ -5248,7 +5388,7 @@
       "event_uuid": "bafe2618-12d9-46e1-a557-f2519ca0ff43",
       "info": "Online Gaming Tournament",
       "date": "2026-01-26",
-      "timestamp": "1785896117",
+      "timestamp": "1785897819",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -5256,9 +5396,19 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"ongoing\""
       ],
-      "attributes": [],
+      "attributes": [
+        {
+          "id": "572444",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Validation error: An error occurred (ResourceNotFoundException) when calling the InvokeModel operation: This model version has reached the end of its life. Please refer to the AWS documentation for more details.",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1785897819"
+        }
+      ],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -5267,7 +5417,7 @@
         }
       ],
       "related_events": [],
-      "attribute_count": 0,
+      "attribute_count": 1,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
@@ -5276,7 +5426,7 @@
       "event_uuid": "646bc63f-2a56-481b-abf0-6eb15263eb7f",
       "info": "Political Campaign Website",
       "date": "2026-01-25",
-      "timestamp": "1785896118",
+      "timestamp": "1785897952",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -5284,9 +5434,19 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"ongoing\""
       ],
-      "attributes": [],
+      "attributes": [
+        {
+          "id": "572446",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Validation error: An error occurred (ResourceNotFoundException) when calling the InvokeModel operation: This model version has reached the end of its life. Please refer to the AWS documentation for more details.",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1785897953"
+        }
+      ],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -5295,7 +5455,7 @@
         }
       ],
       "related_events": [],
-      "attribute_count": 0,
+      "attribute_count": 1,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
@@ -5304,7 +5464,7 @@
       "event_uuid": "1119501a-084a-40db-8e78-2683350df717",
       "info": "Car Rental Booking System",
       "date": "2026-01-25",
-      "timestamp": "1785896118",
+      "timestamp": "1785897964",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -5312,9 +5472,19 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"ongoing\""
       ],
-      "attributes": [],
+      "attributes": [
+        {
+          "id": "572447",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Validation error: An error occurred (ResourceNotFoundException) when calling the InvokeModel operation: This model version has reached the end of its life. Please refer to the AWS documentation for more details.",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1785897964"
+        }
+      ],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -5323,7 +5493,7 @@
         }
       ],
       "related_events": [],
-      "attribute_count": 0,
+      "attribute_count": 1,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
@@ -5332,7 +5502,7 @@
       "event_uuid": "3d9df132-4be8-4840-8943-349cd64561b2",
       "info": "Podcast Hosting Platform",
       "date": "2026-01-25",
-      "timestamp": "1785896119",
+      "timestamp": "1785897975",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -5340,9 +5510,19 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"ongoing\""
       ],
-      "attributes": [],
+      "attributes": [
+        {
+          "id": "572448",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Validation error: An error occurred (ResourceNotFoundException) when calling the InvokeModel operation: This model version has reached the end of its life. Please refer to the AWS documentation for more details.",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1785897975"
+        }
+      ],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -5351,7 +5531,7 @@
         }
       ],
       "related_events": [],
-      "attribute_count": 0,
+      "attribute_count": 1,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
@@ -5360,7 +5540,7 @@
       "event_uuid": "ef46d764-530a-4329-8661-995538e46d51",
       "info": "Property Listing Website",
       "date": "2026-01-25",
-      "timestamp": "1785896119",
+      "timestamp": "1785898097",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -5368,9 +5548,19 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"ongoing\""
       ],
-      "attributes": [],
+      "attributes": [
+        {
+          "id": "572449",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Validation error: An error occurred (ResourceNotFoundException) when calling the InvokeModel operation: This model version has reached the end of its life. Please refer to the AWS documentation for more details.",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1785898097"
+        }
+      ],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -5379,7 +5569,7 @@
         }
       ],
       "related_events": [],
-      "attribute_count": 0,
+      "attribute_count": 1,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
@@ -5388,7 +5578,7 @@
       "event_uuid": "e6c7c763-44b1-430b-9ce3-d93cb1fe67be",
       "info": "Fitness App Backend Attack",
       "date": "2026-01-24",
-      "timestamp": "1785896119",
+      "timestamp": "1785898109",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -5396,9 +5586,19 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"ongoing\""
       ],
-      "attributes": [],
+      "attributes": [
+        {
+          "id": "572450",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Validation error: An error occurred (ResourceNotFoundException) when calling the InvokeModel operation: This model version has reached the end of its life. Please refer to the AWS documentation for more details.",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1785898109"
+        }
+      ],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -5407,7 +5607,7 @@
         }
       ],
       "related_events": [],
-      "attribute_count": 0,
+      "attribute_count": 1,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
@@ -5416,7 +5616,7 @@
       "event_uuid": "1b21e630-a665-4741-854e-d95dc14cc228",
       "info": "Job Search Platform DDoS",
       "date": "2026-01-24",
-      "timestamp": "1785896120",
+      "timestamp": "1785898120",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -5424,9 +5624,19 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"ongoing\""
       ],
-      "attributes": [],
+      "attributes": [
+        {
+          "id": "572451",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Validation error: An error occurred (ResourceNotFoundException) when calling the InvokeModel operation: This model version has reached the end of its life. Please refer to the AWS documentation for more details.",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1785898120"
+        }
+      ],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -5435,7 +5645,7 @@
         }
       ],
       "related_events": [],
-      "attribute_count": 0,
+      "attribute_count": 1,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
@@ -5444,7 +5654,7 @@
       "event_uuid": "badcf909-e44e-4ef4-95b8-e5de2b4e6bb9",
       "info": "Pet Supply E-Commerce",
       "date": "2026-01-24",
-      "timestamp": "1785896120",
+      "timestamp": "1785898242",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -5452,9 +5662,19 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"ongoing\""
       ],
-      "attributes": [],
+      "attributes": [
+        {
+          "id": "572452",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Validation error: An error occurred (ResourceNotFoundException) when calling the InvokeModel operation: This model version has reached the end of its life. Please refer to the AWS documentation for more details.",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1785898242"
+        }
+      ],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -5463,7 +5683,7 @@
         }
       ],
       "related_events": [],
-      "attribute_count": 0,
+      "attribute_count": 1,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
@@ -5472,7 +5692,7 @@
       "event_uuid": "2056d859-6e44-450d-9c7a-c07fd4f24229",
       "info": "Online Auction Platform",
       "date": "2026-01-24",
-      "timestamp": "1785896121",
+      "timestamp": "1785898265",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -5480,9 +5700,19 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"ongoing\""
       ],
-      "attributes": [],
+      "attributes": [
+        {
+          "id": "572454",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Validation error: An error occurred (ResourceNotFoundException) when calling the InvokeModel operation: This model version has reached the end of its life. Please refer to the AWS documentation for more details.",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1785898265"
+        }
+      ],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -5491,7 +5721,7 @@
         }
       ],
       "related_events": [],
-      "attribute_count": 0,
+      "attribute_count": 1,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
@@ -5500,7 +5730,7 @@
       "event_uuid": "94150f4f-16e5-47fe-9a44-f8c33f9cc0da",
       "info": "Grocery Delivery Service",
       "date": "2026-01-23",
-      "timestamp": "1785896121",
+      "timestamp": "1785898386",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -5508,9 +5738,19 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"ongoing\""
       ],
-      "attributes": [],
+      "attributes": [
+        {
+          "id": "572455",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Validation error: An error occurred (ResourceNotFoundException) when calling the InvokeModel operation: This model version has reached the end of its life. Please refer to the AWS documentation for more details.",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1785898386"
+        }
+      ],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -5525,7 +5765,7 @@
           "date": "2026-01-24"
         }
       ],
-      "attribute_count": 0,
+      "attribute_count": 1,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
@@ -5534,7 +5774,7 @@
       "event_uuid": "27d37aea-1bd7-4fe8-bd41-fe173b378c8a",
       "info": "Event Ticketing Platform",
       "date": "2026-01-23",
-      "timestamp": "1785896121",
+      "timestamp": "1785898398",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -5542,9 +5782,19 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"ongoing\""
       ],
-      "attributes": [],
+      "attributes": [
+        {
+          "id": "572456",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Validation error: An error occurred (ResourceNotFoundException) when calling the InvokeModel operation: This model version has reached the end of its life. Please refer to the AWS documentation for more details.",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1785898398"
+        }
+      ],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -5553,7 +5803,7 @@
         }
       ],
       "related_events": [],
-      "attribute_count": 0,
+      "attribute_count": 1,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
@@ -5562,7 +5812,7 @@
       "event_uuid": "e6de5abe-596b-43eb-9a99-241722104d23",
       "info": "Photo Sharing Platform",
       "date": "2026-01-23",
-      "timestamp": "1785896122",
+      "timestamp": "1785898531",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -5570,9 +5820,19 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"ongoing\""
       ],
-      "attributes": [],
+      "attributes": [
+        {
+          "id": "572458",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Validation error: An error occurred (ResourceNotFoundException) when calling the InvokeModel operation: This model version has reached the end of its life. Please refer to the AWS documentation for more details.",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1785898531"
+        }
+      ],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -5581,7 +5841,7 @@
         }
       ],
       "related_events": [],
-      "attribute_count": 0,
+      "attribute_count": 1,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     },
@@ -5590,7 +5850,7 @@
       "event_uuid": "8eb6927f-8bb7-496a-95f4-eea9b39a9721",
       "info": "Crowdfunding Website Attack",
       "date": "2026-01-23",
-      "timestamp": "1785896122",
+      "timestamp": "1785898542",
       "published": false,
       "tlp_level": "TLP:GREEN",
       "threat_level": "4",
@@ -5598,9 +5858,19 @@
       "tags": [
         "tlp:green",
         "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
-        "workflow:state=\"draft\""
+        "workflow:state=\"ongoing\""
       ],
-      "attributes": [],
+      "attributes": [
+        {
+          "id": "572459",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Validation error: An error occurred (ResourceNotFoundException) when calling the InvokeModel operation: This model version has reached the end of its life. Please refer to the AWS documentation for more details.",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1785898542"
+        }
+      ],
       "galaxies": [
         {
           "name": "Attack Pattern",
@@ -5609,7 +5879,7 @@
         }
       ],
       "related_events": [],
-      "attribute_count": 0,
+      "attribute_count": 1,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     }
