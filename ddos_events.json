@@ -1,6 +1,6 @@
 {
   "export_metadata": {
-    "export_date": "2026-08-05T01:28:33.064460Z",
+    "export_date": "2026-08-05T02:24:22.543761Z",
     "schema_version": "1.0",
     "filter_criteria": {
       "event_type": "DDoS (Network Denial of Service - T1498)",
@@ -11,7 +11,7 @@
       ],
       "published_only": false
     },
-    "total_events": 110,
+    "total_events": 145,
     "repository": "https://github.com/PabloPenguin/misp-ddos-events"
   },
   "events": [
@@ -108,6 +108,11 @@
         }
       ],
       "related_events": [
+        {
+          "id": "3388",
+          "info": "CDN Edge Node Attack",
+          "date": "2026-01-31"
+        },
         {
           "id": "2415",
           "info": "Gaming Server UDP Flood",
@@ -229,6 +234,11 @@
       ],
       "related_events": [
         {
+          "id": "3382",
+          "info": "Financial Services DDoS Wave 1",
+          "date": "2026-02-01"
+        },
+        {
           "id": "2412",
           "info": "JARM Fingerprinted C2 Server",
           "date": "2026-01-31"
@@ -301,7 +311,13 @@
           "description": "ATT&CK Tactic"
         }
       ],
-      "related_events": [],
+      "related_events": [
+        {
+          "id": "3384",
+          "info": "DNS Infrastructure Attack",
+          "date": "2026-02-01"
+        }
+      ],
       "attribute_count": 0,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
@@ -376,6 +392,11 @@
           "date": "2026-02-25"
         },
         {
+          "id": "3386",
+          "info": "Gaming Platform UDP Flood",
+          "date": "2026-02-01"
+        },
+        {
           "id": "2407",
           "info": "Web Server Volumetric Attack",
           "date": "2026-02-01"
@@ -412,6 +433,11 @@
         }
       ],
       "related_events": [
+        {
+          "id": "3388",
+          "info": "CDN Edge Node Attack",
+          "date": "2026-01-31"
+        },
         {
           "id": "2415",
           "info": "Gaming Server UDP Flood",
@@ -2048,7 +2074,13 @@
           "description": "ATT&CK Tactic"
         }
       ],
-      "related_events": [],
+      "related_events": [
+        {
+          "id": "3391",
+          "info": "ISP DNS Resolver Attack",
+          "date": "2026-01-31"
+        }
+      ],
       "attribute_count": 0,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
@@ -2239,6 +2271,11 @@
         }
       ],
       "related_events": [
+        {
+          "id": "3388",
+          "info": "CDN Edge Node Attack",
+          "date": "2026-01-31"
+        },
         {
           "id": "2415",
           "info": "Gaming Server UDP Flood",
@@ -3834,6 +3871,11 @@
           "date": "2026-02-25"
         },
         {
+          "id": "3386",
+          "info": "Gaming Platform UDP Flood",
+          "date": "2026-02-01"
+        },
+        {
           "id": "1847",
           "info": "SYN Flood Attack",
           "date": "2024-10-25"
@@ -4036,7 +4078,13 @@
           "description": "ATT&CK Tactic"
         }
       ],
-      "related_events": [],
+      "related_events": [
+        {
+          "id": "3397",
+          "info": "Hospital Network Disruption",
+          "date": "2026-01-29"
+        }
+      ],
       "attribute_count": 5,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
@@ -4075,6 +4123,11 @@
         }
       ],
       "related_events": [
+        {
+          "id": "3388",
+          "info": "CDN Edge Node Attack",
+          "date": "2026-01-31"
+        },
         {
           "id": "2250",
           "info": "Fragmentation Attack",
@@ -4137,7 +4190,13 @@
           "description": "ATT&CK Tactic"
         }
       ],
-      "related_events": [],
+      "related_events": [
+        {
+          "id": "3389",
+          "info": "VoIP Infrastructure SIP Flood",
+          "date": "2026-01-31"
+        }
+      ],
       "attribute_count": 2,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
@@ -4284,6 +4343,11 @@
       ],
       "related_events": [
         {
+          "id": "3386",
+          "info": "Gaming Platform UDP Flood",
+          "date": "2026-02-01"
+        },
+        {
           "id": "2407",
           "info": "Web Server Volumetric Attack",
           "date": "2026-02-01"
@@ -4407,6 +4471,1145 @@
         }
       ],
       "attribute_count": 1,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "3382",
+      "event_uuid": "d7d2423f-69bc-4bf5-9e35-78cccc12f24d",
+      "info": "Financial Services DDoS Wave 1",
+      "date": "2026-02-01",
+      "timestamp": "1785896217",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"ongoing\""
+      ],
+      "attributes": [
+        {
+          "id": "572410",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Validation error: An error occurred (ResourceNotFoundException) when calling the InvokeModel operation: This model version has reached the end of its life. Please refer to the AWS documentation for more details.",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1785896217"
+        }
+      ],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "1843",
+          "info": "Web Server Volumetric Attack",
+          "date": "2024-10-26"
+        }
+      ],
+      "attribute_count": 1,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "3383",
+      "event_uuid": "9bb5d39b-21c4-409f-baa1-f382f3f453d8",
+      "info": "E-Commerce Platform HTTP Flood",
+      "date": "2026-02-01",
+      "timestamp": "1785896228",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"ongoing\""
+      ],
+      "attributes": [
+        {
+          "id": "572411",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Validation error: An error occurred (ResourceNotFoundException) when calling the InvokeModel operation: This model version has reached the end of its life. Please refer to the AWS documentation for more details.",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1785896228"
+        }
+      ],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 1,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "3384",
+      "event_uuid": "5b33b74e-2065-4e92-9973-5eb5270fd472",
+      "info": "DNS Infrastructure Attack",
+      "date": "2026-02-01",
+      "timestamp": "1785896240",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"ongoing\""
+      ],
+      "attributes": [
+        {
+          "id": "572412",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Validation error: An error occurred (ResourceNotFoundException) when calling the InvokeModel operation: This model version has reached the end of its life. Please refer to the AWS documentation for more details.",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1785896240"
+        }
+      ],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "1845",
+          "info": "Multi-Vector DDoS Attack",
+          "date": "2024-10-26"
+        }
+      ],
+      "attribute_count": 1,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "3386",
+      "event_uuid": "d403d94e-4d57-4101-8a4e-fd13f2f62b5f",
+      "info": "Gaming Platform UDP Flood",
+      "date": "2026-02-01",
+      "timestamp": "1785896373",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"ongoing\""
+      ],
+      "attributes": [
+        {
+          "id": "572414",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Validation error: An error occurred (ResourceNotFoundException) when calling the InvokeModel operation: This model version has reached the end of its life. Please refer to the AWS documentation for more details.",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1785896373"
+        }
+      ],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "2539",
+          "info": "Test JA3/JA4 Object Upload",
+          "date": "2026-02-25"
+        },
+        {
+          "id": "2407",
+          "info": "Web Server Volumetric Attack",
+          "date": "2026-02-01"
+        },
+        {
+          "id": "1847",
+          "info": "SYN Flood Attack",
+          "date": "2024-10-25"
+        }
+      ],
+      "attribute_count": 1,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "3388",
+      "event_uuid": "8626ada6-5995-4bfa-8a85-2f40b8452540",
+      "info": "CDN Edge Node Attack",
+      "date": "2026-01-31",
+      "timestamp": "1785896506",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"ongoing\""
+      ],
+      "attributes": [
+        {
+          "id": "572416",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Validation error: An error occurred (ResourceNotFoundException) when calling the InvokeModel operation: This model version has reached the end of its life. Please refer to the AWS documentation for more details.",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1785896506"
+        }
+      ],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "2415",
+          "info": "Gaming Server UDP Flood",
+          "date": "2026-01-29"
+        },
+        {
+          "id": "2250",
+          "info": "Fragmentation Attack",
+          "date": "2025-10-20"
+        },
+        {
+          "id": "1840",
+          "info": "SSDP Reflection Attack",
+          "date": "2024-10-24"
+        },
+        {
+          "id": "1849",
+          "info": "SSDP Reflection Attack",
+          "date": "2024-10-24"
+        }
+      ],
+      "attribute_count": 1,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "3389",
+      "event_uuid": "e7829487-0477-4ffd-80a0-842a55c2ff65",
+      "info": "VoIP Infrastructure SIP Flood",
+      "date": "2026-01-31",
+      "timestamp": "1785896518",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"ongoing\""
+      ],
+      "attributes": [
+        {
+          "id": "572417",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Validation error: An error occurred (ResourceNotFoundException) when calling the InvokeModel operation: This model version has reached the end of its life. Please refer to the AWS documentation for more details.",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1785896518"
+        }
+      ],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "2416",
+          "info": "HTTPS Flood with JA3S Server Response",
+          "date": "2026-01-29"
+        }
+      ],
+      "attribute_count": 1,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "3390",
+      "event_uuid": "21ddb73f-b94e-4a46-ab05-3e68f1cd3e6c",
+      "info": "Streaming Service RTMP Attack",
+      "date": "2026-01-31",
+      "timestamp": "1785896529",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"ongoing\""
+      ],
+      "attributes": [
+        {
+          "id": "572418",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Validation error: An error occurred (ResourceNotFoundException) when calling the InvokeModel operation: This model version has reached the end of its life. Please refer to the AWS documentation for more details.",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1785896529"
+        }
+      ],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 1,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "3391",
+      "event_uuid": "5df445bb-7dad-48e9-a322-bd8ca7fd3706",
+      "info": "ISP DNS Resolver Attack",
+      "date": "2026-01-31",
+      "timestamp": "1785896651",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"ongoing\""
+      ],
+      "attributes": [
+        {
+          "id": "572419",
+          "type": "comment",
+          "category": "Other",
+          "value": "LLM Validation: Validation error: An error occurred (ResourceNotFoundException) when calling the InvokeModel operation: This model version has reached the end of its life. Please refer to the AWS documentation for more details.",
+          "comment": "LLM Validation Result",
+          "to_ids": false,
+          "timestamp": "1785896651"
+        }
+      ],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "2243",
+          "info": "Simple SYN Flood",
+          "date": "2025-10-27"
+        }
+      ],
+      "attribute_count": 1,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "3392",
+      "event_uuid": "e8efdca3-7a9f-44dd-80c0-540a65579f30",
+      "info": "University Network DDoS",
+      "date": "2026-01-30",
+      "timestamp": "1785896109",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "3394",
+      "event_uuid": "1af8df12-909c-4257-b3c8-ff89413d3083",
+      "info": "News Media Website Flood",
+      "date": "2026-01-30",
+      "timestamp": "1785896110",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "3398",
+      "event_uuid": "1d7ae68b-5325-40e4-b3da-0ce847199082",
+      "info": "Social Media Platform Attack",
+      "date": "2026-01-29",
+      "timestamp": "1785896111",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "3399",
+      "event_uuid": "6504f28e-e8b2-4c18-8da3-8e53f757f2ef",
+      "info": "Cloud Provider Edge Attack",
+      "date": "2026-01-29",
+      "timestamp": "1785896111",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "3400",
+      "event_uuid": "6955520d-46f3-4dfa-892b-7b2df59bc40d",
+      "info": "Online Education Platform",
+      "date": "2026-01-29",
+      "timestamp": "1785896112",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "3385",
+          "info": "Healthcare Portal Slowloris",
+          "date": "2026-02-01"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "3404",
+      "event_uuid": "29ffdb50-2b23-44ce-9b11-363d0d6d2ff5",
+      "info": "Airline Booking System Attack",
+      "date": "2026-01-28",
+      "timestamp": "1785896113",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "3387",
+          "info": "Government Website DDoS",
+          "date": "2026-01-31"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "3405",
+      "event_uuid": "d838de4b-00da-4369-8d7d-e5de73c25cdf",
+      "info": "Dating App API Flood",
+      "date": "2026-01-28",
+      "timestamp": "1785896113",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "3407",
+      "event_uuid": "e80230d2-c8b6-4093-9cae-817b3150ad0e",
+      "info": "Logistics Tracking System",
+      "date": "2026-01-27",
+      "timestamp": "1785896114",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "3408",
+      "event_uuid": "3ce3f5eb-f2f3-455d-bb29-01c2ad2bc7cf",
+      "info": "Food Delivery Platform DDoS",
+      "date": "2026-01-27",
+      "timestamp": "1785896114",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "3409",
+      "event_uuid": "6c100869-aba7-4bc3-9630-f535342e838b",
+      "info": "Ride Share Service Attack",
+      "date": "2026-01-27",
+      "timestamp": "1785896115",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "3411",
+      "event_uuid": "deacbb9f-dbb1-40af-8ed0-6ea183b532a5",
+      "info": "Video Conference Platform",
+      "date": "2026-01-27",
+      "timestamp": "1785896116",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "3413",
+      "event_uuid": "072aaa2a-3d9f-4c86-a48b-19b7ed61524b",
+      "info": "Weather Service API Attack",
+      "date": "2026-01-26",
+      "timestamp": "1785896116",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "3414",
+      "event_uuid": "7c607e5e-57e2-4ce1-8212-ef684ff4871d",
+      "info": "Hotel Booking Platform",
+      "date": "2026-01-26",
+      "timestamp": "1785896117",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "3415",
+      "event_uuid": "fab27753-5f5a-4b78-9f1b-59bc9783eadc",
+      "info": "Music Streaming Service",
+      "date": "2026-01-26",
+      "timestamp": "1785896117",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "3416",
+      "event_uuid": "bafe2618-12d9-46e1-a557-f2519ca0ff43",
+      "info": "Online Gaming Tournament",
+      "date": "2026-01-26",
+      "timestamp": "1785896117",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "3418",
+      "event_uuid": "646bc63f-2a56-481b-abf0-6eb15263eb7f",
+      "info": "Political Campaign Website",
+      "date": "2026-01-25",
+      "timestamp": "1785896118",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "3419",
+      "event_uuid": "1119501a-084a-40db-8e78-2683350df717",
+      "info": "Car Rental Booking System",
+      "date": "2026-01-25",
+      "timestamp": "1785896118",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "3420",
+      "event_uuid": "3d9df132-4be8-4840-8943-349cd64561b2",
+      "info": "Podcast Hosting Platform",
+      "date": "2026-01-25",
+      "timestamp": "1785896119",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "3421",
+      "event_uuid": "ef46d764-530a-4329-8661-995538e46d51",
+      "info": "Property Listing Website",
+      "date": "2026-01-25",
+      "timestamp": "1785896119",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "3422",
+      "event_uuid": "e6c7c763-44b1-430b-9ce3-d93cb1fe67be",
+      "info": "Fitness App Backend Attack",
+      "date": "2026-01-24",
+      "timestamp": "1785896119",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "3423",
+      "event_uuid": "1b21e630-a665-4741-854e-d95dc14cc228",
+      "info": "Job Search Platform DDoS",
+      "date": "2026-01-24",
+      "timestamp": "1785896120",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "3424",
+      "event_uuid": "badcf909-e44e-4ef4-95b8-e5de2b4e6bb9",
+      "info": "Pet Supply E-Commerce",
+      "date": "2026-01-24",
+      "timestamp": "1785896120",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "3426",
+      "event_uuid": "2056d859-6e44-450d-9c7a-c07fd4f24229",
+      "info": "Online Auction Platform",
+      "date": "2026-01-24",
+      "timestamp": "1785896121",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "3427",
+      "event_uuid": "94150f4f-16e5-47fe-9a44-f8c33f9cc0da",
+      "info": "Grocery Delivery Service",
+      "date": "2026-01-23",
+      "timestamp": "1785896121",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [
+        {
+          "id": "3425",
+          "info": "Telemedicine Platform Attack",
+          "date": "2026-01-24"
+        }
+      ],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "3428",
+      "event_uuid": "27d37aea-1bd7-4fe8-bd41-fe173b378c8a",
+      "info": "Event Ticketing Platform",
+      "date": "2026-01-23",
+      "timestamp": "1785896121",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "3430",
+      "event_uuid": "e6de5abe-596b-43eb-9a99-241722104d23",
+      "info": "Photo Sharing Platform",
+      "date": "2026-01-23",
+      "timestamp": "1785896122",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
+      "org_name": "ADMIN",
+      "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
+    },
+    {
+      "event_id": "3431",
+      "event_uuid": "8eb6927f-8bb7-496a-95f4-eea9b39a9721",
+      "info": "Crowdfunding Website Attack",
+      "date": "2026-01-23",
+      "timestamp": "1785896122",
+      "published": false,
+      "tlp_level": "TLP:GREEN",
+      "threat_level": "4",
+      "analysis": "0",
+      "tags": [
+        "tlp:green",
+        "misp-galaxy:mitre-attack-pattern=\"Network Denial of Service - T1498\"",
+        "workflow:state=\"draft\""
+      ],
+      "attributes": [],
+      "galaxies": [
+        {
+          "name": "Attack Pattern",
+          "type": "mitre-attack-pattern",
+          "description": "ATT&CK Tactic"
+        }
+      ],
+      "related_events": [],
+      "attribute_count": 0,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
     }
