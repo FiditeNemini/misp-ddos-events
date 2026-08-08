@@ -1,6 +1,6 @@
 {
   "export_metadata": {
-    "export_date": "2026-08-07T23:53:10.422814Z",
+    "export_date": "2026-08-08T00:16:09.016734Z",
     "schema_version": "1.0",
     "filter_criteria": {
       "event_type": "DDoS (Network Denial of Service - T1498)",
@@ -349,6 +349,11 @@
         }
       ],
       "related_events": [
+        {
+          "id": "3453",
+          "info": "Maltrail IOC for 2026-08-07",
+          "date": "2026-08-06"
+        },
         {
           "id": "2411",
           "info": "SSH Brute Force with HASSH",
@@ -4234,7 +4239,13 @@
           "description": "ATT&CK Tactic"
         }
       ],
-      "related_events": [],
+      "related_events": [
+        {
+          "id": "3453",
+          "info": "Maltrail IOC for 2026-08-07",
+          "date": "2026-08-06"
+        }
+      ],
       "attribute_count": 1,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
@@ -5302,7 +5313,13 @@
           "description": "ATT&CK Tactic"
         }
       ],
-      "related_events": [],
+      "related_events": [
+        {
+          "id": "3453",
+          "info": "Maltrail IOC for 2026-08-07",
+          "date": "2026-08-06"
+        }
+      ],
       "attribute_count": 1,
       "org_name": "ADMIN",
       "org_uuid": "7b9547d0-4867-4f2f-a743-bae094a25c48"
